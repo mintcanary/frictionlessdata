@@ -1,6 +1,41 @@
-title: Welcome to frictionlessdata!
+_model: home
 ---
-body:
-
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
+banner_main_text: Rufus Pollock explains the concept of frictionless data, and why the tools and standards matter.
+---
+banner_cta_text: Play video
+---
+banner_image: video.jpg
+---
+about_heading: Our Vision
+---
+about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, standards, and best practices for publishing data. The heart of Frictionless Data is the Data Package standard, a containerization format for any kind of data based on existing practices for publishing open-source software.
+---
+feature1_heading: Data Packages
+---
+feature2_heading: Case Studies
+---
+feature3_heading: Guides
+---
+feature1_body: Data Packages are a lightweight containerisation format for data. They provide the foundation for frictionless data transport.
+---
+feature2_body: Highlighting projects working with the Frictionless Data specifications and tooling in interesting and innovative ways.
+---
+feature3_body: Learn how to get started using and developing with Data Packages through our guides, tutorials and documentation.
+---
+feature1_link_text: Go to specs
+---
+feature2_link_text: Go to articles
+---
+feature3_link_text: Go to guides
+---
+feature1_link_url: data-packages/specs
+---
+feature2_link_url: articles
+---
+feature3_link_url: guides
+---
+feature1_icon: package
+---
+feature2_icon: docs
+---
+feature3_icon: book

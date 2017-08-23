@@ -1,5 +1,12 @@
 @import "node_modules/bootstrap/scss/functions";
 @import "variables";
+@import "fonts";
+@import "mixins";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/print";
 @import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/grid";
+@import "scaffolding";
+@import "footer";
+@import "home";

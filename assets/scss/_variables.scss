@@ -48,9 +48,9 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-700: #404040 !default;
+$gray-800: #262626 !default;
+$gray-900: #1A1A1A !default;
 $black:  #000 !default;
 
 $grays: (
@@ -70,7 +70,7 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
+$orange:  #EB6619 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
@@ -93,8 +93,8 @@ $colors: (
 ) !default;
 
 $theme-colors: (
-  primary: $blue,
-  secondary: $gray-600,
+  primary: $orange,
+  secondary: $gray-800,
   success: $green,
   info: $cyan,
   warning: $yellow,
@@ -149,7 +149,7 @@ $sizes: (
 // Settings for the `<body>` element.
 
 $body-bg:       $white !default;
-$body-color:    $gray-900 !default;
+$body-color:    $gray-800 !default;
 
 // Links
 //
@@ -231,12 +231,12 @@ $transition-collapse:    height .35s ease !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif: frictionlessdata, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-family-monospace:  "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:   1.25rem !default;
+$font-size-lg:   1.2rem !default;
 $font-size-sm:   .875rem !default;
 
 $font-weight-light: 300 !default;
@@ -255,7 +255,7 @@ $h6-font-size: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
-$headings-font-weight:   500 !default;
+$headings-font-weight:   bold !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
 

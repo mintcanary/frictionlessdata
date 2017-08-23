@@ -4,28 +4,36 @@
 <meta name="description" content="">
 <link rel="icon" href="{{ '/favicon.ico'|url }}">
 <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — frictionlessdata</title>
-<body>
-  <header>
-    <h1>frictionlessdata</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Home</a></li>
-        {% for href, title in [
-          ['/articles', 'Articles'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+<title>{% block title %}Frictionless Data{% endblock %}</title>
+<body class="{{ this._model }}">
+  <header class="site-header">
+    <div class="container">
+      <a class="logo-symbol">
+        <svg><use xlink:href="#icon-f" /></svg>
+      </a>
+      <a class="logo-type">
+        {% include 'includes/logo.svg' %}
+      </a>
+      <nav class="main-nav">
+        <ul class="nav navbar-nav">
+          <li{% if this._path == '/' %} class="active"{% endif
+            %}><a href="{{ '/'|url }}">Home</a></li>
+          {% for href, title in [
+            ['/articles', 'Articles'],
+            ['/about', 'About']
+          ] %}
+            <li{% if this.is_child_of(href) %} class="active"{% endif
+              %}><a href="{{ href|url }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </header>
-  <div class="page">
+  <div class="content">
     {% block body %}{% endblock %}
   </div>
-  <footer>
+  <footer class="site-footer">
     Footer here
   </footer>
+  {% include 'includes/icons.svg' %}
 </body>

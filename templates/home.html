@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="banner">
+  <div class="container">
+    <div class="image" style="background-image: url({{ this.banner_image|url }});">
+
+    </div>
+    <div class="text">
+      <h1>{{ this.banner_main_text }}</h1>
+      <a>{{ this.banner_cta_text }}</a>
+    </div>
+
+  </div>
+
+</div>
+
+<div>
+  <div class="container">
+    <section class="features">
+      <div class="feature">
+        <svg><use xlink:href="#icon-{{ this.feature1_icon }}" /></svg>
+        <h2>{{ this.feature1_heading }}</h2>
+        {{ this.feature1_body }}
+        <a href="{{ this.feature1_link_url }}">{{ this.feature1_link_text }}</a>
+      </div>
+
+      <div class="feature">
+        <svg><use xlink:href="#icon-{{ this.feature2_icon }}" /></svg>
+        <h2>{{ this.feature2_heading }}</h2>
+        {{ this.feature2_body }}
+        <a href="{{ this.feature2_link_url }}">{{ this.feature2_link_text }}</a>
+      </div>
+
+      <div class="feature">
+        <svg><use xlink:href="#icon-{{ this.feature3_icon }}" /></svg>
+        <h2>{{ this.feature3_heading }}</h2>
+        {{ this.feature3_body }}
+        <a href="{{ this.feature3_link_url }}">{{ this.feature3_link_text }}</a>
+      </div>
+    </section>
+
+    <h2>{{ this.about_heading }}</h2>
+    {{ this.about_intro }}
+  </div>
+</div>
+
+{% endblock %}

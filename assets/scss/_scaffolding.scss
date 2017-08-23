@@ -1,0 +1,50 @@
+.svgstore {
+  display: none;
+}
+
+.logo-symbol {
+  display: inline-block;
+  background-color: theme-color("primary");
+  text-align: center;
+
+  & > svg {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.site-header {
+  @include rev-out;
+
+  .container {
+    display: flex;
+    height: 90px;
+    align-items: center;
+  }
+
+  .logo-symbol {
+    width: 90px;
+  }
+
+  .logo-type {
+    flex-grow: 1;
+    padding-left: $spacer*2;
+
+    svg {
+      width: 230px;
+      height: 230px*0.145;
+    }
+
+    .symbol {
+      display: none;
+    }
+  }
+
+  .main-nav {
+
+  }
+}
+
+.banner {
+  @include rev-out;
+}

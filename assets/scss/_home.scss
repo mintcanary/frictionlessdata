@@ -1,0 +1,62 @@
+.home {
+  .banner {
+
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      @include media-breakpoint-up(lg) {
+        flex-basis: 50%;
+        background-size: cover;
+        background-position: center;
+        min-height: 380px;
+        align-self: stretch;
+      }
+    }
+
+    .text {
+      padding-top: $spacer*3;
+      padding-bottom: $spacer*3;
+
+      @include media-breakpoint-up(lg) {
+        flex-basis: 50%;
+        padding-left: $spacer*3
+      }
+
+      h1 {
+
+      }
+    }
+  }
+
+  .features {
+    @include make-row();
+    padding-top: $spacer*3;
+    padding-bottom: $spacer*3;
+
+    .feature {
+      @include make-col-ready();
+
+      svg {
+        width: 4rem;
+        height: 4rem;
+        fill: theme-color("primary");
+      }
+
+      a {
+        font-weight: 600;
+      }
+
+      @include media-breakpoint-up(sm) {
+        @include make-col(4);
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: $font-size-lg;
+      }
+
+    }
+  }
+}
