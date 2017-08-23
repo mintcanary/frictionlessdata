@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<link rel="icon" href="{{ '/favicon.ico'|url }}">
+<link rel="stylesheet" href="{{ '/css/style.css'|url }}">
+<title>{% block title %}Welcome{% endblock %} — frictionlessdata</title>
+<body>
+  <header>
+    <h1>frictionlessdata</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li{% if this._path == '/' %} class="active"{% endif
+          %}><a href="{{ '/'|url }}">Home</a></li>
+        {% for href, title in [
+          ['/articles', 'Articles'],
+          ['/about', 'About']
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    Footer here
+  </footer>
+</body>
