@@ -1,2 +1,7 @@
 [project]
 name = frictionlessdata
+
+[servers.ghpages]
+enabled = yes
+default = yes
+target = ghpages://smth/frictionlessdata
