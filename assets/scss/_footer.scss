@@ -1,3 +1,53 @@
 .site-footer {
-  @include rev-out;
+  @include rev-out($gray-800, rgba(#fff,0.8));
+  font-size: $font-size-sm;
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .footer-primary {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+    display: flex;
+    align-items: center;
+
+    .footer-logo {
+      opacity: 0.8;
+
+      img {
+        width: 150px;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .footer-links {
+      flex-grow: 1;
+      text-align: right;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  .footer-secondary {
+    border-top: solid 1px rgba(#fff,0.6);
+    padding-top: $spacer;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
 }

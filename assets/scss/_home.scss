@@ -1,4 +1,11 @@
 .home {
+
+  .main-nav {
+    .dropdown-toggle {
+      @include button-variant($gray-900, $gray-900);
+    }
+  }
+
   .banner {
 
     .container {
@@ -57,6 +64,30 @@
         font-size: $font-size-lg;
       }
 
+    }
+  }
+
+  .about {
+    padding-bottom: $spacer*3;
+
+    .intro {
+      @include media-breakpoint-up(md) {
+        font-size: $font-size-lg;
+      }
+    }
+    .image {
+      padding-top: $spacer*3;
+      padding-bottom: $spacer*2;
+      text-align: center;
+    }
+    .body {
+      padding-top: $spacer*2;
+
+      @include media-breakpoint-up(xl) {
+        column-count: 2;
+        column-gap: $spacer*4;
+        column-rule: 1px solid $gray-200;
+      }
     }
   }
 }

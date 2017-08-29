@@ -2,6 +2,30 @@
   display: none;
 }
 
+img {
+  max-width: 100%;
+}
+
+.more-less {
+  font-weight: 600;
+
+  .slash {
+    @include text-hide;
+  }
+
+  &.collapsed {
+    .less {
+      @include text-hide;
+    }
+  }
+
+  &:not(.collapsed) {
+    .more {
+      @include text-hide;
+    }
+  }
+}
+
 .logo-symbol {
   display: inline-block;
   background-color: theme-color("primary");
@@ -10,6 +34,36 @@
   & > svg {
     width: 50%;
     height: 100%;
+  }
+}
+
+.main-nav {
+  @include media-breakpoint-up(sm) {
+    min-width: 25%;
+  }
+
+  .dropdown-toggle {
+    @include button-variant(theme-color("primary"), theme-color("primary"));
+    padding: $spacer $spacer*2 $spacer $spacer;
+    width: 100%;
+    text-align: left;
+
+    &:after {
+      position: absolute;
+      right: $spacer;
+      top: 50%;
+      margin-top: -0.1em;
+    }
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-lg;
+    }
+  }
+
+  .dropdown-menu {
+    right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 }
 
@@ -24,6 +78,7 @@
 
   .logo-symbol {
     width: 90px;
+    height: 90px;
   }
 
   .logo-type {
@@ -31,17 +86,18 @@
     padding-left: $spacer*2;
 
     svg {
-      width: 230px;
-      height: 230px*0.145;
+      width: 0;
+      height: 0;
+
+      @include media-breakpoint-up(md) {
+        width: 230px;
+        height: 230px*0.145;
+      }
     }
 
     .symbol {
       display: none;
     }
-  }
-
-  .main-nav {
-
   }
 }
 
