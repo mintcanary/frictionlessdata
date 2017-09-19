@@ -32,8 +32,20 @@
         padding-left: $spacer*3
       }
 
-      h1 {
+      & > a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-top: $spacer;
 
+        svg {
+          fill: currentColor;
+          width: 2em;
+          height: 2em;
+          margin-right: 0.5em;
+        }
       }
     }
   }
@@ -41,10 +53,10 @@
   .features {
     @include make-row();
     padding-top: $spacer*3;
-    padding-bottom: $spacer*3;
 
     .feature {
       @include make-col-ready();
+      padding-bottom: $spacer*3;
 
       svg {
         width: 4rem;
@@ -56,11 +68,11 @@
         font-weight: 600;
       }
 
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(md) {
         @include make-col(4);
       }
 
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         font-size: $font-size-lg;
       }
 
@@ -69,6 +81,8 @@
 
   .about {
     padding-bottom: $spacer*3;
+    padding-top: $spacer*3;
+    border-top: solid 1px $gray-300;
 
     .intro {
       @include media-breakpoint-up(md) {
@@ -89,5 +103,11 @@
         column-rule: 1px solid $gray-200;
       }
     }
+  }
+
+  .newsletter {
+    @include rev-out($gray-700);
+    padding-top: $spacer;
+    padding-bottom: $spacer;
   }
 }

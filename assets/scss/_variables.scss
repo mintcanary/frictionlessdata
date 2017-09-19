@@ -201,7 +201,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns: 12 !default;
-$grid-gutter-width: 30px !default;
+$grid-gutter-width: 60px !default;
 
 // Components
 //
@@ -246,7 +246,7 @@ $font-weight-bold: bold !default;
 $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
 
-$h1-font-size: 2.5rem !default;
+$h1-font-size: 2.25rem !default;
 $h2-font-size: 2rem !default;
 $h3-font-size: 1.75rem !default;
 $h4-font-size: 1.5rem !default;

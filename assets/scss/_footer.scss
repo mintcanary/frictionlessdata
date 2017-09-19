@@ -38,6 +38,21 @@
 
       li {
         display: inline-block;
+        margin-left: 0.5em;
+      }
+
+      a {
+        svg {
+          fill: currentColor;
+          width: 2em;
+          height: 2em;
+
+          & + .text {
+            @include text-hide;
+            display: block;
+            height: 0;
+          }
+        }
       }
     }
   }
