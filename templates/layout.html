@@ -60,4 +60,7 @@
       $(this).ekkoLightbox();
     });
   </script>
+  {% if this._model == "home" %}
+  <script src="{{ '/js/home.js'|url }}"></script>
+  {% endif %}
 </body>
