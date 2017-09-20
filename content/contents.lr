@@ -8,7 +8,7 @@ banner_image: video.jpg
 ---
 about_heading: Our Vision
 ---
-about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, specifications, and best practices for publishing data. The heart of Frictionless Data is the Data Package standard, a containerization format for any kind of data based on existing practices for publishing open-source software.
+about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, specifications, and best practices for publishing data. The heart of Frictionless Data is the Data Package specification, a containerization format for any kind of data based on existing practices for publishing open-source software.
 ---
 feature1_heading: Data Packages
 ---
