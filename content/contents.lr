@@ -1,6 +1,6 @@
 _model: home
 ---
-banner_main_text: Rufus Pollock explains the concept of frictionless data, and why the tools and standards matter.
+banner_main_text: Rufus Pollock explains the concept of frictionless data, and why the tools and specifications matter.
 ---
 banner_cta_text: Play video
 ---
@@ -8,7 +8,7 @@ banner_image: video.jpg
 ---
 about_heading: Our Vision
 ---
-about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, standards, and best practices for publishing data. The heart of Frictionless Data is the Data Package standard, a containerization format for any kind of data based on existing practices for publishing open-source software.
+about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, specifications, and best practices for publishing data. The heart of Frictionless Data is the Data Package standard, a containerization format for any kind of data based on existing practices for publishing open-source software.
 ---
 feature1_heading: Data Packages
 ---
@@ -42,8 +42,6 @@ feature3_icon: book
 ---
 about_image: diagram.png
 ---
-about_image_height: 
----
 about_image_width: 777
 ---
 about_body:
@@ -56,7 +54,7 @@ We have been working on these and similar issues for nearly a decade, and we thi
 
 ### Data "Containerization"
 
-We see our approach as analogous to standardization efforts in the transport of physical goods.  Historically, loading goods on a cargo ship was *slow, manual, and expensive*.  The solution to these issues came in the form of [containerization](https://en.wikipedia.org/wiki/Containerization), the development of several ISO standards specifying the dimensions of containers used in global shipping.  Containerization dramatically reduced the cost and time required for transporting goods by enabling the automation of several elements of the transport pipeline.
+We see our approach as analogous to standardization efforts in the transport of physical goods.  Historically, loading goods on a cargo ship was *slow, manual, and expensive*.  The solution to these issues came in the form of [containerization](https://en.wikipedia.org/wiki/Containerization), the development of several ISO specifications specifying the dimensions of containers used in global shipping.  Containerization dramatically reduced the cost and time required for transporting goods by enabling the automation of several elements of the transport pipeline.
 
 We currently consider transporting data between and among tools to be comparable to shipping physical goods in the pre-containerization era.  Currently, before you can properly begin an analysis of your data or build a data-intensive app, you have to extract, clean, and prepare your data: procedures that are often *slow, manual, and expensive*.  Radical improvements in data *logistics*---through specialisation and standardisation---can get us to world where we spend less time sorting through and cleaning data and more time creating useful **insight**.
 
