@@ -33,8 +33,7 @@
       }
 
       & > a {
-        display: flex;
-        align-items: center;
+        display: table;
         text-decoration: none;
         font-size: 1.5em;
         font-weight: 600;
@@ -45,6 +44,13 @@
           width: 2em;
           height: 2em;
           margin-right: 0.5em;
+          display: table-cell;
+          vertical-align: middle;
+
+          & + span {
+            display: table-cell;
+            vertical-align: middle;
+          }
         }
       }
     }
