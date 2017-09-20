@@ -84,6 +84,7 @@ img {
   .logo-type {
     flex-grow: 1;
     padding-left: $spacer*2;
+    display: flex;
 
     svg {
       width: 0;
