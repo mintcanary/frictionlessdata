@@ -16,30 +16,24 @@
         {% include 'includes/logo.svg' %}
       </a>
 
-      <nav class="main-nav dropdown">
+      <div class="main-nav dropdown">
         <button class="dropdown-toggle btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {% if this._path.startswith('/articles') %}
-          Articles
-          {% elif this._path.startswith('/about') %}
-          About
-          {% else %}
-          Home
+
+          {% set vars = {'active_section': bag('global_content').home_label} %}
+
+          {% for href, title in bag('sections').iteritems() %}
+          {% if this._path.startswith(href) %}
+          {% if vars.update({'active_section': title}) %} {% endif %}
           {% endif %}
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item{% if this._path == '/' %} active{% endif %}" href="{{ '/'|url }}">
-            Home
-          </a>
-          {% for href, title in [
-            ['/articles', 'Articles'],
-            ['/about', 'About']
-          ] %}
-            <a class="dropdown-item{% if this.is_child_of(href) %} active{% endif %}" href="{{ href|url }}">
-              {{ title }}
-            </a>
           {% endfor %}
-        </div>
-      </nav>
+
+          {{ vars.active_section }}
+        </button>
+
+        <nav class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          {% include 'includes/nav.html' %}
+        </nav>
+      </div>
     </div>
   </header>
   <div class="content">
