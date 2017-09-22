@@ -2,5 +2,31 @@
 {% from "macros/articles.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {{ render_blog_post(this) }}
+
+<div class="banner">
+  <div class="container">
+    <h1>{{ this.title }}</h1>
+    {{ bag('global_content').written_by }} {{ this.author }}
+  </div>
+</div>
+
+<div class="container">
+  <div class="main">
+
+    <aside class="menu">
+      <div class="wrapper">
+        <nav id="context-nav">
+          {% include 'includes/nav.html' %}
+        </nav>
+      </div>
+    </aside>
+
+
+
+    <article class="content">
+      {{ this.body }}
+    </article>
+  </div>
+</div>
+
 {% endblock %}

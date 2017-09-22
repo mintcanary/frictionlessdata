@@ -17,7 +17,7 @@
       </a>
 
       <div class="main-nav dropdown">
-        <button class="dropdown-toggle btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#main-nav" class="dropdown-toggle btn">
 
           {% set vars = {'active_section': bag('global_content').home_label} %}
 
@@ -28,15 +28,16 @@
           {% endfor %}
 
           {{ vars.active_section }}
-        </button>
+        </a>
 
-        <nav class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <nav id="main-nav">
           {% include 'includes/nav.html' %}
         </nav>
+
       </div>
     </div>
   </header>
-  <div class="content">
+  <div class="page">
     {% block body %}{% endblock %}
   </div>
   <footer class="site-footer">
@@ -44,16 +45,13 @@
   </footer>
   {% include 'includes/icons.svg' %}
 
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.1.7/jquery.mmenu.all.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
-  <script>
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
-    });
-  </script>
+  <script src="{{ '/js/global.js'|url }}"></script>
   {% if this._model == "home" %}
   <script src="{{ '/js/home.js'|url }}"></script>
   {% endif %}

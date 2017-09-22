@@ -2,6 +2,23 @@
   display: none;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    & > .container {
+      flex-grow: 1;
+      display: flex;
+    }
+  }
+}
+
 img {
   max-width: 100%;
 }

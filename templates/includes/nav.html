@@ -5,16 +5,16 @@
    </a>
  </li>
  {% for href, title in bag('sections').iteritems() %}
- <li>
-   <a class="{% if this._path == href %}active{% endif %}" href="{{ href|url }}">
+ <li class="{% if this._path == href %}active{% endif %}">
+   <a href="{{ href|url }}">
      {{ title }}
    </a>
      {% set children = site.get(href).children %}
      {% if children %}
      <ul>
        {% for child in children %}
-         <li>
-           <a class="{% if this._path == child.path %}active{% endif %}" href="{{ child.path }}">{{ child.title }}</a>
+         <li class="{% if this._path == child.path %}active{% endif %}">
+           <a href="{{ child.path }}">{{ child.title }}</a>
          </li>
        {% endfor %}
      </ul>
