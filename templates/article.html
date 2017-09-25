@@ -1,5 +1,4 @@
 {% extends "layout.html" %}
-{% from "macros/articles.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 
@@ -24,8 +23,6 @@
         </nav>
       </div>
     </aside>
-
-
 
     <article class="content">
       {{ this.body }}

@@ -1,0 +1,30 @@
+.articles {
+
+  .intro {
+    padding-top: $spacer*2;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: $spacer*3;
+    }
+  }
+
+  .article-list {
+    @include make-row();
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+
+    .preview {
+      padding-top: $spacer;
+      padding-bottom: $spacer;
+      @include make-col-ready();
+
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+
+      @include media-breakpoint-up(lg) {
+        @include make-col(4);
+      }
+    }
+  }
+}

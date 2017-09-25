@@ -1,16 +1,16 @@
 .article {
 
+  .page {
+    & > .container {
+      flex-direction: row;
+    }
+  }
+
   .banner {
-    padding-top: $spacer*2;
-    padding-bottom: $spacer*2;
 
     @include media-breakpoint-up(lg) {
       padding-top: $spacer*3;
       padding-bottom: $spacer*3;
-
-      h1 {
-        font-size: 3em;
-      }
 
       .author {
         font-size: $font-size-lg;
