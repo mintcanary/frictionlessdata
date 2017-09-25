@@ -43,11 +43,14 @@ $mm_backgroundColor: $body-bg;
   }
 }
 
-#main-nav {
+
+#main-nav,
+#context-nav {
   &:not(.mm-menu) {
-    display: none;
+    display: none; // prevent FOUC
   }
 }
+
 
 // temp fix https://github.com/FrDH/jQuery.mmenu/issues/801
 html.mm-dropdown.mm-opened:not(.mm-opening) .mm-menu:not(.mm-dropdown) {
