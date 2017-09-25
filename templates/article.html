@@ -6,7 +6,11 @@
 <div class="banner">
   <div class="container">
     <h1>{{ this.title }}</h1>
-    {{ bag('global_content').written_by }} {{ this.author }}
+    {% if this.author %}
+    <span class="author">
+      {{ bag('global_content').written_by }} {{ this.author }}
+    </span>
+    {% endif %}
   </div>
 </div>
 

@@ -9,7 +9,8 @@
     "grunt-postcss": "^0.8.0",
     "grunt-sass": "^2.0.0",
     "grunt-svgstore": "^1.0.0",
-    "jquery.mmenu": "^6.1.7"
+    "jquery.mmenu": "^6.1.7",
+    "pygments-rouge-css": "^0.1.0"
   },
   "scripts": {
     "build": "grunt icons && grunt sass && grunt postcss"

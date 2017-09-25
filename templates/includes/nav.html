@@ -14,7 +14,7 @@
      <ul>
        {% for child in children %}
          <li class="{% if this._path == child.path %}active{% endif %}">
-           <a href="{{ child.path }}">{{ child.title }}</a>
+           <a href="{{ child.path }}">{% if child.short_title %}{{ child.short_title }}{% else %}{{ child.title }}{% endif %}</a>
          </li>
        {% endfor %}
      </ul>

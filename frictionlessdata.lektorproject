@@ -5,3 +5,6 @@ name = frictionlessdata
 enabled = yes
 default = yes
 target = ghpages://smth/frictionlessdata
+
+[packages]
+lektor-markdown-highlighter = 0.1
