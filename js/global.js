@@ -10,14 +10,19 @@ $(document).ready(function() {
   // menus
   $("#main-nav").mmenu({
      // options
-     //offCanvas: false,
      autoHeight: true,
-     dropdown: true
+     dropdown: true,
+     navbar: {
+       title: ""
+     }
   });
 
   $("#context-nav").mmenu({
      // options
-     offCanvas: false
+     offCanvas: false,
+     navbar: {
+       title: ""
+     }
   }, {
      // configuration
      classNames: {
