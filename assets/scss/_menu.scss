@@ -1,4 +1,4 @@
-$mm_backgroundColor: $body-bg;
+$mm_backgroundColor: $gray-100;
 
 // offcanvas
 @import "node_modules/jquery.mmenu/src/core/offcanvas/jquery.mmenu.offcanvas";
@@ -17,15 +17,6 @@ $mm_backgroundColor: $body-bg;
 
 
 // overrides
-.mm-listview {
-  background-color: $gray-100;
-
-  li:last-child {
-    &:after {
-      display: none;
-    }
-  }
-}
 
 .mm-listview > li:not(.mm-divider):after {
   left: 0;
@@ -33,6 +24,7 @@ $mm_backgroundColor: $body-bg;
 
 // oncanvas
 .mm-menu:not(.mm-offcanvas) {
+  background-color: $body-bg;
   .mm-navbar {
     text-align: left;
     padding: 0 20px;
@@ -40,6 +32,10 @@ $mm_backgroundColor: $body-bg;
 
   .mm-prev:before {
     left: 3px;
+  }
+
+  .mm-listview {
+    background-color: $mm_backgroundColor;
   }
 }
 
