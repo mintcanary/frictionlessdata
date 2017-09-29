@@ -22,7 +22,8 @@ $(document).ready(function() {
      offCanvas: false,
      navbar: {
        title: ""
-     }
+     },
+     extensions: ["multiline"]
   }, {
      // configuration
      classNames: {
