@@ -16,6 +16,32 @@
         font-size: $font-size-lg;
       }
     }
+
+    .article-type {
+      display: flex;
+      align-items: center;
+      color: $body-color;
+      background-color: $gray-100;
+      font-weight: bold;
+      font-size: 18px;
+
+      @include media-breakpoint-up(sm) {
+        float: right;
+      }
+
+      svg {
+        width: 2.2em;
+        height: 2.2em;
+        background-color: $gray-200;
+        fill: $body-color;
+        padding: 0.4em;
+      }
+
+      span {
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+      }
+    }
   }
 
   .main {
@@ -63,5 +89,20 @@
     & + h2 {
       margin-top: 2em;
     }
+  }
+
+  p.lead {
+    & + h2 {
+      margin-top: 1em;
+    }
+  }
+}
+
+.footnotes {
+  margin-top: 4em;
+
+  ol {
+    font-size: $font-size-sm;
+    word-wrap: break-word;
   }
 }

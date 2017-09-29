@@ -5,7 +5,14 @@
 <div class="banner">
   <div class="container">
     <h1>{{ this.title }}</h1>
-    {% if this.author %}
+    {% if this.article_type == 'pilot' %}
+    <div class="article-type" data-toggle="tooltip" data-placement="top" title="{{ bag('global_content').pilot_intro }}"><svg><use xlink:href="#icon-rocket" /></svg><span>Pilot</span></div>
+    {% endif %}
+    {% if this.interviewee %}
+    <span class="author">
+      {{ bag('global_content').an_interview_with }} {{ this.interviewee }}
+    </span>
+    {% elif this.author %}
     <span class="author">
       {{ bag('global_content').written_by }} {{ this.author }}
     </span>
@@ -25,6 +32,11 @@
     </aside>
 
     <article class="content">
+      {% if this.article_type == 'study' %}
+      <p class="lead">
+        {{ bag('global_content').case_study_intro }}
+      </p>
+      {% endif %}
       {{ this.body }}
     </article>
   </div>
