@@ -2,15 +2,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
-<link rel="icon" href="../favicon.ico">
+<link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
-<link rel="stylesheet" href="../css/style.css">
-<title></title>
-<body class="articles">
+<link rel="stylesheet" href="../../css/style.css">
+<title>Cell Migration Standardization Organization</title>
+<body class="article">
   <div class="wrapper">
     <header class="site-header">
       <div class="container">
-        <a class="logo-symbol" href="../">
+        <a class="logo-symbol" href="../../">
           <svg><use xlink:href="#icon-f" /></svg>
         </a>
         <a class="logo-type">
@@ -32,19 +32,19 @@
             
             
 
-            Guides
+            Articles
           </a>
 
           <nav id="main-nav">
             <ul>
  <li>
-   <a class="" href="../">
+   <a class="" href="../../">
      Home
    </a>
  </li>
  
  <li class="">
-   <a href="../articles/">
+   <a href="../../articles/">
      Articles
    </a>
      
@@ -52,11 +52,11 @@
      <ul>
        
          <li class="">
-           <a href="../articles/university-of-cambridge/">UC - Retinal Mosaics</a>
+           <a href="../../articles/university-of-cambridge/">UC - Retinal Mosaics</a>
          </li>
        
-         <li class="">
-           <a href="../articles/cmso/">CMSO</a>
+         <li class="active">
+           <a href="../../articles/cmso/">CMSO</a>
          </li>
        
      </ul>
@@ -64,15 +64,15 @@
  </li>
  
  <li class="">
-   <a href="../tools/">
+   <a href="../../tools/">
      Tools
    </a>
      
      
  </li>
  
- <li class="active">
-   <a href="../guides/">
+ <li class="">
+   <a href="../../guides/">
      Guides
    </a>
      
@@ -80,7 +80,7 @@
      <ul>
        
          <li class="">
-           <a href="../guides/first-post/">A guide</a>
+           <a href="../../guides/first-post/">A guide</a>
          </li>
        
      </ul>
@@ -98,44 +98,199 @@
 
 <div class="banner">
   <div class="container">
-    <h1></h1>
+    <h1>Cell Migration Standardization Organization</h1>
+    
+    
+    <span class="author">
+      An Interview with Paola Masuzzo
+    </span>
+    
   </div>
 </div>
 
 <div class="container">
+  <div class="main">
 
-  <div class="intro">
-    
-  </div>
+    <aside class="menu">
+      <div class="wrapper">
+        <nav id="context-nav">
+          <ul>
+ <li>
+   <a class="" href="../../">
+     Home
+   </a>
+ </li>
+ 
+ <li class="">
+   <a href="../../articles/">
+     Articles
+   </a>
+     
+     
+     <ul>
+       
+         <li class="">
+           <a href="../../articles/university-of-cambridge/">UC - Retinal Mosaics</a>
+         </li>
+       
+         <li class="active">
+           <a href="../../articles/cmso/">CMSO</a>
+         </li>
+       
+     </ul>
+     
+ </li>
+ 
+ <li class="">
+   <a href="../../tools/">
+     Tools
+   </a>
+     
+     
+ </li>
+ 
+ <li class="">
+   <a href="../../guides/">
+     Guides
+   </a>
+     
+     
+     <ul>
+       
+         <li class="">
+           <a href="../../guides/first-post/">A guide</a>
+         </li>
+       
+     </ul>
+     
+ </li>
+ 
+</ul>
+        </nav>
+      </div>
+    </aside>
 
-  <div class="article-list">
-    
+    <article class="content">
       
-  <div class="preview">
-  
-    <h2><a href="../guides/first-post/">A guide</a></h2>
-  
-  <p class="meta">
-    Written by Sam Smith
-    on 2017-08-23
-  </p>
-  </div>
+      <p class="lead">
+        We’re curious to learn about some of the common issues users face when working with data. In our Case Study series, we are highlighting projects and organisations who are working with the Frictionless Data specifications and tooling in interesting and innovative ways.
+      </p>
+      
+      <h2>What is the project?</h2>
+<p>Researchers worldwide try to understand how cells move, a process
+extremely important for many physiological and pathological
+conditions. <a href="https://en.wikipedia.org/wiki/Cell_migration">Cell migration</a>
+is in fact involved in many processes, like wound healing, neuronal
+development and cancer invasion. The <a href="https://cmso.science/">CMSO</a> is
+a community building standards for cell migration data, in order to
+enable data sharing in the field. The organization has three main
+working groups:</p>
+<ul>
+<li>Minimal reporting requirement (developing <a href="https://github.com/CellMigStandOrg/MIACME">MIACME</a>, i.e. the Minimum Information About a Cell Migration Experiment)</li>
+<li>Controlled Vocabularies</li>
+<li>Data Formats and APIs</li>
+</ul>
+<p>The last working group is the one where the Data Package
+specifications could be used or expanded for the definition of a
+standard format and the corresponding libraries to interact with these
+standards. In particular, we have started to address the
+standardization of cell tracking data.  This is data produced using
+tracking software that reconstructs cell movement in time based on
+images from a microscope.</p>
+<p><img src="../../articles/cmso/cmso-1.png" alt="Diagram">
+<em>In pink, the <a href="http://isa-tools.org/">ISA</a> (Investigation Study Assay) model to annotate the experimental metadata; in blue, the <a href="http://www.openmicroscopy.org/">OME</a> (Open Microscopy Environment) model for the imaging data; in green, our biotracks format based on the Data Package specification for the analytics data (cell tracking, positions, features etc.); in purple, CV: Controlled Vocabulary; and in turquoise, <a href="https://github.com/CellMigStandOrg/MIACME">MIACME</a>: Minimum Information About a Cell Migration Experiment.  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Credit: Paola Masuzzo (text) and CMSO (diagram).</em></p>
+<h2>What are the challenges you face working with data?</h2>
+<p>CMSO deals specifically with cell migration data (a subject of cell
+biology). The main challenge lies in the heterogeneity of the
+data. This diversity has its origin in two factors:</p>
+<ul>
+<li><strong>Experimentally</strong>: Cell migration data can be produced using many
+diverse techniques (imaging, non-imaging, dynamic, static,
+high-throughput/screening, etc.)</li>
+<li><strong>Analytically</strong>: These data are produced using many diverse
+software packages, each of these writing data to specific (sometimes
+proprietary) file formats.</li>
+</ul>
+<p>This diversity hampers (or at least makes very difficult) procedures
+like meta-analysis, data integration, data mining, and last but not
+least, data <em>reproducibility</em>.</p>
+<h2>How do you use the specs?</h2>
+<p>CMSO has developed and is about to release the first specification of
+a
+<a href="https://cellmigstandorg.github.io/Tracks/">Cell Tracking format</a>. This
+specification is built on a tabular representation, i.e. data are
+stored in tables.  Current v0.1 of this specification can be seen at
+<a href="https://cellmigstandorg.github.io/Tracks/v0.1/">here</a>.</p>
+<p>CMSO is using the <em>Tabular</em> Data Package<sup class="footnote-ref" id="fnref-tdp"><a href="#fn-tdp" rel="footnote">1</a></sup> specification to represent
+cell migration-derived tracking data, as illustrated
+<a href="https://github.com/CellMigStandOrg/biotracks/">here</a>. The
+specification is used for two goals:</p>
+<ol>
+<li><strong>Create a Data Package representation</strong> where the data---in our
+case objects (e.g.  cells detected in microscopy images), links,
+and optionally tracks---are stored in CSV files, while metadata and
+schema<sup class="footnote-ref" id="fnref-tableschema"><a href="#fn-tableschema" rel="footnote">2</a></sup> information are stored in a JSON file.</li>
+<li><strong>Write</strong> this Data Package to a pandas<sup class="footnote-ref" id="fnref-pandas"><a href="#fn-pandas" rel="footnote">3</a></sup> dataframe, to aid quick
+inspection and visualization.</li>
+</ol>
+<p>You can see some examples
+<a href="https://github.com/CellMigStandOrg/biotracks/tree/master/examples">here</a>.</p>
+<h2>How were you made aware of Frictionless Data?</h2>
+<p>I am an Open Science fan and advocate, so I try to keep up to date
+with the initiatives of the
+<a href="https://okfn.org">Open Knowledge International</a> teams. I guess I saw
+a tweet and I checked the specs out. Also, CMSO really wanted to keep
+a possible specification and file format light and simple. So
+different people of the team must have googled for 'CSV and JSON
+formats' or something like that, and Frictionless Data popped out :).</p>
+<h2>What else would you like to see developed?</h2>
+<p>That is a nice question. I have opened a couple of issues on the
+<a href="https://github.com/frictionlessdata/specs">GitHub page of the spec</a>. The
+CMSO is not sure yet if the Data Package representation will be the
+one we’ll go for in the very end, because we would first like to know
+how sustainable/sustained this spec will be in the future.</p>
+<h2>What are the next things you are going to be working on yourself?</h2>
+<p>CMSO is looking into expanding the
+<a href="https://github.com/CellMigStandOrg/biotracks/tree/master/examples">list of examples</a>
+we have so far in terms of tracking software. Personally, I would like
+to choose a reference data set (a live-cell, time-lapse microscopy
+data set) , and run different cell tracking algorithms/software
+packages on it. Then I want to put the results into a common, light
+and easy-to-interpret CSV+JSON format (the biotracks format), and show
+people how data containerization<sup class="footnote-ref" id="fnref-philosophy"><a href="#fn-philosophy" rel="footnote">4</a></sup> can be the way to go to
+enable research data exchange and knowledge discovery at large.</p>
+<h2>How do these specs compare to others?</h2>
+<p>Cell tracking data are mostly stored in tabular format, but metadata
+are never kept together with the data, which makes data interpretation
+and sharing very difficult. The FD specifications take good care of
+this aspect. Some other formats are based on XML<sup class="footnote-ref" id="fnref-xml"><a href="#fn-xml" rel="footnote">5</a></sup> annotation,
+which certainly does the job, but are perhaps heavier (even though
+perhaps more sustainable in the long term). I hate Excel formats, and
+unfortunately I need to parse those too. I love the integration with
+Python<sup class="footnote-ref" id="fnref-python"><a href="#fn-python" rel="footnote">6</a></sup> and the pandas[^pandas] system, this is a big plus
+when doing data science.</p>
+<h2>What do you think are some other potential use cases.</h2>
+<p>As a researcher, I mostly deal with research data. I am pretty sure if
+this could work for cell migration data, it could work for many cell
+biology disciplines as well.</p>
+<h2>Who else do you think we should speak to.</h2>
+<p>To more researchers! Perhaps to more data producers!</p>
+<div class="footnotes">
+<hr>
+<ol><li id="fn-tdp"><p>Tabular Data Package: <a href="http://specs.frictionlessdata.io/tabular-data-package/">http://specs.frictionlessdata.io/tabular-data-package/</a><a href="#fnref-tdp" rev="footnote">&#8617;</a></p></li>
+<li id="fn-tableschema"><p>Table Schema: <a href="http://specs.frictionlessdata.io/table-schema/">http://specs.frictionlessdata.io/table-schema/</a><a href="#fnref-tableschema" rev="footnote">&#8617;</a></p></li>
+<li id="fn-pandas"><p>Pandas: Python package for data analysis: <a href="http://pandas.pydata.org/">http://pandas.pydata.org/</a><a href="#fnref-pandas" rev="footnote">&#8617;</a></p></li>
+<li id="fn-philosophy"><p>Design Philosophy: <a href="http://specs.frictionlessdata.io/#design-philosophy">http://specs.frictionlessdata.io/#design-philosophy</a><a href="#fnref-philosophy" rev="footnote">&#8617;</a></p></li>
+<li id="fn-xml"><p>Extensible Markup Language: <a href="https://en.wikipedia.org/wiki/XML">https://en.wikipedia.org/wiki/XML</a><a href="#fnref-xml" rev="footnote">&#8617;</a></p></li>
+<li id="fn-python"><p>Data Package-aware libraries in Python: <a href="https://github.com/frictionlessdata/datapackage-py">https://github.com/frictionlessdata/datapackage-py</a>, <a href="https://github.com/frictionlessdata/tableschema-py">https://github.com/frictionlessdata/tableschema-py</a>, <a href="https://github.com/frictionlessdata/goodtables-py">https://github.com/frictionlessdata/goodtables-py</a><a href="#fnref-python" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
 
-    
+    </article>
   </div>
+</div>
 
-    
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
 
-  
     </div>
     <footer class="site-footer">
       <div class="container">
@@ -164,6 +319,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.1.7/jquery.mmenu.all.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
-  <script src="../js/global.js"></script>
+  <script src="../../js/global.js"></script>
   
 </body>
