@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+<div class="banner">
+  <div class="container">
+    <h1>{{ this.title }}</h1>
+    {% if this.author %}
+    <span class="author">
+      {{ bag('global_content').written_by }} {{ this.author }}
+    </span>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="main">
+
+    <aside class="menu">
+      <div class="wrapper">
+        <nav id="context-nav">
+          {% include 'includes/nav.html' %}
+        </nav>
+      </div>
+    </aside>
+
+    <article class="content">
+      {{ this.body }}
+    </article>
+  </div>
+</div>
+
+{% endblock %}

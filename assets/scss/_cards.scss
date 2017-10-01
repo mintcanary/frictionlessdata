@@ -1,0 +1,32 @@
+@import "node_modules/bootstrap/scss/card";
+
+.card {
+  .card-header {
+    line-height: 1.2;
+    font-size: $font-size-sm;
+
+    .card-title {
+      font-size: $font-size-lg;
+      margin-bottom: 0.1em;
+
+      a {
+        color: inherit;
+      }
+    }
+
+    & > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .card-body {
+    & > :last-child {
+      margin-bottom: 0;
+    }
+
+    & > ul,
+    & > ol {
+      padding-left: 1em;
+    }
+  }
+}
