@@ -1,5 +1,13 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-{% include 'includes/icons-demo.html' %}
+
+<div class="banner">
+  <div class="container">
+    <h1>{{ this.title }}</h1>
+  </div>
+</div>
+<div class="container">
+  {% include 'includes/icons-demo.html' %}
+</div>
 {% endblock %}

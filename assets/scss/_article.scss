@@ -8,15 +8,6 @@
 
   .banner {
 
-    @include media-breakpoint-up(lg) {
-      padding-top: $spacer*3;
-      padding-bottom: $spacer*3;
-
-      .author {
-        font-size: $font-size-lg;
-      }
-    }
-
     .article-type {
       display: flex;
       align-items: center;

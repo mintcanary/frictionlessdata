@@ -7,6 +7,9 @@
 <div class="banner">
   <div class="container">
     <h1>{{ this.title }}</h1>
+    {% if this.subtitle %}
+    <span>{{ this.subtitle }}</span>
+    {% endif %}
   </div>
 </div>
 
