@@ -6,7 +6,13 @@
   <div class="container">
     <h1>{{ this.title }}</h1>
     {% if this.article_type == 'pilot' %}
-    <div class="article-type" data-toggle="tooltip" data-placement="top" title="{{ bag('global_content').pilot_intro }}"><svg><use xlink:href="#icon-rocket" /></svg><span>Pilot</span></div>
+    {% for t in site.query('/article-types') %}
+    {% if t._id == this.article_type %}
+    <div class="article-type" data-toggle="tooltip" data-placement="top" title="{{ t.description }}">
+      <svg><use xlink:href="#icon-rocket" /></svg><span>{{ t.name }}</span>
+    </div>
+    {% endif %}
+    {% endfor %}
     {% endif %}
     {% if this.interviewee %}
     <span class="author">
@@ -32,10 +38,22 @@
     </aside>
 
     <article class="content">
-      {% if this.article_type == 'study' %}
+      {% if this.article_type == 'case-study' %}
+      {% for t in site.query('/article-types') %}
+      {% if t._id == this.article_type %}
       <p class="lead">
-        {{ bag('global_content').case_study_intro }}
+        {{ t.description }}
       </p>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% if this.subject_context %}
+      <div class="callout">
+        {% if this.subject_logo %}
+        <a class="image"><span style="background-image: url({{ this.subject_logo }});"></span></a>
+        {% endif %}
+        <div class="text">{{ this.subject_context }}</div>
+      </div>
       {% endif %}
       {{ this.body }}
     </article>

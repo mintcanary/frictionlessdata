@@ -18,6 +18,11 @@ $mm_backgroundColor: $gray-100;
 // multiline
 @import "node_modules/jquery.mmenu/src/extensions/multiline/jquery.mmenu.multiline";
 
+// dividers
+.mm-menu .mm-divider {
+  padding: $mm_padding/2 $mm_padding $mm_padding/2 $mm_padding*2;
+}
+
 // overrides
 
 .mm-listview > li:not(.mm-divider):after {
