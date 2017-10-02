@@ -52,8 +52,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.1.7/jquery.mmenu.all.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-packery@2/packery-mode.pkgd.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
   <script src="{{ '/js/global.js'|url }}"></script>
   {% if this._model == "home" %}
   <script src="{{ '/js/home.js'|url }}"></script>
   {% endif %}
+  {% if this._model == "tools" %}
+  <script src="{{ '/js/tools.js'|url }}"></script>
+  {% endif %}
+
 </body>

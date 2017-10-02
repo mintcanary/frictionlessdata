@@ -33,6 +33,13 @@
   </ul>
 </li>
 
+{% elif title == 'Tools' %}
+<li class="{% if this._path == href %}active{% endif %}">
+  <a href="{{ href|url }}">
+    {{ title }}
+  </a>
+</li>
+
 {% else %}
  <li class="{% if this._path == href %}active{% endif %}">
    <a href="{{ href|url }}">
