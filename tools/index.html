@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="../css/style.css">
 <title>Tools, Integrations, Libraries, and Platforms</title>
-<body class="page">
+<body class="tools">
   <div class="wrapper">
     <header class="site-header">
       <div class="container">
@@ -91,14 +91,13 @@
  
 
  
- <li class="active">
-   <a href="../tools/">
-     Tools
-   </a>
-     
-     
- </li>
- 
+<li class="active">
+  <a href="../tools/">
+    Tools
+  </a>
+</li>
+
+
  
 
  
@@ -143,12 +142,387 @@
 <div class="banner">
   <div class="container">
     <h1>Tools, Integrations, Libraries, and Platforms</h1>
+    <div class="filter-button-group">
+      <button class="btn selected" data-filter="*">All</button>
+      
+      
+      <button class="btn" data-filter=".cat-libraries" data-toggle="tooltip" data-placement="bottom" title="The following libraries at least a subset of the Frictionless Data stack.">Libraries</button>
+      
+      
+      
+      <button class="btn" data-filter=".cat-other">Other</button>
+      
+      
+      
+      <button class="btn" data-filter=".cat-platforms" data-toggle="tooltip" data-placement="bottom" title="Data Packages are currently being published by the following repositories">Platforms</button>
+      
+      
+      
+      <button class="btn" data-filter=".cat-tools-and-integrations" data-toggle="tooltip" data-placement="bottom" title="Tools listed here are new apps or integrations with existing apps that create or consume Data Packages or Table Schema.">Tools and Integrations</button>
+      
+      
+    </div>
   </div>
 </div>
-<div class="container">
-  
-</div>
 
+<div class="container">
+
+  <div class="tool-list">
+    
+    
+
+    
+    <div class="tool-item cat-libraries">
+      <div class="inner">
+        <h3>
+          datapackage-py <small>Python</small>
+        </h3>
+        <p>A Python library for working with Data Packages.</p>
+
+
+        
+        <a href="https://github.com/frictionlessdata/datapackage-py" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+    
+    <div class="tool-item cat-other">
+      <div class="inner">
+        <h3>
+          Tesera
+        </h3>
+        <p><a href="http://tesera.com/">Tesera</a> publishes a variety of Data Package-aware tools.</p>
+
+
+        
+        <a href="http://tesera.com/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="http://frictionlessdata.io/case-studies/tesera/" class="btn" rel="external">Case Study</a>
+        
+        
+        <a href="http://github.com/tesera" class="btn" rel="external">Repository</a>
+        
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+    
+    <div class="tool-item cat-platforms">
+      <div class="inner">
+        <h3>
+          OpenSpending
+        </h3>
+        <p>The <a href="https://specs.frictionlessdata.io/fiscal-data-package/">Fiscal Data Package</a> is the native format for datasets published on OpenSpending.</p>
+
+
+        
+        <a href="http://next.openspending.org/" class="btn" rel="external">Website</a>
+        
+        
+        
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          BIML Enabled Tabular Data Package Importer
+        </h3>
+        <p>BIML (Business Intelligence Markup Language) project that uses datapackage.json to generate SSIS packages that can load the contents of a Tabular Data Package into a SQL Server database.</p>
+
+
+        
+        <a href="https://github.com/bimlscript/BETDPI" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Comma Chameleon
+        </h3>
+        <p>A desktop CSV editor for data publishers.</p>
+
+
+        
+        <a href="http://comma-chameleon.io/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/theodi/comma-chameleon" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          CSV Lint
+        </h3>
+        <p>CSV Lint is a webservice for validating tabular data.</p>
+
+
+        
+        <a href="http://csvlint.io/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/theodi/csvlint.rb" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Data Package Manager <small>dpm</small>
+        </h3>
+        <p>Data Package Manager.</p>
+
+
+        
+        <a href="https://github.com/okfn/dpm" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Data Package Pipelines
+        </h3>
+        <p>Framework for processing data packages in pipelines of modular
+components.</p>
+
+
+        
+        <a href="https://github.com/frictionlessdata/datapackage-pipelines" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Data Package Viewer <small>service</small>
+        </h3>
+        <p>View Data Package metadata in human-readable form.</p>
+
+
+        
+        <a href="http://data.okfn.org/tools/view" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/okfn/data.okfn.org-new" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Data Quality Dashboard
+        </h3>
+        <p>Data Quality Dashboards display statistics on a collection of
+published data.</p>
+
+
+        
+        <a href="https://github.com/frictionlessdata/data-quality-dashboard" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Data Retriever
+        </h3>
+        <p>The Data Retriever uses the Data Package format internally.  It is a package manager for data. It downloads, cleans, and stores publicly available data, so that analysts spend less time cleaning and managing data, and more time analyzing it.</p>
+
+
+        
+        <a href="http://www.data-retriever.org/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/weecology/retriever" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          datapackage-m
+        </h3>
+        <p>A set of functions written in M for working with Tabular Data Packages in Power BI Desktop and Power Query (also known as 'Get &amp; Transform') in Excel.</p>
+
+
+        
+        <a href="https://github.com/nimblelearn/datapackage-m" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          DataPackagist
+        </h3>
+        <p>DataPackagist is a webservice for creating Data Packages.</p>
+
+
+        
+        <a href="http://datapackagist.openknowledge.io/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/frictionlessdata/datapackagist" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Datapaka
+        </h3>
+        <p>An easy interface for documenting data packages.</p>
+
+
+        
+        <a href="https://github.com/centraldedados/datapaka" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Good Tables <small>service</small>
+        </h3>
+        <p>A web service to validate and process tabular data.</p>
+
+
+        
+        <a href="http://goodtables.okfnlabs.org" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/frictionlessdata/goodtables-web" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations featured">
+      <div class="inner">
+        <h3>
+          GoodTables.io <small>service</small>
+        </h3>
+        <p>Continuous data validation, as a service.</p>
+
+
+        
+        <a href="http://goodtables.io/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/frictionlessdata/goodtables.io" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Metatab
+        </h3>
+        <p>Python language parser for a tabular format for structured metadata.</p>
+
+
+        
+        <a href="http://metatab.org/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/CivicKnowledge/metatab-py" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          Mira
+        </h3>
+        <p>Create simple APIs from CSV files.</p>
+
+
+        
+        <a href="https://github.com/davbre/mira" class="btn" rel="external">Repository</a>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class="tool-item cat-tools-and-integrations">
+      <div class="inner">
+        <h3>
+          SmartCSV.fx
+        </h3>
+        <p>A simple JavaFX application to load, save and edit a CSV file and provide a JSON configuration for columns to check the values in the columns.</p>
+
+
+        
+        <a href="http://frosch95.github.io/SmartCSV.fx/" class="btn" rel="external">Website</a>
+        
+        
+        <a href="https://github.com/frosch95/SmartCSV.fx" class="btn" rel="external">Repository</a>
+        
+        
+      </div>
+    </div>
+    
+
+    
+    
+  </div>
+  
     </div>
     <footer class="site-footer">
       <div class="container">
@@ -178,6 +552,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.1.7/jquery.mmenu.all.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-packery@2/packery-mode.pkgd.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
   <script src="../js/global.js"></script>
   
+  
+  <script src="../js/tools.js"></script>
+  
+
 </body>

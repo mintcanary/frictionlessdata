@@ -36,4 +36,12 @@ $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip()
   })
 
+  //external links
+  $(function() {
+    $('a[rel*=external]').click( function() {
+      window.open(this.href);
+      return false;
+    });
+  });
+
 });
