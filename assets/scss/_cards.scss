@@ -1,6 +1,8 @@
 @import "node_modules/bootstrap/scss/card";
 
 .card {
+  font-family: $font-family-sans-serif;
+  
   .card-header {
     line-height: 1.2;
     font-size: $font-size-sm;

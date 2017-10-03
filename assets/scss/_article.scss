@@ -61,18 +61,13 @@
       @include media-breakpoint-up(xl) {
         @include make-col(9);
       }
-      font-family: 'Lora', serif;
-
-      h1, h2, h3, h4, h5, h6 {
-        font-family: $font-family-base;
-      }
     }
   }
 
-  P, pre, ul, ol, .highlight {
+  P, pre, ul, ol, blockquote, .highlight {
     // new section
     & + h2 {
-      margin-top: 2em;
+      margin-top: 1.5em;
     }
   }
 
@@ -87,7 +82,7 @@
   @include rev-out;
   margin: 1em (-$spacer) 2em (-$spacer);
   padding: $spacer;
-  font-family: $font-family-base;
+  font-family: $font-family-sans-serif;
 
   @include media-breakpoint-up(sm) {
     display: flex;

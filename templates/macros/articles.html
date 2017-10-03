@@ -1,13 +1,14 @@
 {% macro render_post_preview(post, from_index=false) %}
   <div class="preview">
   {% if from_index %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+    <h3><a href="{{ post|url }}">{% if post.interviewee %}{{ post.interviewee }}: {%endif %}{{ post.title }}</a></h3>
   {% else %}
-    <h2>{{ post.title }}</h2>
+    <h3>{{ post.title }}</h3>
   {% endif %}
-  <p class="meta">
-    {{ bag('global_content').written_by }} {{ post.author }}
-    on {{ post.pub_date }}
+  {% if post.summary %}
+  <p class="summary">
+    {{ post.summary }}
   </p>
+  {% endif %}
   </div>
 {% endmacro %}

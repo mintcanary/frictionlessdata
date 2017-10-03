@@ -137,4 +137,6 @@ subject_context:
 ---
 subject_logo: cmso-logo.png
 ---
-article_type: case-study
+article_type: case-studies
+---
+summary: Building standards for cell migration data in order to enable data sharing in the field.

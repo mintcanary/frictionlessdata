@@ -1,4 +1,5 @@
-.articles {
+.articles,
+.article-type {
 
   .intro {
     padding-top: $spacer*2;
@@ -9,21 +10,24 @@
   }
 
   .article-list {
-    @include make-row();
     padding-top: $spacer;
     padding-bottom: $spacer;
 
+    .type-heading {
+      margin-bottom: $spacer;
+    }
+
+    .article-group {
+      padding-bottom: $spacer*2;
+    }
+
     .preview {
-      padding-top: $spacer;
       padding-bottom: $spacer;
-      @include make-col-ready();
+      border-bottom: solid 1px $gray-100;
+      margin-bottom: $spacer;
 
-      @include media-breakpoint-up(md) {
-        @include make-col(6);
-      }
-
-      @include media-breakpoint-up(lg) {
-        @include make-col(4);
+      :last-child {
+        margin-bottom: 0;
       }
     }
   }

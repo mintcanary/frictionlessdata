@@ -20,12 +20,26 @@
   </div>
 
   <div class="article-list">
-    {% for child in this.pagination.items %}
+
+  {% for t in site.query('/article-types') %}
+    {% set children = t.children %}
+    {% if children %}
+    <div class="article-group">
+      <h2 class="type-heading">{{ t.name }}</h2>
+
+      {% for child in children.limit(20) %}
       {{ render_post_preview(child, from_index=true) }}
-    {% endfor %}
+      {% endfor %}
+      {% for child in children.limit(1).offset(20) %}
+      <a href="types/{{t._id}}/page/2/" class="btn btn-primary btn-sm">{{ bag('global_content').more }} {{ t.name }}</a>
+      {% endfor %}
+    </div>
+
+    {% endif %}
+  {% endfor %}
+
   </div>
 
-    {{ render_pagination(this.pagination) }}
   {% endblock %}
 
 </div>

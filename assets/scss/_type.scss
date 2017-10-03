@@ -20,6 +20,12 @@ h6 { font-size: $h6-font-size; }
 .lead {
   font-size: $lead-font-size;
   font-weight: $lead-font-weight;
+  font-style: italic;
+
+  strong,
+  b {
+    font-weight: bold;
+  }
 }
 
 //
@@ -51,6 +57,7 @@ mark {
 
 // Blockquotes
 blockquote {
+  margin-top: $spacer;
   margin-bottom: $spacer;
   font-size: $blockquote-font-size;
   font-style: italic;

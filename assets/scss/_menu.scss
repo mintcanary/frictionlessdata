@@ -25,6 +25,10 @@ $mm_backgroundColor: $gray-100;
 
 // overrides
 
+.mm-menu {
+  font-family: $font-family-sans-serif;
+}
+
 .mm-listview > li:not(.mm-divider):after {
   left: 0;
 }

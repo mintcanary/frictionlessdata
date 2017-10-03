@@ -16,11 +16,7 @@
      {% set children = t.children %}
      {% if children %}
      <li class="mm-divider">
-       {% if t.plural %}
-       {{ t.plural }}
-       {% else %}
        {{ t.name }}
-       {% endif %}
      </li>
 
      {% for child in children %}

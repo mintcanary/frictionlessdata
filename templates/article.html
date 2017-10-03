@@ -5,11 +5,11 @@
 <div class="banner">
   <div class="container">
     <h1>{{ this.title }}</h1>
-    {% if this.article_type == 'pilot' %}
+    {% if this.article_type == 'pilots' %}
     {% for t in site.query('/article-types') %}
     {% if t._id == this.article_type %}
     <div class="article-type" data-toggle="tooltip" data-placement="top" title="{{ t.description }}">
-      <svg><use xlink:href="#icon-rocket" /></svg><span>{{ t.name }}</span>
+      <svg><use xlink:href="#icon-rocket" /></svg><span>{{ t.singular }}</span>
     </div>
     {% endif %}
     {% endfor %}
@@ -38,7 +38,7 @@
     </aside>
 
     <article class="content">
-      {% if this.article_type == 'case-study' %}
+      {% if this.article_type == 'case-studies' %}
       {% for t in site.query('/article-types') %}
       {% if t._id == this.article_type %}
       <p class="lead">
