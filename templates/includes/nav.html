@@ -36,6 +36,29 @@
   </a>
 </li>
 
+{% elif title == 'Guides' %}
+<li class="{% if this._path == href %}active{% endif %}">
+  <a href="{{ href|url }}">
+    {{ title }}
+  </a>
+  <ul>
+  {% for t in site.query('/guide-categories') %}
+    {% set children = t.children %}
+    {% if children %}
+    <li class="mm-divider">
+      {{ t.name }}
+    </li>
+
+    {% for child in children %}
+    <li class="{% if this._path == child.path %}active{% endif %}">
+      <a href="{{ child.path|url }}">{{ child.title }}</a>
+    </li>
+    {% endfor %}
+    {% endif %}
+ {% endfor %}
+ </ul>
+</li>
+
 {% else %}
  <li class="{% if this._path == href %}active{% endif %}">
    <a href="{{ href|url }}">
