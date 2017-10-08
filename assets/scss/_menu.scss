@@ -1,4 +1,5 @@
 $mm_backgroundColor: $gray-100;
+$mm_textColor: rgba($body-color, 0.9);
 
 // offcanvas
 @import "node_modules/jquery.mmenu/src/core/offcanvas/jquery.mmenu.offcanvas";
@@ -21,6 +22,8 @@ $mm_backgroundColor: $gray-100;
 // dividers
 .mm-menu .mm-divider {
   padding: $mm_padding/2 $mm_padding $mm_padding/2 $mm_padding*2;
+  font-weight: 600;
+  color: rgba($body-color, 0.75);
 }
 
 // overrides
