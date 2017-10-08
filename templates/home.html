@@ -15,31 +15,68 @@
 </div>
 
 <div>
-  <div class="container">
-    <section class="features">
-      <div class="feature">
-        <svg><use xlink:href="#icon-{{ this.feature1_icon }}" /></svg>
-        <h2>{{ this.feature1_heading }}</h2>
-        {{ this.feature1_body }}
-        <a href="{{ this.feature1_link_url }}">{{ this.feature1_link_text }}</a>
-      </div>
+  <section class="features">
+    <div class="container">
+      {% if this.section1_heading %}
+      <h2 class="section-heading">{{ this.section1_heading }}</h2>
+      {% endif %}
+      <div>
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature1_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature1_heading }}</h3>
+          {{ this.feature1_body }}
+          <a href="{{ this.feature1_link_url }}">{{ this.feature1_link_text }}</a>
+        </div>
 
-      <div class="feature">
-        <svg><use xlink:href="#icon-{{ this.feature2_icon }}" /></svg>
-        <h2>{{ this.feature2_heading }}</h2>
-        {{ this.feature2_body }}
-        <a href="{{ this.feature2_link_url }}">{{ this.feature2_link_text }}</a>
-      </div>
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature2_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature2_heading }}</h3>
+          {{ this.feature2_body }}
+          <a href="{{ this.feature2_link_url }}">{{ this.feature2_link_text }}</a>
+        </div>
 
-      <div class="feature">
-        <svg><use xlink:href="#icon-{{ this.feature3_icon }}" /></svg>
-        <h2>{{ this.feature3_heading }}</h2>
-        {{ this.feature3_body }}
-        <a href="{{ this.feature3_link_url }}">{{ this.feature3_link_text }}</a>
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature3_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature3_heading }}</h3>
+          {{ this.feature3_body }}
+          <a href="{{ this.feature3_link_url }}">{{ this.feature3_link_text }}</a>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <article class="about">
+  {% if this.section2_heading %}
+  <section class="features">
+    <div class="container">
+      <h2 class="section-heading">{{ this.section2_heading }}</h2>
+      <div>
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature4_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature4_heading }}</h3>
+          {{ this.feature4_body }}
+          <a href="{{ this.feature4_link_url }}">{{ this.feature4_link_text }}</a>
+        </div>
+
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature5_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature5_heading }}</h3>
+          {{ this.feature5_body }}
+          <a href="{{ this.feature5_link_url }}">{{ this.feature5_link_text }}</a>
+        </div>
+
+        <div class="feature">
+          <svg><use xlink:href="#icon-{{ this.feature6_icon }}" /></svg>
+          <h3 class="feature-heading">{{ this.feature6_heading }}</h3>
+          {{ this.feature6_body }}
+          <a href="{{ this.feature6_link_url }}">{{ this.feature6_link_text }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <article class="about">
+    <div class="container">
       <h2>{{ this.about_heading }}</h2>
       <div class="intro">
         {{ this.about_intro }}
@@ -58,8 +95,8 @@
           {{ this.about_body }}
         </div>
       </div>
-    </article>
-  </div>
+    </div>
+  </article>
 </div>
 
 <section class="newsletter">

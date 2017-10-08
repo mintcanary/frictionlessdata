@@ -1,6 +1,6 @@
 .home {
   font-family: $font-family-sans-serif;
-  
+
   .main-nav {
     .dropdown-toggle {
       @include button-variant($gray-900, $gray-900);
@@ -63,9 +63,26 @@
     }
   }
 
+  section:nth-child(even) {
+    background-color: $gray-100;
+
+    & + .about {
+      border-top: none;
+    }
+  }
+
   .features {
-    @include make-row();
     padding-top: $spacer*3;
+
+    .container > div {
+      padding-top: $spacer*3;
+      @include make-row();
+    }
+
+    .section-heading {
+      color: rgba($body-color, 0.75);
+      font-weight: normal;
+    }
 
     .feature {
       @include make-col-ready();
@@ -79,6 +96,12 @@
 
       a {
         font-weight: 600;
+      }
+
+      .feature-heading {
+        @include media-breakpoint-up(lg) {
+          font-size: 2rem;
+        }
       }
 
       @include media-breakpoint-up(md) {

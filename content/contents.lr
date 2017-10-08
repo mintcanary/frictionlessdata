@@ -10,35 +10,37 @@ about_heading: Our Vision
 ---
 about_intro: Frictionless Data is about removing the friction in working with data. We are doing this by developing a set of tools, specifications, and best practices for publishing data. The heart of Frictionless Data is the Data Package specification, a containerization format for any kind of data based on existing practices for publishing open-source software.
 ---
-feature1_heading: Data Packages
+feature1_heading: Specifications
 ---
 feature2_heading: Case Studies
 ---
-feature3_heading: Guides
+feature3_heading: Tools
 ---
 feature1_body: Data Packages are a lightweight containerisation format for data. They provide the foundation for frictionless data transport.
 ---
 feature2_body: Highlighting projects working with the Frictionless Data specifications and tooling in interesting and innovative ways.
 ---
-feature3_body: Learn how to get started using and developing with Data Packages through our guides, tutorials and documentation.
+feature3_body: Tools and integrations to make it easy to integrate Data Packages into your data processing and publishing workflows.
 ---
-feature1_link_text: Go to specs
+feature1_link_text:
+
+Go to specifications 
 ---
 feature2_link_text: Go to articles
 ---
-feature3_link_text: Go to guides
+feature3_link_text: Go to tools
 ---
-feature1_link_url: data-packages/specs
+feature1_link_url: specs
 ---
 feature2_link_url: articles
 ---
-feature3_link_url: guides
+feature3_link_url: tools
 ---
 feature1_icon: package
 ---
 feature2_icon: docs
 ---
-feature3_icon: book
+feature3_icon: tools
 ---
 about_image: diagram.png
 ---
@@ -73,3 +75,37 @@ We currently consider transporting data between and among tools to be comparable
 **6. Simple**: Keep the formats and metadata simple and lightweight, and make things easy to learn and use by doing the least required.
 ---
 newsletter_intro: Sign up for our newsletter to receive updates on tooling or specification releases, events, and other news related to Frictionless Data.
+---
+section1_heading: What is Frictionless Data?
+---
+section2_heading: Get involved.
+---
+feature4_body: Learn how to get started using and developing with Data Packages through our guides, tutorials and documentation.
+---
+feature4_heading: Guides
+---
+feature4_icon: book
+---
+feature4_link_text: Go to guides
+---
+feature4_link_url: guides
+---
+feature5_body: We also have a chat room dedicated to technical discussion about Frictionless Data. Feel free to stop by and introduce yourself.
+---
+feature5_heading: Chat
+---
+feature5_icon: gitter
+---
+feature5_link_text: Go to chatroom
+---
+feature5_link_url: https://gitter.im/frictionlessdata/chat
+---
+feature6_body: If you have a use case that you'd like to see supported, including integration with a particular tool or file format, leave a note.
+---
+feature6_heading: Forum
+---
+feature6_icon: forum
+---
+feature6_link_text: Go to forum
+---
+feature6_link_url: https://discuss.okfn.org/c/frictionless-data
