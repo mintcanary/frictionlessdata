@@ -149,3 +149,7 @@ img {
     padding-bottom: $spacer*3;
   }
 }
+
+.separator:last-child {
+  display: none;
+}

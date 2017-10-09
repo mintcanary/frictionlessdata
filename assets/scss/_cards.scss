@@ -2,7 +2,7 @@
 
 .card {
   font-family: $font-family-sans-serif;
-  
+
   .card-header {
     line-height: 1.2;
     font-size: $font-size-sm;
@@ -30,5 +30,9 @@
     & > ol {
       padding-left: 1em;
     }
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
   }
 }

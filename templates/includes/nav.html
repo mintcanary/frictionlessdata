@@ -6,7 +6,7 @@
  </li>
  {% for href, title in bag('sections').iteritems() %}
 
- {% if title == 'Articles' %}
+ {% if href == '/articles' %}
  <li class="{% if this._path == href %}active{% endif %}">
    <a href="{{ href|url }}">
      {{ title }}
@@ -29,14 +29,14 @@
   </ul>
 </li>
 
-{% elif title == 'Tools' %}
+{% elif href == '/tools' %}
 <li class="{% if this._path == href %}active{% endif %}">
   <a href="{{ href|url }}">
     {{ title }}
   </a>
 </li>
 
-{% elif title == 'Guides' %}
+{% elif href == '/guides' %}
 <li class="{% if this._path == href %}active{% endif %}">
   <a href="{{ href|url }}">
     {{ title }}
@@ -57,6 +57,56 @@
     {% endif %}
  {% endfor %}
  </ul>
+</li>
+
+{% elif href == '/specs' %}
+<li>
+  <a href="{{ href|url }}">
+    {{ title }}
+  </a>
+
+  <ul>
+    <li class="mm-divider">
+      {{ bag('global_content').introduction }}
+    </li>
+    {% set sections = site.get_root().children %}
+    {% for s in sections %}
+    {% if s.path == href %}
+    <li class="{% if this._path == href %}active{% endif %}">
+      <a href="{{ href|url }}">{{ s.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    {% set children = site.get(href).children %}
+    {% if children %}
+    <li class="mm-divider">
+      {{ bag('global_content').specifications }}
+    </li>
+    {% for child in children %}
+    {% if child._model == 'spec' %}
+    <li class="{% if this._path == child.path %}active{% endif %}">
+      <a href="{{ child.path|url }}">{{ child.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    <li class="mm-divider">
+      {{ bag('global_content').supplementary_information }}
+    </li>
+    {% for child in children %}
+    {% if child._model != 'spec' %}
+    <li class="{% if this._path == child.path %}active{% endif %}">
+      <a href="{{ child.path|url }}">{{ child.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <li>
+      <a href="https://pre-v1.frictionlessdata.io/" rel="external">Pre v1</a>
+    </li>
+ </ul>
+
 </li>
 
 {% else %}

@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}{{ bag('global_content').specifications }}{% endblock %}
 {% block body %}
 
 <div class="container">
@@ -18,5 +18,6 @@
       {{ this.body }}
     </articel>
   </div>
+
 </div>
 {% endblock %}

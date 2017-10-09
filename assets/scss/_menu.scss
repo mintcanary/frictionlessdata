@@ -24,6 +24,10 @@ $mm_textColor: rgba($body-color, 0.9);
   padding: $mm_padding/2 $mm_padding $mm_padding/2 $mm_padding*2;
   font-weight: 600;
   color: rgba($body-color, 0.75);
+
+  &:last-child {
+    display: none;
+  }
 }
 
 // overrides
@@ -35,6 +39,18 @@ $mm_textColor: rgba($body-color, 0.9);
     a {
       border-left: solid 5px theme-color("primary");
       padding-left: ($mm_listitemIndent - 5px);
+    }
+  }
+
+  a[rel=external] {
+    &:after {
+      content: '';
+      mask: url(../icons/external.svg);
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      margin-left: 0.3em;
+      background-color: $mm_textColor;
     }
   }
 }
