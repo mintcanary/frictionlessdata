@@ -133,9 +133,7 @@ To more researchers! Perhaps to more data producers!
 [^philosophy]: Design Philosophy: <http://specs.frictionlessdata.io/#design-philosophy>
 [^python]: Data Package-aware libraries in Python: <https://github.com/frictionlessdata/datapackage-py>, <https://github.com/frictionlessdata/tableschema-py>, <https://github.com/frictionlessdata/goodtables-py>
 ---
-subject_context: 
----
-subject_logo: cmso-logo.png
+subject_img: cmso-logo.png
 ---
 article_type: case-studies
 ---

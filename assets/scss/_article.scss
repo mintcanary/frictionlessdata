@@ -103,6 +103,10 @@
   padding: $spacer;
   font-family: $font-family-sans-serif;
 
+  a {
+    color: inherit;
+  }
+
   @include media-breakpoint-up(sm) {
     display: flex;
     align-items: center;
@@ -135,6 +139,19 @@
       background-position: center;
       background-repeat: no-repeat;
     }
+
+    &.profile {
+      padding: 0;
+
+      span {
+        padding-top: 100%;
+        background-size: cover;
+      }
+    }
+  }
+
+  .profile-name {
+    margin-bottom: 0;
   }
 
   :last-child {
