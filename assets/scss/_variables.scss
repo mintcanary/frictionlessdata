@@ -99,7 +99,7 @@ $theme-colors: (
   info: $cyan,
   warning: $yellow,
   danger: $red,
-  light: $gray-100,
+  light: $gray-200,
   dark: $gray-800
 ) !default;
 
@@ -724,7 +724,7 @@ $modal-transition:            transform .3s ease-out !default;
 
 $alert-padding-y:             .75rem !default;
 $alert-padding-x:             1.25rem !default;
-$alert-margin-bottom:         1rem !default;
+$alert-margin-bottom:         $spacer*2 !default;
 $alert-border-radius:         $border-radius !default;
 $alert-link-font-weight:      $font-weight-bold !default;
 $alert-border-width:          $border-width !default;
@@ -833,7 +833,7 @@ $code-font-size:              80% !default;
 $code-padding-y:              .2rem !default;
 $code-padding-x:              .4rem !default;
 $code-color:                  $body-color !default;
-$code-bg:                     $gray-100 !default;
+$code-bg:                     rgba($black, 0.03) !default;
 
 $kbd-color:                   $white !default;
 $kbd-bg:                      $gray-900 !default;
