@@ -5,8 +5,8 @@
 <link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="../../css/style.css">
-<title>Publish Data as Data Packages</title>
-<body class="guide">
+<title>Data Resource</title>
+<body class="spec">
   <div class="wrapper">
     <header class="site-header">
       <div class="container">
@@ -34,7 +34,7 @@
             
             
 
-            Guides
+            Specifications
           </a>
 
           <nav id="main-nav">
@@ -182,7 +182,7 @@
     </li>
 
     
-    <li class="active">
+    <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
     </li>
     
@@ -249,7 +249,7 @@
     <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
-        <li class="">
+        <li class="active">
           <a href="../../specs/data-resource/#meta">Meta</a>
         </li>
         <li>
@@ -584,13 +584,6 @@
     <div class="page">
       
 
-<div class="banner">
-  <div class="container">
-    <h1>Publish Data as Data Packages</h1>
-    
-  </div>
-</div>
-
 <div class="container">
   <div class="main">
 
@@ -741,7 +734,7 @@
     </li>
 
     
-    <li class="active">
+    <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
     </li>
     
@@ -808,7 +801,7 @@
     <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
-        <li class="">
+        <li class="active">
           <a href="../../specs/data-resource/#meta">Meta</a>
         </li>
         <li>
@@ -1140,7 +1133,262 @@
     </aside>
 
     <article class="content">
-      <p>You can publish <strong>any kind of data</strong> as a Data Package.</p>
+      <h1>Data Resource</h1>
+      <p class="lead">
+        A simple format to describe and package a single data resource such as a individual table or file.
+      </p>
+      <div class="card">
+        <table class="table">
+          
+          <tr>
+            <th>Author(s)</th>
+            <td>
+              
+              Paul Walsh<span class="separator">, </span>
+              
+              Rufus Pollock<span class="separator">, </span>
+              
+            </td>
+          </tr>
+          
+          
+          <tr>
+            <th>Media type</th>
+            <td>application/vnd.dataresource+json</td>
+          </tr>
+          
+          <tr>
+            <th>JSON Schema (for spec)</th>
+            <td>
+              <a href="https://specs.frictionlessdata.io/schemas/data-resource.json">specs.frictionlessdata.io/schemas/data-resource
+            </td>
+          </tr>
+          
+          <tr>
+            <th>Version</th>
+            <td>1.0-rc.2</td>
+          </tr>
+          
+          
+          <tr>
+            <th>Last Updated</th>
+            <td>02 May 2017</td>
+          </tr>
+          
+          
+          <tr>
+            <th>Created</th>
+            <td>11 December 2016</td>
+          </tr>
+          
+        </table>
+      </div>
+      <h3 id="language">Language</h3>
+      <p>The key words <code>MUST</code>, <code>MUST NOT</code>, <code>REQUIRED</code>, <code>SHALL</code>, <code>SHALL NOT</code>, <code>SHOULD</code>, <code>SHOULD NOT</code>, <code>RECOMMENDED</code>, <code>MAY</code>, and <code>OPTIONAL</code> in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt" title="RFC 2119">RFC 2119</a>.</p>
+
+
+      <h2 id="introduction">Introduction</h2><p>The <strong>Data Resource</strong> format describes a data resource such as an individual file or table.</p>
+<p>The essence of a Data Resource is a locator for the data it describes.</p>
+<p>A range of other properties can be declared to provide a richer set of metadata.</p>
+<h3 id="examples">Examples</h3><p>A minimal Data Resource looks as follows:</p>
+<p>With data accessible via the local filesystem.</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;resource-path.csv&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>With data accessible via http.</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;http://example.com/resource-path.csv&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>A minimal Data Resource pointing to some inline data looks as follows.</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;data&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;resource-name-data&quot;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">{</span><span class="s2">&quot;a&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+<p>A comprehensive Data Resource example with all required, recommended and optional properties looks as follows.</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;solar-system&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;http://example.com/solar-system.csv&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;title&quot;</span><span class="o">:</span> <span class="s2">&quot;The Solar System&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;description&quot;</span><span class="o">:</span> <span class="s2">&quot;My favourite data about the solar system.&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;format&quot;</span><span class="o">:</span> <span class="s2">&quot;csv&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;mediatype&quot;</span><span class="o">:</span> <span class="s2">&quot;text/csv&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;encoding&quot;</span><span class="o">:</span> <span class="s2">&quot;utf-8&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;bytes&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="s2">&quot;hash&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;schema&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;sources&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;licenses&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<h2 id="descriptor">Descriptor</h2><p>A Data Resource descriptor MUST be a valid JSON <code>object</code>. (JSON is defined in <a href="http://www.ietf.org/rfc/rfc4627.txt">RFC 4627</a>).</p>
+<p>Key properties of the descriptor are described below. A descriptor MAY include any number of properties in additional to those described below as required and optional properties.</p>
+<h2 id="data-location">Data Location</h2><p>A resource MUST contain a property describing the location of the
+data associated to the resource. The location of resource data MUST be
+specified by the presence of one (and only one) of these two properties:</p>
+<ul>
+<li><code>path</code>: for data in files located online or locally on disk.</li>
+<li><code>data</code>: for data inline in the descriptor itself.</li>
+</ul>
+<h3 id="path-data-in-files"><code>path</code> Data in Files</h3><p><code>path</code> MUST be a string -- or an array of strings (see "Data in Multiple
+Files"). Each string MUST be a "url-or-path" as defined in the next section.</p>
+<h4 id="url-or-path">URL or Path</h4><p>A "url-or-path" is a <code>string</code> with the following additional constraints:</p>
+<ul>
+<li><code>MUST</code> either be a URL or a POSIX path</li>
+<li><a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">URLs</a> MUST be fully qualified. MUST be using either http or https scheme. (Absence of a scheme indicates <code>MUST</code> be a POSIX path)</li>
+<li><a href="https://en.wikipedia.org/wiki/Path_%28computing%29#POSIX_pathname_definition">POSIX paths</a> (unix-style with <code>/</code> as separator) are supported for referencing local files, with the security restraint that they <code>MUST</code> be relative siblings or children of the descriptor. Absolute paths (/) and relative parent paths (../) MUST NOT be used, and implementations SHOULD NOT support these path types.</li>
+</ul>
+<p>Examples:</p>
+<pre><code># fully qualified url
+"path": "http://ex.datapackages.org/big-csv/my-big.csv"
+
+# relative path
+# note: this will work both as a relative path on disk and on online
+"path": "my-data-directory/my-csv.csv"
+</code></pre>
+<div class="alert alert-warning security" markdown="block">
+SECURITY:  `/` (absolute path) and `../` (relative parent path) are forbidden to
+avoid security vulnerabilities when implementing data package tools. These
+limitations on resource `path` ensure that resource paths only point to files
+within the data package directory and its subdirectories. This prevents
+data package tools being exploited by a malicious user to gain unintended
+access to sensitive information.
+
+For example, suppose a data package hosting service stores packages on disk and
+allows access via an API. A malicious user uploads a data package with a
+resource path like `/etc/passwd`.  The user then requests the data for that
+resource and the server naively opens `/etc/passwd` and returns that data to
+the caller.
+</div><div class="alert alert-info implementor" markdown="block">
+IMPLEMENTOR: prior to release 1.0.0-beta.18 (Nov 17 2016) there was a `url`
+property distinct from `path`. In order to support backwards compatability,
+implementors MAY want to automatically convert a `url` property to a `path`
+property and issue a warning.
+</div><h4 id="data-in-multiple-files">Data in Multiple Files</h4><p>Usually, a resource will have only a single file associated to it. However,
+sometimes it may be convenient to have a single resource whose data is split
+across multiple files -- perhaps the data is large and having it in one file
+would be inconvenient.</p>
+<p>To support this use case the <code>path</code> property MAY be an array of strings rather
+than a single string:</p>
+<pre><code>"path": [ "myfile1.csv", "myfile2.csv" ]
+</code></pre>
+<p>It is NOT permitted to mix fully qualified URLs and relative paths in a <code>path</code>
+array: strings MUST either all be relative paths or all URLs.</p>
+<div class="alert implementor" markdown="block">
+NOTE: all files in the array MUST be similar in terms of structure, format etc.
+Implementors MUST be able to concatenate together the files in the simplest way
+and treat the result as one large file. For tabular data there is the issue of
+header rows. See the [Tabular Data Package spec][tdp] for more on this.
+</div><h3 id="data-inline-data"><code>data</code> Inline Data</h3><p>Resource data rather than being stored in external files can be shipped
+'inline' on a Resource using the <code>data</code> property.</p>
+<p>The value of the data property  can be any type of data. However, restrictions
+of JSON require that the value be a string so for binary data you will need to
+encode (e.g. to Base64). Information on the type and encoding of the value of
+the data property SHOULD be provided by the format (or mediatype) property
+and the encoding property.</p>
+<p>Specifically: the value of the data property MUST be:</p>
+<ul>
+<li>EITHER: a JSON array or object - the data is then assumed to be JSON data and SHOULD be processed as such</li>
+<li>OR: a JSON string - in this case the format or mediatype properties MUST be provided.</li>
+</ul>
+<p>Thus, a consumer of resource object MAY assume if no format or mediatype
+property is provided that the data is JSON and attempt to process it as such.</p>
+<p>Examples 1 - inline JSON:</p>
+<pre><code>{
+   ...
+   "resources": [
+     {
+        "format": "json",
+        # some json data e.g.
+        "data": [
+           { "a": 1, "b": 2 },
+           { .... }
+        ]
+     }
+   ]
+}
+</code></pre>
+<p>Example 2 - inline CSV:</p>
+<pre><code>{
+   ...
+   "resources": [
+     {
+        "format": "csv",
+        "data": "A,B,C\n1,2,3\n4,5,6"
+     }
+   ]
+}
+</code></pre>
+<h2 id="metadata-properties">Metadata Properties</h2><h3 id="required-properties">Required Properties</h3><p>A descriptor MUST contain the following properties:</p>
+<h4 id="name"><code>name</code></h4><p>A resource MUST contain a <code>name</code> property. The name is a simple name or
+  identifier to be used for this resource.</p>
+<ul>
+<li>If present, the name MUST be unique amongst all resources in this data
+package.</li>
+<li>It MUST consist only of lowercase alphanumeric characters plus ".", "-" and "_".</li>
+<li>It would be usual for the name to correspond to the file name (minus the
+extension) of the data file the resource describes.</li>
+</ul>
+<h3 id="recommended-properties">Recommended Properties</h3><h4 id="profile"><code>profile</code></h4><p>A string identifying the <a href="../../profiles/">profile</a> of this descriptor as per the <a href="../../profiles/">profiles</a> specification.</p>
+<p>Examples:</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;profile&quot;</span><span class="o">:</span> <span class="s2">&quot;tabular-data-resource&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<pre><code>{
+  "profile": "http://example.com/my-profiles-json-schema.json"
+}
+</code></pre>
+<h3 id="optional-properties">Optional Properties</h3><p>A descriptor MAY contain any number of additional properties. Common properties include:</p>
+<ul>
+<li><code>title</code>: a title or label for the resource.</li>
+<li><code>description</code>: a description of the resource.</li>
+<li><code>format</code>: 'csv', 'xls', 'json' etc. Would be expected to be the standard file
+extension for this type of resource.</li>
+<li><code>mediatype</code>: the mediatype/mimetype of the resource e.g. 'text/csv', 'application/vnd.ms-excel'</li>
+<li><code>encoding</code>: specify the character encoding of the resource's data file. The values should be one of
+the "Preferred MIME Names" for <a href="http://www.iana.org/assignments/character-sets/character-sets.xhtml">a character encoding registered with IANA</a>. If no
+value for this key is specified then the default is UTF-8.</li>
+<li><code>bytes</code>: size of the file in bytes</li>
+<li><p><code>hash</code>: the MD5 hash for this resource. Other algorithms can be indicated by prefixing
+the hash's value with the algorithm name in lower-case. For example:</p>
+<pre><code>"hash": "sha1:8843d7f92416211de9ebb963ff4ce28125932878"
+</code></pre>
+</li>
+<li><p><code>sources</code>: as for <a href="../../data-package/">Data Package metadata</a>.</p>
+</li>
+<li><code>licenses</code>: as for <a href="../../data-package/">Data Package metadata</a>. If not specified the resource
+inherits from the data package.</li>
+</ul>
+<h2 id="resource-schemas">Resource Schemas</h2><p>A Data Resource MAY have a <code>schema</code> property to describe the schema of the resource data.</p>
+<p>The value for the <code>schema</code> property on a <code>resource</code> MUST be an <code>object</code> representing the schema OR a <code>string</code> that identifies the location of the schema.</p>
+<p>If a <code>string</code> it must be a <a href="../../specs/data-resource/#url-or-path">url-or-path as defined above</a>, that is a fully qualified http URL or a relative POSIX path. The file at the the location specified by this url-or-path string <code>MUST</code> be a JSON document containing the schema.</p>
+<div class="alert alert-info" markdown="block">
+NOTE: the Data Package specification places no restrictions on the form of the schema
+Object. This flexibility enables specific communities to define schemas
+appropriate for the data they manage. As an example, the <a href="/tabular-data-package/">Tabular Data Package</a> specification requires the schema to conform to <a href="/table-schema/">Table Schema</a>.
+</div>
+
+      <h2>Changelog</h2>
+<p>
+  See the <a href="../../specs/changelog/">Changelog</a> for information.
+</p>
+      
+<h2>Implementations</h2>
+<p>The following implementations are available for data-resource:</p>
+<ul>
+  
+  <li><a href="https://github.com/frictionlessdata/datapackage-py">Python</a></li>
+  
+  <li><a href="https://github.com/frictionlessdata/datapackage-js">JavaScript</a></li>
+  
+</ul>
+<p>See the <a href="../../specs/implementation/">implementation</a> page for further information on writing an implementation of a Frictionless Data specification.</p>
 
     </article>
   </div>
