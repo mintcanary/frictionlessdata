@@ -246,187 +246,183 @@
     </li>
     
     
-    <li>
+    <li class="active">
       <a href="../../specs/table-schema/">Table Schema</a>
+
       <ul>
-        <li class="active">
-          <a href="../../specs/table-schema/#meta">Meta</a>
-        </li>
+      
         <li>
-          <a href="../../specs/table-schema/#language">Language</a>
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#introduction">Introduction</a>
+          <a href="#introduction">Introduction</a>
           
         </li>
-        
+      
         <li>
-          <a href="../../specs/table-schema/#concepts">Concepts</a>
+          <a href="#concepts">Concepts</a>
           
           <ul>
         <li>
-          <a href="../../specs/table-schema/#tabular-data">Tabular data</a>
+          <a href="#tabular-data">Tabular data</a>
           
           <ul>
         <li>
-          <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
+          <a href="#physical-and-logical-representation">Physical and logical representation</a>
           
         </li>
-        </ul>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#descriptor">Descriptor</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#name"><code>name</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#title"><code>title</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#description"><code>description</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#string">string</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#number">number</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#integer">integer</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#boolean">boolean</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#object">object</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#array">array</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#date">date</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#time">time</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#datetime">datetime</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#year">year</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#duration">duration</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#geopoint">geopoint</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#geojson">geojson</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#any">any</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#rich-types">Rich Types</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#constraints">Constraints</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#other-properties">Other Properties</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#missing-values">Missing Values</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#primary-key">Primary Key</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
-          
-        </li>
-        
       </ul>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#descriptor">Descriptor</a>
+          
+        </li>
+      
+        <li>
+          <a href="#field-descriptors">Field Descriptors</a>
+          
+          <ul>
+        <li>
+          <a href="#name"><code>name</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#title"><code>title</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#description"><code>description</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#types-and-formats">Types and Formats</a>
+          
+          <ul>
+        <li>
+          <a href="#string">string</a>
+          
+        </li>
+      
+        <li>
+          <a href="#number">number</a>
+          
+        </li>
+      
+        <li>
+          <a href="#integer">integer</a>
+          
+        </li>
+      
+        <li>
+          <a href="#boolean">boolean</a>
+          
+        </li>
+      
+        <li>
+          <a href="#object">object</a>
+          
+        </li>
+      
+        <li>
+          <a href="#array">array</a>
+          
+        </li>
+      
+        <li>
+          <a href="#date">date</a>
+          
+        </li>
+      
+        <li>
+          <a href="#time">time</a>
+          
+        </li>
+      
+        <li>
+          <a href="#datetime">datetime</a>
+          
+        </li>
+      
+        <li>
+          <a href="#year">year</a>
+          
+        </li>
+      
+        <li>
+          <a href="#yearmonth">yearmonth</a>
+          
+        </li>
+      
+        <li>
+          <a href="#duration">duration</a>
+          
+        </li>
+      
+        <li>
+          <a href="#geopoint">geopoint</a>
+          
+        </li>
+      
+        <li>
+          <a href="#geojson">geojson</a>
+          
+        </li>
+      
+        <li>
+          <a href="#any">any</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#rich-types">Rich Types</a>
+          
+        </li>
+      
+        <li>
+          <a href="#constraints">Constraints</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#other-properties">Other Properties</a>
+          
+          <ul>
+        <li>
+          <a href="#missing-values">Missing Values</a>
+          
+        </li>
+      
+        <li>
+          <a href="#primary-key">Primary Key</a>
+          
+        </li>
+      
+        <li>
+          <a href="#foreign-keys">Foreign Keys</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#appendix:-related-work">Appendix: Related Work</a>
+          
+        </li>
+      
+      </ul>
+
     </li>
     
     
@@ -694,187 +690,183 @@
     </li>
     
     
-    <li>
+    <li class="active">
       <a href="../../specs/table-schema/">Table Schema</a>
+
       <ul>
-        <li class="active">
-          <a href="../../specs/table-schema/#meta">Meta</a>
-        </li>
+      
         <li>
-          <a href="../../specs/table-schema/#language">Language</a>
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#introduction">Introduction</a>
+          <a href="#introduction">Introduction</a>
           
         </li>
-        
+      
         <li>
-          <a href="../../specs/table-schema/#concepts">Concepts</a>
+          <a href="#concepts">Concepts</a>
           
           <ul>
         <li>
-          <a href="../../specs/table-schema/#tabular-data">Tabular data</a>
+          <a href="#tabular-data">Tabular data</a>
           
           <ul>
         <li>
-          <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
+          <a href="#physical-and-logical-representation">Physical and logical representation</a>
           
         </li>
-        </ul>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#descriptor">Descriptor</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#name"><code>name</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#title"><code>title</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#description"><code>description</code></a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#string">string</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#number">number</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#integer">integer</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#boolean">boolean</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#object">object</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#array">array</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#date">date</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#time">time</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#datetime">datetime</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#year">year</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#duration">duration</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#geopoint">geopoint</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#geojson">geojson</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#any">any</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#rich-types">Rich Types</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#constraints">Constraints</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#other-properties">Other Properties</a>
-          
-          <ul>
-        <li>
-          <a href="../../specs/table-schema/#missing-values">Missing Values</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#primary-key">Primary Key</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
-          
-        </li>
-        </ul>
-          
-        </li>
-        
-        <li>
-          <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
-          
-        </li>
-        
       </ul>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#descriptor">Descriptor</a>
+          
+        </li>
+      
+        <li>
+          <a href="#field-descriptors">Field Descriptors</a>
+          
+          <ul>
+        <li>
+          <a href="#name"><code>name</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#title"><code>title</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#description"><code>description</code></a>
+          
+        </li>
+      
+        <li>
+          <a href="#types-and-formats">Types and Formats</a>
+          
+          <ul>
+        <li>
+          <a href="#string">string</a>
+          
+        </li>
+      
+        <li>
+          <a href="#number">number</a>
+          
+        </li>
+      
+        <li>
+          <a href="#integer">integer</a>
+          
+        </li>
+      
+        <li>
+          <a href="#boolean">boolean</a>
+          
+        </li>
+      
+        <li>
+          <a href="#object">object</a>
+          
+        </li>
+      
+        <li>
+          <a href="#array">array</a>
+          
+        </li>
+      
+        <li>
+          <a href="#date">date</a>
+          
+        </li>
+      
+        <li>
+          <a href="#time">time</a>
+          
+        </li>
+      
+        <li>
+          <a href="#datetime">datetime</a>
+          
+        </li>
+      
+        <li>
+          <a href="#year">year</a>
+          
+        </li>
+      
+        <li>
+          <a href="#yearmonth">yearmonth</a>
+          
+        </li>
+      
+        <li>
+          <a href="#duration">duration</a>
+          
+        </li>
+      
+        <li>
+          <a href="#geopoint">geopoint</a>
+          
+        </li>
+      
+        <li>
+          <a href="#geojson">geojson</a>
+          
+        </li>
+      
+        <li>
+          <a href="#any">any</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#rich-types">Rich Types</a>
+          
+        </li>
+      
+        <li>
+          <a href="#constraints">Constraints</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#other-properties">Other Properties</a>
+          
+          <ul>
+        <li>
+          <a href="#missing-values">Missing Values</a>
+          
+        </li>
+      
+        <li>
+          <a href="#primary-key">Primary Key</a>
+          
+        </li>
+      
+        <li>
+          <a href="#foreign-keys">Foreign Keys</a>
+          
+        </li>
+      </ul>
+          
+        </li>
+      
+        <li>
+          <a href="#appendix:-related-work">Appendix: Related Work</a>
+          
+        </li>
+      
+      </ul>
+
     </li>
     
     
@@ -975,7 +967,7 @@
           
         </table>
       </div>
-      <h3 id="language">Language</h3>
+      <h3>Language</h3>
       <p>The key words <code>MUST</code>, <code>MUST NOT</code>, <code>REQUIRED</code>, <code>SHALL</code>, <code>SHALL NOT</code>, <code>SHOULD</code>, <code>SHOULD NOT</code>, <code>RECOMMENDED</code>, <code>MAY</code>, and <code>OPTIONAL</code> in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt" title="RFC 2119">RFC 2119</a>.</p>
 
 

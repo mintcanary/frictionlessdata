@@ -244,8 +244,187 @@
     </li>
     
     
-    <li class="">
+    <li>
       <a href="./specs/table-schema/">Table Schema</a>
+      <ul>
+        <li class="">
+          <a href="./specs/table-schema/#meta">Meta</a>
+        </li>
+        <li>
+          <a href="./specs/table-schema/#language">Language</a>
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#introduction">Introduction</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#concepts">Concepts</a>
+          
+          <ul>
+        <li>
+          <a href="./specs/table-schema/#tabular-data">Tabular data</a>
+          
+          <ul>
+        <li>
+          <a href="./specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#descriptor">Descriptor</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#field-descriptors">Field Descriptors</a>
+          
+          <ul>
+        <li>
+          <a href="./specs/table-schema/#name"><code>name</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#title"><code>title</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#description"><code>description</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#types-and-formats">Types and Formats</a>
+          
+          <ul>
+        <li>
+          <a href="./specs/table-schema/#string">string</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#number">number</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#integer">integer</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#boolean">boolean</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#object">object</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#array">array</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#date">date</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#time">time</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#datetime">datetime</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#year">year</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#yearmonth">yearmonth</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#duration">duration</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#geopoint">geopoint</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#geojson">geojson</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#any">any</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#rich-types">Rich Types</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#constraints">Constraints</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#other-properties">Other Properties</a>
+          
+          <ul>
+        <li>
+          <a href="./specs/table-schema/#missing-values">Missing Values</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#primary-key">Primary Key</a>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#foreign-keys">Foreign Keys</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="./specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
+          
+        </li>
+        
+      </ul>
     </li>
     
     
@@ -400,11 +579,9 @@
           <p>Informed by our work building and deploying <a href="http://ckan.org/">CKAN</a> and learning about various data publication workflows, we have learned that there is too much friction in working with data.  The frictions we seek to remove---in getting, sharing, and validating data---stop people from truly benefiting from the wealth of data being opened up every day.  This kills the cycle of <em>find/improve/share</em> that makes for a dynamic and productive data ecosystem.</p>
 <p>We provide a simple wrapper and basic structure for transportation of data that significantly reduces the friction in data sharing and integration, supports automation and does this without imposing major changes on the underlying data being packaged.  We focus on <a href="./guides/tabular-data-package/">tabular data</a> but any kind of data can be "packaged". Its lightweight and simple nature it is easy to adopt both for data publishers, data users and data tool makers.</p>
 <p>We have been working on these and similar issues for nearly a decade, and we think that the time is right for <em>frictionless data</em>.  <a href="./{{ site.baseurl }}/get-involved/">Help us get there</a>.</p>
-<h3>Data "Containerization"</h3>
-<p>We see our approach as analogous to standardization efforts in the transport of physical goods.  Historically, loading goods on a cargo ship was <em>slow, manual, and expensive</em>.  The solution to these issues came in the form of <a href="https://en.wikipedia.org/wiki/Containerization">containerization</a>, the development of several ISO specifications specifying the dimensions of containers used in global shipping.  Containerization dramatically reduced the cost and time required for transporting goods by enabling the automation of several elements of the transport pipeline.</p>
+<h3 id="data-containerization">Data "Containerization"</h3><p>We see our approach as analogous to standardization efforts in the transport of physical goods.  Historically, loading goods on a cargo ship was <em>slow, manual, and expensive</em>.  The solution to these issues came in the form of <a href="https://en.wikipedia.org/wiki/Containerization">containerization</a>, the development of several ISO specifications specifying the dimensions of containers used in global shipping.  Containerization dramatically reduced the cost and time required for transporting goods by enabling the automation of several elements of the transport pipeline.</p>
 <p>We currently consider transporting data between and among tools to be comparable to shipping physical goods in the pre-containerization era.  Currently, before you can properly begin an analysis of your data or build a data-intensive app, you have to extract, clean, and prepare your data: procedures that are often <em>slow, manual, and expensive</em>.  Radical improvements in data <em>logistics</em>---through specialisation and standardisation---can get us to world where we spend less time sorting through and cleaning data and more time creating useful <strong>insight</strong>.</p>
-<h3>Principles</h3>
-<p><strong>1. Focused</strong>: Focus on one part of the data chain, one specific feature (e.g. packaging), and a few specific types of data (e.g. tabular).</p>
+<h3 id="principles">Principles</h3><p><strong>1. Focused</strong>: Focus on one part of the data chain, one specific feature (e.g. packaging), and a few specific types of data (e.g. tabular).</p>
 <p><strong>2. Web-oriented</strong>: Build for the web using formats that work naturally with HTTP such as JSON, a common data exchange format for web APIs, and <a href="./guides/csv/">CSV</a>, which is easily streamable.</p>
 <p><strong>3. Distributed</strong>: Design for a distributed ecosystem with no centralized, single point of failure or dependence.</p>
 <p><strong>4. Open</strong>: Make things that anyone can freely and openly use and reuse with a community that is open to everyone.</p>

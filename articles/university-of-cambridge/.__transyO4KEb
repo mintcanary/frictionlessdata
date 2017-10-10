@@ -60,16 +60,85 @@
      </li>
 
      
-     <li class="">
+     <li>
        <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#review">Review</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#next-steps">Next Steps</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="active">
+     <li>
        <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+
+       <ul>
+         <li class="active">
+           <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#review">Review</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#next-steps">Next Steps</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#find-out-more">Find Out More</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#review">Review</a>
+         </li>
+         
+       </ul>
      </li>
      
      
@@ -81,40 +150,335 @@
      </li>
 
      
-     <li class="">
+     <li>
        <a href="../../articles/zegami/">Zegami</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/zegami/">Zegami</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/the-data-retriever/">The Data Retriever</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/the-data-retriever/">The Data Retriever</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-do-these-specs-compare-to-others?">How do these specs compare to others?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#are-you-looking-for-more-contributors?-if-so-how-can-they-start?">Are you looking for more contributors?  If so, how can they start?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-do-these-specs-compare-to-others?">How do these specs compare to others?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/dataworld/">data.world</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/dataworld/">data.world</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#how-do-you-use-the-specs-and-what-advantages-did-you-find-in-using-the-data-package-approach?">How do you use the specs and what advantages did you find in using the Data Package approach?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#how-do-the-frictionless-data-specifications-compare-to-existing-proprietary-and-nonproprietary-specifications-for-the-kind-of-data-you-work-with?">How do the Frictionless Data specifications compare to existing proprietary and nonproprietary specifications for the kind of data you work with?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#who-else-do-you-think-we-should-speak-to?">Who else do you think we should speak to?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-should-the-reader-do-after-reading-this-case-study?">What should the reader do after reading this Case Study?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/john-snow-labs/">John Snow Labs</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/john-snow-labs/">John Snow Labs</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-does-john-snow-labs-do?">What does John Snow Labs do?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#how-are-you-working-with-the-specs?">How are you working with the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#how-did-you-hear-about-frictionless-data?">How did you hear about Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/dataship/">Dataship</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/dataship/">Dataship</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-is-dataship?">What is Dataship?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#how-are-you-working-with-the-specs?">How are you working with the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/open-power-system-data/">Open Power System Data</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/open-power-system-data/">Open Power System Data</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-is-the-open-power-system-data?">What is the Open Power System Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-is-the-data-processing-workflow?">What is the Data Processing workflow?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/tesera/">Tesera</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/tesera/">Tesera</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-is-tesera?">What is Tesera?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-are-the-next-things-you-are-going-to-be-working-on?">What are the next things you are going to be working on?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#projects">Projects</a>
+         </li>
+         
+       </ul>
      </li>
      
      
@@ -248,6 +612,7 @@
     
     <li>
       <a href="../../specs/table-schema/">Table Schema</a>
+
       <ul>
         <li class="">
           <a href="../../specs/table-schema/#meta">Meta</a>
@@ -255,12 +620,12 @@
         <li>
           <a href="../../specs/table-schema/#language">Language</a>
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#introduction">Introduction</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#concepts">Concepts</a>
           
@@ -273,18 +638,18 @@
           <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#descriptor">Descriptor</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
           
@@ -293,17 +658,17 @@
           <a href="../../specs/table-schema/#name"><code>name</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#title"><code>title</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#description"><code>description</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
           
@@ -312,93 +677,93 @@
           <a href="../../specs/table-schema/#string">string</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#number">number</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#integer">integer</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#boolean">boolean</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#object">object</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#array">array</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#date">date</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#time">time</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#datetime">datetime</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#year">year</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#duration">duration</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#geopoint">geopoint</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#geojson">geojson</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#any">any</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#rich-types">Rich Types</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#constraints">Constraints</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#other-properties">Other Properties</a>
           
@@ -407,26 +772,27 @@
           <a href="../../specs/table-schema/#missing-values">Missing Values</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#primary-key">Primary Key</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
           
         </li>
-        
+      
       </ul>
+
     </li>
     
     
@@ -532,16 +898,85 @@
      </li>
 
      
-     <li class="">
+     <li>
        <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#review">Review</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/causa-natura-pescando-datos/#next-steps">Next Steps</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="active">
+     <li>
        <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+
+       <ul>
+         <li class="active">
+           <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#review">Review</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#next-steps">Next Steps</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/university-of-cambridge/#find-out-more">Find Out More</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#context">Context</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#the-work">The Work</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/#review">Review</a>
+         </li>
+         
+       </ul>
      </li>
      
      
@@ -553,40 +988,335 @@
      </li>
 
      
-     <li class="">
+     <li>
        <a href="../../articles/zegami/">Zegami</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/zegami/">Zegami</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/#who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/the-data-retriever/">The Data Retriever</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/the-data-retriever/">The Data Retriever</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#how-do-these-specs-compare-to-others?">How do these specs compare to others?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/the-data-retriever/#are-you-looking-for-more-contributors?-if-so-how-can-they-start?">Are you looking for more contributors?  If so, how can they start?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-is-the-project?">What is the project?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#how-do-these-specs-compare-to-others?">How do these specs compare to others?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/cmso/#who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/dataworld/">data.world</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/dataworld/">data.world</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#how-do-you-use-the-specs-and-what-advantages-did-you-find-in-using-the-data-package-approach?">How do you use the specs and what advantages did you find in using the Data Package approach?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#how-do-the-frictionless-data-specifications-compare-to-existing-proprietary-and-nonproprietary-specifications-for-the-kind-of-data-you-work-with?">How do the Frictionless Data specifications compare to existing proprietary and nonproprietary specifications for the kind of data you work with?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#who-else-do-you-think-we-should-speak-to?">Who else do you think we should speak to?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataworld/#what-should-the-reader-do-after-reading-this-case-study?">What should the reader do after reading this Case Study?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/john-snow-labs/">John Snow Labs</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/john-snow-labs/">John Snow Labs</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-does-john-snow-labs-do?">What does John Snow Labs do?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#how-are-you-working-with-the-specs?">How are you working with the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#how-did-you-hear-about-frictionless-data?">How did you hear about Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/john-snow-labs/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/dataship/">Dataship</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/dataship/">Dataship</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-is-dataship?">What is Dataship?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#how-are-you-working-with-the-specs?">How are you working with the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/dataship/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/open-power-system-data/">Open Power System Data</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/open-power-system-data/">Open Power System Data</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-is-the-open-power-system-data?">What is the Open Power System Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-is-the-data-processing-workflow?">What is the Data Processing workflow?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/open-power-system-data/#what-are-the-next-things-you-are-going-to-be-working-on-yourself?">What are the next things you are going to be working on yourself?</a>
+         </li>
+         
+       </ul>
      </li>
      
-     <li class="">
+     <li>
        <a href="../../articles/tesera/">Tesera</a>
+
+       <ul>
+         <li class="">
+           <a href="../../articles/tesera/">Tesera</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-is-tesera?">What is Tesera?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#how-do-you-use-the-specs?">How do you use the specs?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-else-would-you-like-to-see-developed?">What else would you like to see developed?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-are-the-next-things-you-are-going-to-be-working-on?">What are the next things you are going to be working on?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</a>
+         </li>
+         
+         <li>
+           <a href="../../articles/tesera/#projects">Projects</a>
+         </li>
+         
+       </ul>
      </li>
      
      
@@ -720,6 +1450,7 @@
     
     <li>
       <a href="../../specs/table-schema/">Table Schema</a>
+
       <ul>
         <li class="">
           <a href="../../specs/table-schema/#meta">Meta</a>
@@ -727,12 +1458,12 @@
         <li>
           <a href="../../specs/table-schema/#language">Language</a>
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#introduction">Introduction</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#concepts">Concepts</a>
           
@@ -745,18 +1476,18 @@
           <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#descriptor">Descriptor</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
           
@@ -765,17 +1496,17 @@
           <a href="../../specs/table-schema/#name"><code>name</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#title"><code>title</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#description"><code>description</code></a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
           
@@ -784,93 +1515,93 @@
           <a href="../../specs/table-schema/#string">string</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#number">number</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#integer">integer</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#boolean">boolean</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#object">object</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#array">array</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#date">date</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#time">time</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#datetime">datetime</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#year">year</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#duration">duration</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#geopoint">geopoint</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#geojson">geojson</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#any">any</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#rich-types">Rich Types</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#constraints">Constraints</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#other-properties">Other Properties</a>
           
@@ -879,26 +1610,27 @@
           <a href="../../specs/table-schema/#missing-values">Missing Values</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#primary-key">Primary Key</a>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
           
         </li>
-        </ul>
+      </ul>
           
         </li>
-        
+      
         <li>
           <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
           
         </li>
-        
+      
       </ul>
+
     </li>
     
     
