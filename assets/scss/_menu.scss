@@ -36,10 +36,16 @@ $mm_textColor: rgba($body-color, 0.9);
   font-family: $font-family-sans-serif;
 
   .mm-selected,
+  .active,
   .active-parent {
     a:not(.mm-next) {
       border-left: solid 5px theme-color("primary");
       padding-left: ($mm_listitemIndent - 5px);
+    }
+  }
+  .active-parent {
+    a:not(.mm-next) {
+      border-left-color: $mm_borderColor;
     }
   }
 

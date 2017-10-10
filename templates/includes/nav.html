@@ -7,7 +7,7 @@
  {% for href, title in bag('sections').iteritems() %}
 
  {% if href == '/articles' %}
- <li class="{% if this._path == href %}active{% endif %}">
+ <li class="{% if this._path == href %}active{% endif %} {% if this._path.startswith(href) %}active-parent{% endif %}">
    <a href="{{ href|url }}">
      {{ title }}
    </a>
@@ -37,7 +37,7 @@
 </li>
 
 {% elif href == '/guides' %}
-<li class="{% if this._path == href %}active{% endif %}">
+<li class="{% if this._path == href %}active{% endif %} {% if this._path.startswith(href) %}active-parent{% endif %}">
   <a href="{{ href|url }}">
     {{ title }}
   </a>
@@ -73,7 +73,7 @@
 </li>
 
 {% elif href == '/specs' %}
-<li>
+<li class="{% if this._path.startswith(href) %}active-parent{% endif %}">
   <a href="{{ href|url }}">
     {{ title }}
   </a>
