@@ -22,8 +22,7 @@ Use fenced blocks like so:
     print "Hello World!"
     ```
 
-
-### Notes / alerts
+### Notes / warnings
 
 Prefix your paragraph with exclamation marks:
 
