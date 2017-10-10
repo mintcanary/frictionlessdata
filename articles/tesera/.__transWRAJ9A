@@ -5,7 +5,7 @@
 <link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="../../css/style.css">
-<title>Zegami</title>
+<title>Tesera</title>
 <body class="article-template">
   <div class="wrapper">
     <header class="site-header">
@@ -81,7 +81,7 @@
      </li>
 
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
@@ -113,7 +113,7 @@
        <a href="../../articles/open-power-system-data/">Open Power System Data</a>
      </li>
      
-     <li class="">
+     <li class="active">
        <a href="../../articles/tesera/">Tesera</a>
      </li>
      
@@ -653,11 +653,12 @@
 
 <div class="banner">
   <div class="container">
-    <h1>Zegami</h1>
+    
+    <h1>Tesera</h1>
     
     
     <span class="author">
-      An interview with Roger Noble and Andrew Stretton
+      An interview with Spencer Cox
     </span>
     
   </div>
@@ -712,7 +713,7 @@
      </li>
 
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
@@ -744,7 +745,7 @@
        <a href="../../articles/open-power-system-data/">Open Power System Data</a>
      </li>
      
-     <li class="">
+     <li class="active">
        <a href="../../articles/tesera/">Tesera</a>
      </li>
      
@@ -1295,50 +1296,271 @@
       
       
       
-
-      
-
-      <p><a href="https://www.zegami.com">Zegami</a> makes information more visual and accessible, enabling intuitive exploration, search and discovery of large data sets. Zegami combines the power of machine learning and human pattern recognition to reveal hidden insights and new perspectives.</p>
-<p><img src="../../img/case-studies/zegami-2.gif" alt="imagesearch"> <em>image search on Zegami</em>
+      <h2 id="what-is-tesera?">What is Tesera?</h2><p>We are an employee-owned company, founded in 1997.  Our focus is
+helping our clients create data-driven applications in the cloud.  We
+also maintain two core product lines in addition to our consulting
+practice.  <a href="http://www.mrat.ca/">MRAT.ca</a> helps municipalities
+identify risk of basement flooding, while
+<a href="http://www.forestinventory.ca/">forestinventory.ca</a> (High Resolution
+Inventory Services) enables forest and natural resource companies to
+access a new level of accuracy and precision in resource inventories
+and carbon measurement.</p>
+<p><a href="http://tesera.com/"><img src="../../img/case-studies/mrathris.png" alt="MRAT + HRIS"></a>
+<em>MRAT.ca and forestinventory.ca</em>
 {: .caption}</p>
-<p>It provides a more powerful tool for visual data than what’s possible with spreadsheets or typical business intelligence tools. By presenting data within a single field of view, Zegami enables users to easily discover patterns and correlations. Facilitating new insights and discoveries that would otherwise not be possible.</p>
-<p><img src="../../img/case-studies/zegami-3.gif" alt="metadatasearch"> <em>metadata search on Zegami</em>
+<h2 id="what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</h2><p>We deal with data from a variety of sources ranging from sample plots
+to in situ sensors. We grab samples and measurements to remotely
+sensed information from LiDAR, colour infrared and others.  Many
+proprietary specifications exist across those data sources, and to
+work around this, we’ve adopted CSV as our universal format.  We use
+Data Packages<sup class="footnote-ref" id="fnref-datapackages"><a href="#fn-datapackages" rel="footnote">1</a></sup>, CSV files, and JSON Table
+Schemas<sup class="footnote-ref" id="fnref-jsontableschema"><a href="#fn-jsontableschema" rel="footnote">2</a></sup> to create database tables, validate data
+schemas and domains, import data from S3<sup class="footnote-ref" id="fnref-amazons3"><a href="#fn-amazons3" rel="footnote">3</a></sup> to PostgreSQL,
+DynamoDB<sup class="footnote-ref" id="fnref-amazondynamodb"><a href="#fn-amazondynamodb" rel="footnote">4</a></sup>, and Elastic<sup class="footnote-ref" id="fnref-elastic"><a href="#fn-elastic" rel="footnote">5</a></sup>.  In some cases we
+also use these standards to move between application components, in
+particular where multiple technologies (Python, R, Javascript, and
+other) are utilized in a workflow.</p>
+<h2 id="how-do-you-use-the-specs?">How do you use the specs?</h2><p>We have adopted the Data Package standard as a simple, elegant way to
+describe and package our CSV data for interoperability between systems
+and components.  We use this in conjunction with the JSON Table Schema
+which enables us to define rules and constraints<sup class="footnote-ref" id="fnref-jtsconstraints"><a href="#fn-jtsconstraints" rel="footnote">6</a></sup> for
+each field in the CSV file.  With this in mind we have set up our
+workflows to essentially connect S3 buckets with analytical processes.
+We have written some simple open-source AWS Lambda<sup class="footnote-ref" id="fnref-amazonlambda"><a href="#fn-amazonlambda" rel="footnote">7</a></sup>
+functions that let us easily invoke validation and sanitization at the
+end of each process on the backend.  We also expose this to the
+frontend of some of our applications so users can work through an
+import/contribution process where they are shown issues with their
+data that must be fixed before they can contribute.  <strong>This helps us
+ensure good interoperable data at a foundational level, thereby making
+it easier to use for analysis, visualization, or modeling without
+extensive ad-hoc quality control.</strong></p>
+<p><img src="../../img/case-studies/mackenzie-8.png" alt="Example of validation error (&quot;not a number&quot;) on import driven by JSON Table Schema metadata">
+<em>Example of validation error ("not a number") on import driven by JSON Table Schema metadata</em>
 {: .caption}</p>
-<p>For Zegami to shine, our users need to be able to easily import their data so they can get actionable insight with minimal fuss. In building an analytics platform we face the unique challenge of having to support a wide variety of data sources and formats. The challenge is compounded by the fact that the data we deal with is rarely clean.</p>
-<p>At the onset, we also faced the challenge of how best to store and transmit data between our components and micro-services. In addition to an open, extensible and simple yet powerful data format, we wanted one that can preserve data types and formatting, and be parsed by all the client applications we use, which includes server-side applications, web clients and visualisation frameworks.</p>
-<p>We first heard about messytables<sup class="footnote-ref" id="fnref-messytables"><a href="#fn-messytables" rel="footnote">1</a></sup> and of the data protocols site (currently Frictionless Data Specifications<sup class="footnote-ref" id="fnref-specs"><a href="#fn-specs" rel="footnote">2</a></sup>) through a lightning talk at EuroSciPy 2015. This meant when we searched for various things around jsontableschema (now tableschema<sup class="footnote-ref" id="fnref-tableschema"><a href="#fn-tableschema" rel="footnote">3</a></sup>), we landed on the Frictionless Data project.</p>
-<p>We are currently using the specifications in the following ways:</p>
-<ul>
-<li>We use tabulator.Stream<sup class="footnote-ref" id="fnref-tabulator"><a href="#fn-tabulator" rel="footnote">4</a></sup> to parse data on our back end.</li>
-<li>We use schema infer from tableschema-py<sup class="footnote-ref" id="fnref-tableschemapy"><a href="#fn-tableschemapy" rel="footnote">5</a></sup> to store an extended json table schema to represent data structures in our system. We are also developing custom json parsers using json paths and the ijson library</li>
-</ul>
-<p>In the coming days, We plan on using</p>
-<ul>
-<li>datapackage-pipelines<sup class="footnote-ref" id="fnref-dpp"><a href="#fn-dpp" rel="footnote">6</a></sup> as a spec for the way we treat joins and multi-step data operations in our system</li>
-<li>tabulator in a polyglot persistence scenario<sup class="footnote-ref" id="fnref-polyglot"><a href="#fn-polyglot" rel="footnote">7</a></sup> - storing data in both storage buckets and either elasticsearch<sup class="footnote-ref" id="fnref-elasticsearch"><a href="#fn-elasticsearch" rel="footnote">8</a></sup> or another column store like <a href="../../articles/zegami/druid.io">druid.io</a>.</li>
-</ul>
-<p><img src="../../img/case-studies/zegami-1.jpg" alt="Diagram"></p>
-<p>Moving forward it would be interesting to see tableschema and tabulator as a communication protocol over websockets. This would allow for a really smooth experience when using handsontable<sup class="footnote-ref" id="fnref-handsontable"><a href="#fn-handsontable" rel="footnote">9</a></sup> spreadsheets with a datapackage of some kind. A socket-to-socket version of datapackage-pipelines which runs on container orchestration systems would also be interesting. There are few protocols similar to datapackage-pipelines, such as Dask<sup class="footnote-ref" id="fnref-dask"><a href="#fn-dask" rel="footnote">10</a></sup> which, although similar, is not serialisable and therefor unsuitable for applications where front end communication is necessary or where the pipelines need to be used by non-coders.</p>
-<p>We are also keen to know more about repositories around the world that use datapackages<sup class="footnote-ref" id="fnref-datapackage"><a href="#fn-datapackage" rel="footnote">11</a></sup> so that we can import the data and show users and owners of those repositories the benefits of browsing and visualising data in Zegami.</p>
-<p>In terms of other potential use cases, it would be useful to create a python-based alternative to the dreamfactory API server<sup class="footnote-ref" id="fnref-dreamfactory"><a href="#fn-dreamfactory" rel="footnote">12</a></sup>. <a href="https://wq.io/">wq.io</a> is one example, but it is quite hard to use and a lighter version would be great. Perhaps CKAN<sup class="footnote-ref" id="fnref-ckan"><a href="#fn-ckan" rel="footnote">13</a></sup> datastore could be licensed in a more open way?</p>
-<p>In terms of the next steps for us, we are currently working on a SaaS implementation of Zegami which will dramatically reduce the effort required in order to start working with Zegami. We are then planning on developing a series of APIs so developers can create their own data transformation pipelines. One of our developers, Andrew Stretton, will be running Frictionless Data sessions at PyData London<sup class="footnote-ref" id="fnref-pydata"><a href="#fn-pydata" rel="footnote">14</a></sup> on Tuesday, October 3 and PyCon UK<sup class="footnote-ref" id="fnref-pyconuk"><a href="#fn-pyconuk" rel="footnote">15</a></sup> on Friday, October 27.</p>
+<h2 id="how-were-you-made-aware-of-frictionless-data?">How were you made aware of Frictionless Data?</h2><p>We discovered Frictionless Data through GitHub by following Max Ogden
+and some of the interesting work he is doing with
+<a href="http://datproject.org/">Dat</a>.  We were looking for simpler, more
+usable alternatives to the “standards” web-services craze of the
+2000s.  We had implemented a large interoperability hub for
+observation data called the
+[Water and Environmental hub (WEHUB)][wehub] which supported various
+<a href="http://www.opengeospatial.org/">OGC</a> standards
+(<a href="http://www.opengeospatial.org/standards/waterml">WaterML</a>,
+<a href="http://www.opengeospatial.org/standards/sos">SOS</a>) which was supposed
+to make important information accessible to many stakeholders, but in
+reality, nobody was using it.  We were looking for a simpler way to
+enable data access and use for developers and downloaders alike.</p>
+<h2 id="what-else-would-you-like-to-see-developed?">What else would you like to see developed?</h2><p>We are especially keen on tooling that enables faster
+interoperability, especially within an AWS environment.  We envision a
+framework of loaders, validators, sanitizers, analyzers, and
+exporters, fundamentally based around Amazon S3, various databases,
+and Lambda or Elastic Container Service<sup class="footnote-ref" id="fnref-amazonec2"><a href="#fn-amazonec2" rel="footnote">8</a></sup> (for larger
+processes).  <strong>Having supported a lot of clients with a lot of
+projects, our goal has been to remove the common grunt work associated
+with data workflows to enable effort to be prioritized towards the use
+and application of the data.</strong></p>
+<p>For instance, every data portal needs a way to import data into the
+system and likely a way to export data from the system.  Depending on
+the complexity of the application and the size of the imports and
+exports, various approaches were utilized which directly leveraged the
+database or relied on various libraries.  <em>The friction required to
+load and begin to make use of the data often consumed a large portion
+of project budgets.</em> By moving towards common methods of import and
+export (as enabled by Data Package and JSON Table Schema and deployed
+to Elastic Container Service and/or Lambda), we’ve been able to
+standardize that aspect of our data applications and not have to
+revisit it.</p>
+<p>As the "Internet of Things" threatens to release yet another round of
+standards for essentially observation data, we hope to keep things
+simple and use what we have for these use cases as well.  Smaller
+imports and exports can readily be executed by Lambda; when they are
+more complex or resource-intensive, Lambda can trigger an ECS task to
+complete the work.</p>
+<h2 id="what-are-the-next-things-you-are-going-to-be-working-on?">What are the next things you are going to be working on?</h2><p>We developed some basic CSV to DynamoDB and ElasticSearch loaders in
+support of a Common Operating Picture toolset for the
+<a href="https://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire">Fort McMurray Wildfires</a>.
+We’d like to clean those up, along with our existing RDS loaders and
+Lambda functions and start moving towards the framework described.  We
+are cleaning up and open sourcing a number of utilities to facilitate
+these workflows with the goal of being able to describe data types in
+CSV files, then automatically map them or input them into a model.
+There may be an opportunity to explicitly identify how spatial feature
+information is carried within a Data Package or JSON Table Schema.</p>
+<h2 id="what-do-you-think-are-some-other-potential-use-cases?">What do you think are some other potential use cases?</h2><p>We are kind of excited about the method and framework itself to have
+almost <a href="https://zapier.com/">Zapier</a>- or
+<a href="https://ifttt.com">IFTTT</a>-like capabilities for CSV data where we can
+rapidly accomplish many common use cases enabling resources to be
+prioritized to the business value.  On the application side, we’ve
+been getting pretty excited about ElasticSearch and Kibana<sup class="footnote-ref" id="fnref-kibana"><a href="#fn-kibana" rel="footnote">9</a></sup>
+and perhaps extending them to bring together more seamless exploration
+of large dynamic geospatial datasets, especially where the data is
+continuous/temporal in nature and existing GIS technology falls pretty
+flat.  This will be important as smart cities and "Internet of Things"
+use cases advance.</p>
+<hr>
+<h2 id="projects">Projects</h2><p><em>This next section will explore two Tesera-developed projects that
+employ the Frictionless Data specifications: the Provincial Growth and
+Yield Initiative Plot Sharing App (PGYI) and Mackenzie DataStream.</em></p>
+<h3 id="provincial-growth-and-yield-initiative-plot-sharing-app">Provincial Growth and Yield Initiative Plot Sharing App</h3><p><a href="http://pgyi.tesera.com/">http://pgyi.tesera.com/</a></p>
+<p><img src="../../img/case-studies/fgrow-report-committed.png" alt="The Provincial Growth and Yield Initiative Plot Sharing App">
+<em>The Provincial Growth and Yield Initiative Plot Sharing App</em>
+{: .caption}</p>
+<h4 id="what-is-the-problem-you-are-trying-to-solve?">What is the problem you are trying to solve?</h4><p>The problem: enabling the 16 government and industrial members of
+<a href="https://fgrow.friresearch.ca/">Forest Growth Organization of Western Canada (FGrOW)</a>
+to seamlessly share forest plot measurement data with each other and
+know that the data will be interoperable and meet their
+specifications.  Specifications were designed primarily with the data
+manager in mind and were formatted as a contribution guidelines
+document.  From this document, the
+<a href="https://github.com/tesera/datatheme-afgo-pgyi">afgo-pgyi</a> "Data
+Theme" was created which contains the Data Package details as well as
+the several JSON Table Schemas required to assemble a dataset.  Having
+access to this large and interoperable dataset will enable their
+members to improve their growth and yield models and respond to
+bioclimatic changes as they occur.</p>
+<h4 id="what-was-your-solution?">What was your solution?</h4><p>We supported FGrOW in creating a set of data standards and then
+created the JSON Table Schemas to enable a validation workflow.  The
+members upload a set of relational CSV files which are packaged up as
+Data Packages, uploaded to S3, and then validated by the Lambda
+Data Package Validator.  The results of this initial validation are
+returned to the user as errors (cannot proceed) or warnings (something
+is wrong but it can be accepted).</p>
+<p><img src="../../img/case-studies/fgrow-import-violations.png" alt="PGYI import violations">
+<em>PGYI import violations</em>
+{: .caption}</p>
+<p>At this stage the data is considered imported.  If there are no errors
+the user is able to stage their dataset which uses the Lambda RDS
+Loader to import the Data Package into an RDS PostGreSQL instance.
+This triggers a number of more sophisticated validation functions
+relating to tree growth rates, measurement impossibilities, and sanity
+checks at the database level.</p>
+<p><img src="../../img/case-studies/fgrow-staging-violations.png" alt="PGYI staging violations">
+<em>PGYI staging violations</em>
+{: .caption}</p>
+<p>Having previously ensured the data meets the JSON Table Schema and was
+loaded successfully, we have confidence in executing custom database
+functions without having to handle endless data anomalies and
+exceptions.  A simple example check to see if species changes between
+measurements can be illustrated below:</p>
+<p>{% highlight postgresql %}
+CREATE OR REPLACE FUNCTION staging.get_upload_trees_species_violations(in_upload_id text)
+RETURNS SETOF staging.violation AS $$</p>
+<p>BEGIN
+   -- RULE 1: tree species should not change over time
+   RETURN QUERY</p>
+<pre><code>   SELECT
+       '0'::text,
+       staged_tree.upload_id,
+
+       staged_tree.source_row_index,
+       'trees'::text,
+       array_to_string(ARRAY[staged_tree.company, staged_tree.company_plot_number, staged_tree.tree_number::text], '-'),
+
+       'trees.species.change'::text,
+       'warning'::text,
+       format('Tree species changed from %s to %s', committed_tree.species, staged_tree.species)
+
+   FROM staging.staged_trees staged_tree
+   INNER JOIN staging.committed_trees committed_tree
+   USING (company, company_plot_number, tree_number)
+
+   WHERE staged_tree.upload_id = in_upload_id
+       AND (staged_tree.species NOTNULL AND staged_tree.species &lt;&gt;'No')
+       AND staged_tree.species != committed_tree.species;
+</code></pre>
+<p>END;
+$$ LANGUAGE plpgsql;
+{% endhighlight %}</p>
+<p>Again the user is presented with violations as errors or warnings and
+can they can choose to commit the plots without errors into the shared
+database.  Essentially this three step workflow from imported, to
+staged, to committed allows FGroW to ensure quality data that will be
+useful for their modeling and analysis purposes.</p>
+<p>FGroW has built a database that currently has 2400 permanent sample
+plots each containing many trees and all together 10s of millions of
+measurements across a wide variety of strata including various natural
+regions and natural sub-regions.  This database provides the numeric
+power to produce and refine better growth models and enable companies
+to adopt their planning and management to real conditions.</p>
+<h4 id="what-other-uses-might-this-project-have?">What other uses might this project have?</h4><p>There are many cases where industries might wish to bring together
+measurement data in a consistent way to maximize their productivity.
+<strong>One of the more obvious examples is in agriculture where precision
+information is increasingly collected at the local or individual farm
+level, but bringing this information together in aggregate would
+produce new and greater insight with regard to productivity, broad
+scale change, and perhaps adaption to climate change strategies.</strong></p>
+<hr>
+<h3 id="mackenzie-datastream">Mackenzie DataStream</h3><p><a href="http://www.mackenziedatastream.org/">http://www.mackenziedatastream.org/</a></p>
+<p><img src="../../img/case-studies/mackenzie-2.png" alt="Mackenzie DataStream App">
+<em>Mackenzie DataStream App</em>
+{: .caption}</p>
+<h4 id="what-is-the-problem-you-are-trying-to-solve?">What is the problem you are trying to solve?</h4><p><a href="http://www.mackenziedatastream.org/">Mackenzie DataStream</a> is an open
+access platform for exploring and sharing water data in the Mackenzie
+River Basin.  DataStream's mission is to promote knowledge sharing and
+advance collaborative and evidence-based decision making throughout
+the Basin.  The Mackenzie River Basin is extremely large, measuring
+1.8 million square kilometers and as such monitoring is a large
+challenge.  To overcome this challenge, water quality monitoring is
+carried out by a variety of partners which include communities and
+Aboriginal, territorial, and federal governments.  With multiple
+parties collecting and sharing information, Mackenzie DataStream had
+to overcome challenges of trust and interoperability.</p>
+<p><img src="../../img/case-studies/mackenzie-6.png" alt="The Mackenzie River Basin">
+<em>The Mackenzie River Basin</em>
+{: .caption}</p>
+<h4 id="what-was-your-solution?">What was your solution?</h4><p>Tesera leveraged the Data Package standard as an easy way for
+Government and community partners alike to import data into the
+system.  We used JSON Table Schema to define the structure and
+constraints of the Data Themes which we represented in a simple
+visible way.</p>
+<p><img src="../../img/case-studies/mackenzie-1.png" alt="Table fields and validation rules derived from JSON Table Schema">
+<em>Table fields and validation rules derived from JSON Table Schema</em>
+{: .caption}</p>
+<p>The backend on this system also relies on the Data Package Validator
+and the Relational Database Loader.  The observation data is then
+exposed to the client via a simple <a href="http://expressjs.com/">Express.js</a>
+API as JSON.  The Frictionless Data standards help us ensure clean
+consistent data and make visualization a breeze.  We push the data to
+<a href="https://plot.ly/">Plotly</a> to build the charts as it provides lots of
+options for scientific plotting, as well as a good api, at a minimal
+cost.</p>
+<p><img src="../../img/case-studies/mackenzie-10.png" alt="Mackenzie DataStream visualization example">
+<em>Mackenzie DataStream visualization example</em>
+{: .caption}</p>
+<p>The Mackenzie DataStream is gaining momentum and partners.  The
+<a href="http://www.fortnelsonfirstnation.org/">Fort Nelson First Nation</a> has
+joined on as a contributing partner and the
+<a href="http://www.gov.nt.ca/">Government of Northwest Territories</a> is
+looking to apply DataStream to a few other datatypes and bringing on
+some addition partners in water permitting and cumulative effects
+monitoring.  We think of this as a simple and effective way to make
+environmental monitoring data more accessible.</p>
+<p><img src="../../img/case-studies/mackenzie-3.png" alt="Mackenzie DataStream environmental observation data">
+<em>Mackenzie DataStream environmental observation data</em>
+{: .caption}</p>
+<h4 id="what-other-uses-might-this-project-have?">What other uses might this project have?</h4><p>There are many ways to monitor the environment, but bringing the data
+together according to standards, ensuring that it is loaded correctly,
+and making it accessible via a simple API seems pretty universal.  We
+are working through a UX/UI overhaul and then hope to open source the
+entire DataStream application for other organizations that are
+collecting environmental observation data and looking to increase its
+utility to citizens, scientists, and consultants alike.</p>
+<p><img src="../../img/case-studies/mackenzie-4.png" alt="Mackenzie DataStream summary statistics">
+<em>Mackenzie DataStream summary statistics</em>
+{: .caption}</p>
+<p>[wehub]: Water and Environmental Hub: <a href="http://watercanada.net/2013/water-and-environmental-hub/">http://watercanada.net/2013/water-and-environmental-hub/</a></p>
 <div class="footnotes">
 <hr>
-<ol><li id="fn-messytables"><p>Tools for parsing messy tabular data: <a href="https://github.com/okfn/messytables">https://github.com/okfn/messytables</a><a href="#fnref-messytables" rev="footnote">&#8617;</a></p></li>
-<li id="fn-specs"><p>Frictionless Data Specifications: <a href="https://specs.frictionlessdata.io/">https://specs.frictionlessdata.io/</a><a href="#fnref-specs" rev="footnote">&#8617;</a></p></li>
-<li id="fn-tableschema"><p>Table Schema: <a href="http://specs.frictionlessdata.io/json-table-schema/">http://specs.frictionlessdata.io/json-table-schema/</a><a href="#fnref-tableschema" rev="footnote">&#8617;</a></p></li>
-<li id="fn-tabulator"><p>Tabulator:  library for reading and writing tabular data <a href="https://github.com/frictionlessdata/tabulator-py">https://github.com/frictionlessdata/tabulator-py</a><a href="#fnref-tabulator" rev="footnote">&#8617;</a></p></li>
-<li id="fn-tableschemapy"><p>Table Schema Python Library: <a href="https://github.com/frictionlessdata/tableschema-py">https://github.com/frictionlessdata/tableschema-py</a><a href="#fnref-tableschemapy" rev="footnote">&#8617;</a></p></li>
-<li id="fn-dpp"><p>Data Package Pipelines: <a href="https://github.com/frictionlessdata/datapackage-pipelines">https://github.com/frictionlessdata/datapackage-pipelines</a><a href="#fnref-dpp" rev="footnote">&#8617;</a></p></li>
-<li id="fn-polyglot"><p>Polyglot Persistence: <a href="https://en.wikipedia.org/wiki/Polyglot_persistence">https://en.wikipedia.org/wiki/Polyglot_persistence</a><a href="#fnref-polyglot" rev="footnote">&#8617;</a></p></li>
-<li id="fn-elasticsearch"><p>Elastic Search: <a href="https://www.elastic.co/products/elasticsearch">https://www.elastic.co/products/elasticsearch</a><a href="#fnref-elasticsearch" rev="footnote">&#8617;</a></p></li>
-<li id="fn-handsontable"><p>Handsontable: Javascript spreadsheet component for web apps: <a href="https://handsontable.com">https://handsontable.com</a><a href="#fnref-handsontable" rev="footnote">&#8617;</a></p></li>
-<li id="fn-dask"><p>Dask Custom Graphs: <a href="http://dask.pydata.org/en/latest/custom-graphs.html">http://dask.pydata.org/en/latest/custom-graphs.html</a><a href="#fnref-dask" rev="footnote">&#8617;</a></p></li>
-<li id="fn-datapackage"><p>Data Packages: <a href="http://frictionlessdata.io/data-packages/">http://frictionlessdata.io/data-packages/</a><a href="#fnref-datapackage" rev="footnote">&#8617;</a></p></li>
-<li id="fn-dreamfactory"><p>Dream Factory: <a href="https://www.dreamfactory.com/">https://www.dreamfactory.com/</a><a href="#fnref-dreamfactory" rev="footnote">&#8617;</a></p></li>
-<li id="fn-ckan"><p>CKAN: Open Source Data Portal Platform: <a href="https://ckan.org">https://ckan.org</a><a href="#fnref-ckan" rev="footnote">&#8617;</a></p></li>
-<li id="fn-pydata"><p>PyData London, October 2017 Meetup: <a href="https://www.meetup.com/PyData-London-Meetup/events/243584161/">https://www.meetup.com/PyData-London-Meetup/events/243584161/</a><a href="#fnref-pydata" rev="footnote">&#8617;</a></p></li>
-<li id="fn-pyconuk"><p>PyCon UK 2017 Schedule: <a href="http://2017.pyconuk.org/schedule/">http://2017.pyconuk.org/schedule/</a><a href="#fnref-pyconuk" rev="footnote">&#8617;</a></p></li>
+<ol><li id="fn-datapackages"><p>Data Packages: <a href="http://specs.frictionlessdata.io/data-packages/">http://specs.frictionlessdata.io/data-packages/</a><a href="#fnref-datapackages" rev="footnote">&#8617;</a></p></li>
+<li id="fn-jsontableschema"><p>JSON Table Schema: <a href="http://specs.frictionlessdata.io/json-table-schema/">http://specs.frictionlessdata.io/json-table-schema/</a><a href="#fnref-jsontableschema" rev="footnote">&#8617;</a></p></li>
+<li id="fn-amazons3"><p>Amazon Simple Storage Service (Amazon S3): <a href="https://aws.amazon.com/s3/">https://aws.amazon.com/s3/</a><a href="#fnref-amazons3" rev="footnote">&#8617;</a></p></li>
+<li id="fn-amazondynamodb"><p>Amazon DynamoDB: <a href="https://aws.amazon.com/dynamodb/">https://aws.amazon.com/dynamodb/</a><a href="#fnref-amazondynamodb" rev="footnote">&#8617;</a></p></li>
+<li id="fn-elastic"><p>Elastic Search: <a href="https://www.elastic.co/products/elasticsearch">https://www.elastic.co/products/elasticsearch</a><a href="#fnref-elastic" rev="footnote">&#8617;</a></p></li>
+<li id="fn-jtsconstraints"><p>JSON Table Schema Field Constraints: <a href="http://specs.frictionlessdata.io/json-table-schema/#field-constraints">http://specs.frictionlessdata.io/json-table-schema/#field-constraints</a><a href="#fnref-jtsconstraints" rev="footnote">&#8617;</a></p></li>
+<li id="fn-amazonlambda"><p>Amazon AWS Lambda: <a href="https://aws.amazon.com/lambda/">https://aws.amazon.com/lambda/</a><a href="#fnref-amazonlambda" rev="footnote">&#8617;</a></p></li>
+<li id="fn-amazonec2"><p>Amazon EC2: Virtual Server Hosting: <a href="https://aws.amazon.com/ec2/">https://aws.amazon.com/ec2/</a><a href="#fnref-amazonec2" rev="footnote">&#8617;</a></p></li>
+<li id="fn-kibana"><p>Kibana: <a href="https://www.elastic.co/products/kibana">https://www.elastic.co/products/kibana</a><a href="#fnref-kibana" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 

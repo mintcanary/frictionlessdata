@@ -2,15 +2,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
-<link rel="icon" href="../../../favicon.ico">
+<link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
-<link rel="stylesheet" href="../../../css/style.css">
-<title>Validating Data</title>
-<body class="guide-category-template">
+<link rel="stylesheet" href="../../css/style.css">
+<title>Daniel Fireman</title>
+<body class="article-template">
   <div class="wrapper">
     <header class="site-header">
       <div class="container">
-        <a class="logo-symbol" href="../../../">
+        <a class="logo-symbol" href="../../">
           <svg><use xlink:href="#icon-f" /></svg>
         </a>
         <a class="logo-type">
@@ -31,22 +31,24 @@
             
             
             
+            
+            
 
-            Home
+            Articles
           </a>
 
           <nav id="main-nav">
             <ul>
  <li>
-   <a class="" href="../../../">
+   <a class="" href="../../">
      Home
    </a>
  </li>
  
 
  
- <li class=" ">
-   <a href="../../../articles/">
+ <li class=" active-parent">
+   <a href="../../articles/">
      Articles
    </a>
    <ul>
@@ -59,15 +61,15 @@
 
      
      <li class="">
-       <a href="../../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+       <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+       <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+       <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
      </li>
      
      
@@ -80,39 +82,39 @@
 
      
      <li class="">
-       <a href="../../../articles/zegami/">Zegami</a>
+       <a href="../../articles/zegami/">Zegami</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+       <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/the-data-retriever/">The Data Retriever</a>
+       <a href="../../articles/the-data-retriever/">The Data Retriever</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/cmso/">Cell Migration Standardization Organization</a>
+       <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/dataworld/">data.world</a>
+       <a href="../../articles/dataworld/">data.world</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/john-snow-labs/">John Snow Labs</a>
+       <a href="../../articles/john-snow-labs/">John Snow Labs</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/dataship/">Dataship</a>
+       <a href="../../articles/dataship/">Dataship</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/open-power-system-data/">Open Power System Data</a>
+       <a href="../../articles/open-power-system-data/">Open Power System Data</a>
      </li>
      
      <li class="">
-       <a href="../../../articles/tesera/">Tesera</a>
+       <a href="../../articles/tesera/">Tesera</a>
      </li>
      
      
@@ -124,8 +126,8 @@
      </li>
 
      
-     <li class="">
-       <a href="../../../articles/daniel-fireman/">Daniel Fireman</a>
+     <li class="active">
+       <a href="../../articles/daniel-fireman/">Daniel Fireman</a>
      </li>
      
      
@@ -141,7 +143,7 @@
 
  
 <li class="">
-  <a href="../../../tools/">
+  <a href="../../tools/">
     Tools
   </a>
 </li>
@@ -151,7 +153,7 @@
 
  
 <li class=" ">
-  <a href="../../../guides/">
+  <a href="../../guides/">
     Guides
   </a>
   <ul>
@@ -164,39 +166,39 @@
 
     
     <li class="">
-      <a href="../../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
+      <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
       <ul>
         <li class="">
-          <a href="../../../guides/using-data-packages-in-python/">Introduction</a>
+          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#setup">Setup</a>
+          <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
           
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#reading-basic-metadata">Reading Basic Metadata</a>
+          <a href="../../guides/using-data-packages-in-python/#reading-basic-metadata">Reading Basic Metadata</a>
           
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#reading-data">Reading Data</a>
+          <a href="../../guides/using-data-packages-in-python/#reading-data">Reading Data</a>
           
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#loading-into-an-sql-database">Loading into an SQL database</a>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-an-sql-database">Loading into an SQL database</a>
           
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#loading-into-bigquery">Loading into BigQuery</a>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-bigquery">Loading into BigQuery</a>
           
         </li>
         
         <li>
-          <a href="../../../guides/using-data-packages-in-python/#loading-into-amazon-redshift">Loading into Amazon RedShift</a>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-amazon-redshift">Loading into Amazon RedShift</a>
           
         </li>
         
@@ -204,10 +206,10 @@
     </li>
     
     <li class="">
-      <a href="../../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
+      <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
       <ul>
         <li class="">
-          <a href="../../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
+          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
         </li>
         
       </ul>
@@ -223,10 +225,10 @@
 
     
     <li class="">
-      <a href="../../../guides/validating-data/">Validating Data</a>
+      <a href="../../guides/validating-data/">Validating Data</a>
       <ul>
         <li class="">
-          <a href="../../../guides/validating-data/">Introduction</a>
+          <a href="../../guides/validating-data/">Introduction</a>
         </li>
         
       </ul>
@@ -242,10 +244,10 @@
 
     
     <li class="">
-      <a href="../../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
+      <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
       <ul>
         <li class="">
-          <a href="../../../guides/publish-data-as-data-packages/">Introduction</a>
+          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
         </li>
         
       </ul>
@@ -273,7 +275,7 @@
 
  
 <li class="">
-  <a href="../../../specs/">
+  <a href="../../specs/">
     Specifications
   </a>
 
@@ -293,7 +295,7 @@
     
     
     <li class="">
-      <a href="../../../specs/">Design Philosophy</a>
+      <a href="../../specs/">Design Philosophy</a>
     </li>
     
     
@@ -312,21 +314,21 @@
     
     
     <li class="">
-      <a href="../../../specs/data-resource/">Data Resource</a>
+      <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
         <li class="">
-          <a href="../../../specs/data-resource/#meta">Meta</a>
+          <a href="../../specs/data-resource/#meta">Meta</a>
         </li>
         <li>
-          <a href="../../../specs/data-resource/#language">Language</a>
+          <a href="../../specs/data-resource/#language">Language</a>
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#introduction">Introduction</a>
+          <a href="../../specs/data-resource/#introduction">Introduction</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#examples">Examples</a>
+          <a href="../../specs/data-resource/#examples">Examples</a>
           
         </li>
         </ul>
@@ -334,25 +336,25 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#descriptor">Descriptor</a>
+          <a href="../../specs/data-resource/#descriptor">Descriptor</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#data-location">Data Location</a>
+          <a href="../../specs/data-resource/#data-location">Data Location</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#path-data-in-files"><code>path</code> Data in Files</a>
+          <a href="../../specs/data-resource/#path-data-in-files"><code>path</code> Data in Files</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#url-or-path">URL or Path</a>
+          <a href="../../specs/data-resource/#url-or-path">URL or Path</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#data-in-multiple-files">Data in Multiple Files</a>
+          <a href="../../specs/data-resource/#data-in-multiple-files">Data in Multiple Files</a>
           
         </li>
         </ul>
@@ -360,7 +362,7 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#data-inline-data"><code>data</code> Inline Data</a>
+          <a href="../../specs/data-resource/#data-inline-data"><code>data</code> Inline Data</a>
           
         </li>
         </ul>
@@ -368,15 +370,15 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#metadata-properties">Metadata Properties</a>
+          <a href="../../specs/data-resource/#metadata-properties">Metadata Properties</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#required-properties">Required Properties</a>
+          <a href="../../specs/data-resource/#required-properties">Required Properties</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#name"><code>name</code></a>
+          <a href="../../specs/data-resource/#name"><code>name</code></a>
           
         </li>
         </ul>
@@ -384,11 +386,11 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#recommended-properties">Recommended Properties</a>
+          <a href="../../specs/data-resource/#recommended-properties">Recommended Properties</a>
           
           <ul>
         <li>
-          <a href="../../../specs/data-resource/#profile"><code>profile</code></a>
+          <a href="../../specs/data-resource/#profile"><code>profile</code></a>
           
         </li>
         </ul>
@@ -396,7 +398,7 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#optional-properties">Optional Properties</a>
+          <a href="../../specs/data-resource/#optional-properties">Optional Properties</a>
           
         </li>
         </ul>
@@ -404,7 +406,7 @@
         </li>
         
         <li>
-          <a href="../../../specs/data-resource/#resource-schemas">Resource Schemas</a>
+          <a href="../../specs/data-resource/#resource-schemas">Resource Schemas</a>
           
         </li>
         
@@ -414,30 +416,30 @@
     
     
     <li class="">
-      <a href="../../../specs/table-schema/">Table Schema</a>
+      <a href="../../specs/table-schema/">Table Schema</a>
       <ul>
         <li class="">
-          <a href="../../../specs/table-schema/#meta">Meta</a>
+          <a href="../../specs/table-schema/#meta">Meta</a>
         </li>
         <li>
-          <a href="../../../specs/table-schema/#language">Language</a>
-        </li>
-        
-        <li>
-          <a href="../../../specs/table-schema/#introduction">Introduction</a>
-          
+          <a href="../../specs/table-schema/#language">Language</a>
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#concepts">Concepts</a>
+          <a href="../../specs/table-schema/#introduction">Introduction</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#concepts">Concepts</a>
           
           <ul>
         <li>
-          <a href="../../../specs/table-schema/#tabular-data">Tabular data</a>
+          <a href="../../specs/table-schema/#tabular-data">Tabular data</a>
           
           <ul>
         <li>
-          <a href="../../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
+          <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
           
         </li>
         </ul>
@@ -448,105 +450,105 @@
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#descriptor">Descriptor</a>
+          <a href="../../specs/table-schema/#descriptor">Descriptor</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#field-descriptors">Field Descriptors</a>
+          <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
           
           <ul>
         <li>
-          <a href="../../../specs/table-schema/#name"><code>name</code></a>
+          <a href="../../specs/table-schema/#name"><code>name</code></a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#title"><code>title</code></a>
+          <a href="../../specs/table-schema/#title"><code>title</code></a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#description"><code>description</code></a>
+          <a href="../../specs/table-schema/#description"><code>description</code></a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#types-and-formats">Types and Formats</a>
+          <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
           
           <ul>
         <li>
-          <a href="../../../specs/table-schema/#string">string</a>
+          <a href="../../specs/table-schema/#string">string</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#number">number</a>
+          <a href="../../specs/table-schema/#number">number</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#integer">integer</a>
+          <a href="../../specs/table-schema/#integer">integer</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#boolean">boolean</a>
+          <a href="../../specs/table-schema/#boolean">boolean</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#object">object</a>
+          <a href="../../specs/table-schema/#object">object</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#array">array</a>
+          <a href="../../specs/table-schema/#array">array</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#date">date</a>
+          <a href="../../specs/table-schema/#date">date</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#time">time</a>
+          <a href="../../specs/table-schema/#time">time</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#datetime">datetime</a>
+          <a href="../../specs/table-schema/#datetime">datetime</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#year">year</a>
+          <a href="../../specs/table-schema/#year">year</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#yearmonth">yearmonth</a>
+          <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#duration">duration</a>
+          <a href="../../specs/table-schema/#duration">duration</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#geopoint">geopoint</a>
+          <a href="../../specs/table-schema/#geopoint">geopoint</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#geojson">geojson</a>
+          <a href="../../specs/table-schema/#geojson">geojson</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#any">any</a>
+          <a href="../../specs/table-schema/#any">any</a>
           
         </li>
         </ul>
@@ -554,12 +556,12 @@
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#rich-types">Rich Types</a>
+          <a href="../../specs/table-schema/#rich-types">Rich Types</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#constraints">Constraints</a>
+          <a href="../../specs/table-schema/#constraints">Constraints</a>
           
         </li>
         </ul>
@@ -567,21 +569,21 @@
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#other-properties">Other Properties</a>
+          <a href="../../specs/table-schema/#other-properties">Other Properties</a>
           
           <ul>
         <li>
-          <a href="../../../specs/table-schema/#missing-values">Missing Values</a>
+          <a href="../../specs/table-schema/#missing-values">Missing Values</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#primary-key">Primary Key</a>
+          <a href="../../specs/table-schema/#primary-key">Primary Key</a>
           
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#foreign-keys">Foreign Keys</a>
+          <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
           
         </li>
         </ul>
@@ -589,7 +591,7 @@
         </li>
         
         <li>
-          <a href="../../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
+          <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
           
         </li>
         
@@ -614,19 +616,19 @@
     
     
     <li class="">
-      <a href="../../../specs/changelog/">Changelog</a>
+      <a href="../../specs/changelog/">Changelog</a>
     </li>
     
     
     
     <li class="">
-      <a href="../../../specs/implementation/">Implementation</a>
+      <a href="../../specs/implementation/">Implementation</a>
     </li>
     
     
     
     <li class="">
-      <a href="../../../specs/patterns/">Patterns</a>
+      <a href="../../specs/patterns/">Patterns</a>
     </li>
     
     
@@ -651,42 +653,649 @@
 
 <div class="banner">
   <div class="container">
-    <h1>Validating Data</h1>
+    <h1>Daniel Fireman</h1>
+    
+    
+    <p>
+      Tool Fund Grantee - GO
+    </p>
+    
   </div>
 </div>
+
 <div class="container">
-  
-    
-  <li class="preview">
-  
-    <a href="../../../guides/validating-data/">Validating Data</a>
-      
-  
-  </li>
+  <div class="main">
 
-  
+    <aside class="menu">
+      <div class="wrapper">
+        <nav id="context-nav">
+          <ul>
+ <li>
+   <a class="" href="../../">
+     Home
+   </a>
+ </li>
+ 
 
+ 
+ <li class=" active-parent">
+   <a href="../../articles/">
+     Articles
+   </a>
+   <ul>
+   
+     
+     
+     <li class="mm-divider">
+       Pilots
+     </li>
+
+     
+     <li class="">
+       <a href="../../articles/causa-natura-pescando-datos/">Causa Natura - Pescando Datos</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
+     </li>
+     
+     
   
-  <ul class="pagination">
+     
+     
+     <li class="mm-divider">
+       Case Studies
+     </li>
+
+     
+     <li class="">
+       <a href="../../articles/zegami/">Zegami</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/the-data-retriever/">The Data Retriever</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/cmso/">Cell Migration Standardization Organization</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/dataworld/">data.world</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/john-snow-labs/">John Snow Labs</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/dataship/">Dataship</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/open-power-system-data/">Open Power System Data</a>
+     </li>
+     
+     <li class="">
+       <a href="../../articles/tesera/">Tesera</a>
+     </li>
+     
+     
+  
+     
+     
+     <li class="mm-divider">
+       Grantee Profiles
+     </li>
+
+     
+     <li class="active">
+       <a href="../../articles/daniel-fireman/">Daniel Fireman</a>
+     </li>
+     
+     
+  
+     
+     
+  
+  </ul>
+</li>
+
+
+ 
+
+ 
+<li class="">
+  <a href="../../tools/">
+    Tools
+  </a>
+</li>
+
+
+ 
+
+ 
+<li class=" ">
+  <a href="../../guides/">
+    Guides
+  </a>
+  <ul>
+  
     
-      <li class="page-item disabled">
-        <span class="page-link">Previous</span>
-      </li>
     
-    <li class="page-item active">
-      <span class="page-link">
-        1
-        <span class="sr-only">(Current)</span>
-      </span>
+    <li class="mm-divider">
+      Working with Data Packages
+    </li>
+
+    
+    <li class="">
+      <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
+      <ul>
+        <li class="">
+          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#reading-basic-metadata">Reading Basic Metadata</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#reading-data">Reading Data</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-an-sql-database">Loading into an SQL database</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-bigquery">Loading into BigQuery</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../guides/using-data-packages-in-python/#loading-into-amazon-redshift">Loading into Amazon RedShift</a>
+          
+        </li>
+        
+      </ul>
     </li>
     
-      <li class="page-item disabled">
-        <span class="page-link">Next</span>
-      </li>
+    <li class="">
+      <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
+      <ul>
+        <li class="">
+          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
+        </li>
+        
+      </ul>
+    </li>
     
-  </ul>
+    
+ 
+    
+    
+    <li class="mm-divider">
+      Validating Data
+    </li>
 
+    
+    <li class="">
+      <a href="../../guides/validating-data/">Validating Data</a>
+      <ul>
+        <li class="">
+          <a href="../../guides/validating-data/">Introduction</a>
+        </li>
+        
+      </ul>
+    </li>
+    
+    
+ 
+    
+    
+    <li class="mm-divider">
+      Publishing Data
+    </li>
+
+    
+    <li class="">
+      <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
+      <ul>
+        <li class="">
+          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
+        </li>
+        
+      </ul>
+    </li>
+    
+    
+ 
+    
+    
+ 
+    
+    
+ 
+    
+    
+ 
+    
+    
+ 
+ </ul>
+</li>
+
+
+ 
+
+ 
+<li class="">
+  <a href="../../specs/">
+    Specifications
+  </a>
+
+  <ul>
+    <li class="mm-divider">
+      Introduction
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="">
+      <a href="../../specs/">Design Philosophy</a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    <li class="mm-divider">
+      Specifications
+    </li>
+    
+    
+    <li class="">
+      <a href="../../specs/data-resource/">Data Resource</a>
+      <ul>
+        <li class="">
+          <a href="../../specs/data-resource/#meta">Meta</a>
+        </li>
+        <li>
+          <a href="../../specs/data-resource/#language">Language</a>
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#introduction">Introduction</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#examples">Examples</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#descriptor">Descriptor</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#data-location">Data Location</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#path-data-in-files"><code>path</code> Data in Files</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#url-or-path">URL or Path</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#data-in-multiple-files">Data in Multiple Files</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#data-inline-data"><code>data</code> Inline Data</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#metadata-properties">Metadata Properties</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#required-properties">Required Properties</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#name"><code>name</code></a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#recommended-properties">Recommended Properties</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/data-resource/#profile"><code>profile</code></a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#optional-properties">Optional Properties</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/data-resource/#resource-schemas">Resource Schemas</a>
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    
+    
+    <li class="">
+      <a href="../../specs/table-schema/">Table Schema</a>
+      <ul>
+        <li class="">
+          <a href="../../specs/table-schema/#meta">Meta</a>
+        </li>
+        <li>
+          <a href="../../specs/table-schema/#language">Language</a>
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#introduction">Introduction</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#concepts">Concepts</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/table-schema/#tabular-data">Tabular data</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/table-schema/#physical-and-logical-representation">Physical and logical representation</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#descriptor">Descriptor</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#field-descriptors">Field Descriptors</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/table-schema/#name"><code>name</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#title"><code>title</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#description"><code>description</code></a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#types-and-formats">Types and Formats</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/table-schema/#string">string</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#number">number</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#integer">integer</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#boolean">boolean</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#object">object</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#array">array</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#date">date</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#time">time</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#datetime">datetime</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#year">year</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#yearmonth">yearmonth</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#duration">duration</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#geopoint">geopoint</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#geojson">geojson</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#any">any</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#rich-types">Rich Types</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#constraints">Constraints</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#other-properties">Other Properties</a>
+          
+          <ul>
+        <li>
+          <a href="../../specs/table-schema/#missing-values">Missing Values</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#primary-key">Primary Key</a>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#foreign-keys">Foreign Keys</a>
+          
+        </li>
+        </ul>
+          
+        </li>
+        
+        <li>
+          <a href="../../specs/table-schema/#appendix:-related-work">Appendix: Related Work</a>
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <li class="mm-divider">
+      Supplementary information
+    </li>
+    
+    
+    
+    
+    
+    
+    <li class="">
+      <a href="../../specs/changelog/">Changelog</a>
+    </li>
+    
+    
+    
+    <li class="">
+      <a href="../../specs/implementation/">Implementation</a>
+    </li>
+    
+    
+    
+    <li class="">
+      <a href="../../specs/patterns/">Patterns</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="https://pre-v1.frictionlessdata.io/" rel="external">Pre v1</a>
+    </li>
+ </ul>
+
+</li>
+
+
+ 
+</ul>
+        </nav>
+      </div>
+    </aside>
+
+    <article class="content">
+      
+      <p class="lead">
+        Tool Fund Grantee - GO
+      </p>
+      
+      
+      <p>I was born in <a href="https://www.google.com/search?site=&amp;tbm=isch&amp;source=hp&amp;biw=1600&amp;bih=783&amp;q=Macei%C3%B3&amp;oq=Macei%C3%B3&amp;gs_l=img.3..0l7j0i30k1l3.707.4892.0.5214.9.7.0.0.0.0.245.904.0j1j3.4.0....0...1.1.64.img..5.4.903.0..35i39k1.p1SYqvZtcYw">Maceió</a>, a sunny coastal city in the Northeast of Brazil. It was 20th century still when I had a first contact with an Intel 80386 and installed Conectiva Linux Guarani 3.0. A lot has happened since, for instance, a bachelor's degree in Computer Science at UFCG after three years as a research assistant in the Distributed Systems Lab (LSD). It was already the 21st century when I realized that distributed and scalable systems were the way to go. I kept on studying the field and pursued a MSc at UFMG. From there I joined Google and spent 6 happy years working at multiple offices (NYC, ZRH, BHZ).  I’ve got the chance to work on a myriad of projects, ranging from social networks to Google's default Java HTTP/RPC server framework. Currently, I'm back to UFCG doing a Ph.D. in cloud computing performance. It is easy to find me at hackathons and other efforts to increase transparency of public data. I have also been busy working on projects like <a href="http://contratospublicos.info/">contratospublicos.info</a> and Frictionless Data, using Go to improve data transparency in Brazil and around the world.</p>
+<p>I started following <a href="https://twitter.com/OKFN">Open Knowledge International (OKI) on Twitter</a> after watching a talk from <a href="https://github.com/vitorbaptista">Victor Baptista</a> at UFCG. I learnt about Frictionless Data from posts by OKI and liked the overall idea a lot. I have been a Golang enthusiast for a while now, but I hadn’t thought of applying to the fund until I had a quick chat with <a href="https://github.com/nazareno">Nazareno Andrade</a> that started with Golang and ended with: “what about the <a href="https://toolfund.frictionlessdata.io/">Frictionless Data Tool Fund</a>?”</p>
+<p>Go has a lot to deliver in terms of approximating simplicity of reading/writing, correctness, and performance. I believe bringing the experience and solid specifications of Frictionless Data to the Go ecosystem will not only make data description, validation and processing easier and faster, but also help to decrease the distance between data analysis/processing and production serving systems, resulting in simpler and more solid infrastructure.</p>
+<p>In the coming weeks, I hope to use the Tool Fund grant I received to bring Go’s performance and concurrency capabilities to data processing and to have a set of tools distributed as standalone and multi-platform binaries which are very easy to download and install. I am currently working on my Ph.D. and one pitfall I have come across is the use of one environment/system to collect/generate data and another to process. I will be working to alleviate this issue in order to make it easier to process tabular data in Go.</p>
+<p>From the developer's perspective, it is really great to use open source software. This is especially true when the community around the software fosters it's usage and welcome contributors. That ends up increasing the overall quality of the software, which benefits all users.</p>
+<p>The source code will be hosted at Github’s <a href="https://github.com/frictionlessdata/tableschema-go">tableschema-go</a> and <a href="https://github.com/frictionlessdata/datapackage-go">datapackage-go</a> repositories. We are going to use issues to track development progress and next steps.</p>
+
+    </article>
+  </div>
 </div>
+
 
     </div>
     <footer class="site-footer">
@@ -698,11 +1307,11 @@
     <div class="supporters">
       <h6>With support from</h6>
       
-      <a href="http://www.sloan.org/" rel="external"><img src="../../../img/supporters/sloan-foundation.svg" alt="Sloan Foundation" /></a>
+      <a href="http://www.sloan.org/" rel="external"><img src="../../img/supporters/sloan-foundation.svg" alt="Sloan Foundation" /></a>
       
-      <a href="http://www.google.org/" rel="external"><img src="../../../img/supporters/google.svg" alt="Google" /></a>
+      <a href="http://www.google.org/" rel="external"><img src="../../img/supporters/google.svg" alt="Google" /></a>
       
-      <a href="https://theodi.org/" rel="external"><img src="../../../img/supporters/open-data-institute.svg" alt="Open Data Institute" /></a>
+      <a href="https://theodi.org/" rel="external"><img src="../../img/supporters/open-data-institute.svg" alt="Open Data Institute" /></a>
       
     </div>
   </div>
@@ -730,7 +1339,7 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/isotope-packery@2/packery-mode.pkgd.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-  <script src="../../../js/global.js"></script>
+  <script src="../../js/global.js"></script>
   
   
 
