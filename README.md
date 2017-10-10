@@ -16,9 +16,12 @@ It has a bunch of [dependencies](package.json), so do `npm install` and then `np
 ### Code
 
 Use fenced blocks like so:
-  ```python
-  print "Hello World!"
-  ```
+
+
+    ```python
+    print "Hello World!"
+    ```
+
 
 ### Notes / alerts
 
