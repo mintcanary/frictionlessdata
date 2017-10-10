@@ -5,8 +5,8 @@
 <link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="../../css/style.css">
-<title>Center for Data Science and Public Policy, Workforce Data Initiative</title>
-<body class="article-template">
+<title>Using Data Packages in Python</title>
+<body class="guide-template">
   <div class="wrapper">
     <header class="site-header">
       <div class="container">
@@ -34,7 +34,7 @@
             
             
 
-            Articles
+            Guides
           </a>
 
           <nav id="main-nav">
@@ -47,7 +47,7 @@
  
 
  
- <li class=" active-parent">
+ <li class="">
    <a href="../../articles/">
      Articles
    </a>
@@ -85,7 +85,7 @@
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
      </li>
      
@@ -139,7 +139,7 @@
  
 
  
-<li class=" ">
+<li class="">
   <a href="../../guides/">
     Guides
   </a>
@@ -152,12 +152,11 @@
     </li>
 
     
-    <li class="">
+    <li class="active">
       <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
-        </li>
         
         <li>
           <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
@@ -190,16 +189,19 @@
         </li>
         
       </ul>
+
+
     </li>
     
     <li class="">
       <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -213,12 +215,13 @@
     
     <li class="">
       <a href="../../guides/validating-data/">Validating Data</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/validating-data/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -232,12 +235,13 @@
     
     <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -261,7 +265,7 @@
  
 
  
-<li class="">
+<li>
   <a href="../../specs/">
     Specifications
   </a>
@@ -300,7 +304,7 @@
     </li>
     
     
-    <li class="">
+    <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
         <li class="">
@@ -402,7 +406,7 @@
     
     
     
-    <li class="">
+    <li>
       <a href="../../specs/table-schema/">Table Schema</a>
       <ul>
         <li class="">
@@ -638,18 +642,6 @@
     <div class="page">
       
 
-<div class="banner">
-  <div class="container">
-    <h1>Center for Data Science and Public Policy, Workforce Data Initiative</h1>
-    
-    
-    <span class="author">
-      An interview with Matt Bauman
-    </span>
-    
-  </div>
-</div>
-
 <div class="container">
   <div class="main">
 
@@ -665,7 +657,7 @@
  
 
  
- <li class=" active-parent">
+ <li class="">
    <a href="../../articles/">
      Articles
    </a>
@@ -703,7 +695,7 @@
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
      </li>
      
@@ -757,7 +749,7 @@
  
 
  
-<li class=" ">
+<li class="">
   <a href="../../guides/">
     Guides
   </a>
@@ -770,12 +762,11 @@
     </li>
 
     
-    <li class="">
+    <li class="active">
       <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
-        </li>
         
         <li>
           <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
@@ -808,16 +799,19 @@
         </li>
         
       </ul>
+
+
     </li>
     
     <li class="">
       <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -831,12 +825,13 @@
     
     <li class="">
       <a href="../../guides/validating-data/">Validating Data</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/validating-data/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -850,12 +845,13 @@
     
     <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
+
+
       <ul>
-        <li class="">
-          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
-        </li>
         
       </ul>
+
+
     </li>
     
     
@@ -879,7 +875,7 @@
  
 
  
-<li class="">
+<li>
   <a href="../../specs/">
     Specifications
   </a>
@@ -918,7 +914,7 @@
     </li>
     
     
-    <li class="">
+    <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
         <li class="">
@@ -1020,7 +1016,7 @@
     
     
     
-    <li class="">
+    <li>
       <a href="../../specs/table-schema/">Table Schema</a>
       <ul>
         <li class="">
@@ -1253,30 +1249,199 @@
     </aside>
 
     <article class="content">
-      
-      
-      
-      
-      
-      <p class="lead">
-        We’re curious to learn about some of the common issues users face when working with data. In our Case Study series, we are highlighting projects and organisations who are working with the Frictionless Data specifications and tooling in interesting and innovative ways.
-      </p>
-      
-      
-      
-      
-      
-      
-      <h2 id="what-is-the-project?">What is the project?</h2><p>The Workforce Data Initiative aims to modernize the US workforce through the use of data. One aspect of this initiative is to help state and local workforce boards collect, aggregate, and distribute statistics on the effectiveness of training providers and the programs they offer. The US Department of Labor mandates that every eligible training provider (ETP) work with state workforce 
-boards to track the outcomes of their students in order to receive federal funding.  We are building a suite of open-source tools using open data specifications in order to help make this a reality; this collection of tools is called the Training Provider Outcomes Toolkit (TPOT). This specific tool, the etp-uploader, is a website that state workforce boards can deploy for training providers to upload their individual-level data.</p>
-<h2 id="what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</h2><p>There are many hundreds or thousands of training providers within the purview of each workforce development board. Each one must securely upload their participant data to their workforce board. This means that the workforce development boards must be equipped to receive and validate the data.</p>
-<p>Training providers range from small trade apprenticeships to community colleges to multi-state organizations, with a wide range of data sophistication. The ways in which the workforce data board collects participant outcomes must be easy and accessible to all organizations. At the same time, it must be easy for the board itself to automatically process and validate the datasets.</p>
-<h2 id="how-do-you-use-the-specs?">How do you use the specs?</h2><p>We use the frictionless data standard for table schemas to define the required columns and data value constraints.  This is decoupled from the code, allowing each state to precisely define their requirements and easily create custom instances of the site.  We expose this flexibility through a <a href="https://id.heroku.com/login">Heroku build script</a>.</p>
-<p>We have modified the <a href="https://github.com/frictionlessdata/goodtables-web">goodtables-web project</a> to add support for uploading to an S3 repository.  We’ve further extended it to allow for uploading metadata about the uploaded file after it is validated.  This metadata is uploaded as a separate file.  In the future, we may use the data package standard to describe these two files as a single data package.</p>
-<h2 id="what-else-would-you-like-to-see-developed?">What else would you like to see developed?</h2><p>I’m excited to see the new developments around goodtables-py 1.0 and beyond.  It will be nice to eventually move our upload website to the new APIs. One  possible area for improvement in the goodtables-web validator is better error messages when specific data values do not match constraints.  I’ve imagined adding a custom “data_constraint_error” field to the JSON table schema that would allow for friendlier errors, or perhaps dynamically generating such error messages using the constraints themselves.</p>
-<h2 id="what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</h2><p>I think that this general structure — a validated table upload tool — is very useful and could be used for a wide variety of applications.  It may make sense to allow for even more easy customizations to the site.</p>
-<h2 id="who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</h2><p>Abe Gong, author of Great Expectations</p>
-<p>The  extension to goodtables-web is open source and available <a href="https://github.com/workforce-data-initiative/etp-uploader">here</a> with a demo also running at <a href="http://send.dataatwork.org">http://send.dataatwork.org</a></p>
+      <h1>Using Data Packages in Python</h1>
+      <p>This tutorial will show you how to install the Python libraries for working with Tabular Data Packages and demonstrate a very simple example of loading a Tabular Data Package from the web and pushing it directly into a local SQL database. Short examples of pushing your dataset to Google’s BigQuery and Amazon’s RedShift follow.</p>
+<h2 id="setup">Setup</h2><p>For this tutorial, we will need the main Python Data Package library:</p>
+<p><a href="https://github.com/frictionlessdata/datapackage-py">https://github.com/frictionlessdata/datapackage-py</a></p>
+<p>You can install it as follows:</p>
+<div class="highlight"><pre><span></span>pip install datapackage
+</pre></div>
+<h2 id="reading-basic-metadata">Reading Basic Metadata</h2><p>In this case, we are using an example Tabular Data Package containing
+the periodic table stored on
+<a href="https://github.com/frictionlessdata/example-data-packages/tree/master/periodic-table">GitHub</a>
+(<a href="https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/periodic-table/datapackage.json">datapackage.json</a>,
+<a href="https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/periodic-table/data.csv">data.csv</a>).
+This dataset includes the atomic number, symbol, element name, atomic
+mass, and the metallicity of the element.  Here are the first five
+rows:</p>
+<table>
+  <thead>
+    <tr>
+      <th>atomic number</th>
+      <th>symbol</th>
+      <th>name</th>
+      <th>atomic mass</th>
+      <th>metal or nonmetal?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>H</td>
+      <td>Hydrogen</td>
+      <td>1.00794</td>
+      <td>nonmetal</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>He</td>
+      <td>Helium</td>
+      <td>4.002602</td>
+      <td>noble gas</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Li</td>
+      <td>Lithium</td>
+      <td>6.941</td>
+      <td>alkali metal</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Be</td>
+      <td>Beryllium</td>
+      <td>9.012182</td>
+      <td>alkaline earth metal</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>B</td>
+      <td>Boron</td>
+      <td>10.811</td>
+      <td>metalloid</td>
+    </tr>
+  </tbody>
+</table><p>You can start using the library by importing <code>datapackage</code>.  Data
+Packages can be loaded either from a local path or directly from the
+web.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">datapackage</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/periodic-table/datapackage.json&#39;</span>
+<span class="n">dp</span> <span class="o">=</span> <span class="n">datapackage</span><span class="o">.</span><span class="n">DataPackage</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</pre></div>
+<p>At the most basic level, Data Packages provide a standardized format
+for general metadata (for example, the dataset title, source, author,
+and/or description) about your dataset.  Now that you have loaded this
+Data Package, you have access to this metadata using the <code>metadata</code>
+dict attribute.  Note that these fields are optional and may not be
+specified for all Data Packages.  For more information on which fields
+are supported, see
+[the full Data Package standard][spec-dp].</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">dp</span><span class="o">.</span><span class="n">descriptor</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">])</span>
+<span class="o">&gt;</span> <span class="s2">&quot;Periodic Table&quot;</span>
+</pre></div>
+<h2 id="reading-data">Reading Data</h2><p>Now that you have loaded your Data Package, you can read its data.  A
+Data Package can contain multiple files which are accessible via the
+<code>resources</code> attribute.  The <code>resources</code> attribute is an array of
+objects containing information (e.g. path, schema, description) about
+each file in the package.</p>
+<p>You can access the data in a given resource in the <code>resources</code> array
+by reading the <code>data</code> attribute.  For example, using our our Periodic
+Table Data Package, we can return all elements with an atomic number
+of less than 10 by doing the following:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">([</span><span class="n">e</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">dp</span><span class="o">.</span><span class="n">resources</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">data</span> <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">e</span><span class="p">[</span><span class="s1">&#39;atomic number&#39;</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">])</span>
+
+<span class="o">&gt;</span> <span class="p">[</span><span class="s1">&#39;Hydrogen&#39;</span><span class="p">,</span> <span class="s1">&#39;Helium&#39;</span><span class="p">,</span> <span class="s1">&#39;Lithium&#39;</span><span class="p">,</span> <span class="s1">&#39;Beryllium&#39;</span><span class="p">,</span> <span class="s1">&#39;Boron&#39;</span><span class="p">,</span> <span class="s1">&#39;Carbon&#39;</span><span class="p">,</span> <span class="s1">&#39;Nitrogen&#39;</span><span class="p">,</span> <span class="s1">&#39;Oxygen&#39;</span><span class="p">,</span> <span class="s1">&#39;Fluorine&#39;</span><span class="p">]</span>
+</pre></div>
+<p>If you don't want to load all data in memory at once, you can lazily
+access the data using the <code>iter()</code> method on the resource:</p>
+<div class="highlight"><pre><span></span><span class="n">rows</span> <span class="o">=</span> <span class="n">dp</span><span class="o">.</span><span class="n">resources</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">iter</span><span class="p">()</span>
+<span class="n">rows</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+
+<span class="o">&gt;</span> <span class="p">{</span><span class="s1">&#39;metal or nonmetal?&#39;</span><span class="p">:</span> <span class="s1">&#39;nonmetal&#39;</span><span class="p">,</span> <span class="s1">&#39;symbol&#39;</span><span class="p">:</span> <span class="s1">&#39;H&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Hydrogen&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic mass&#39;</span><span class="p">:</span> <span class="s1">&#39;1.00794&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic number&#39;</span><span class="p">:</span> <span class="s1">&#39;1&#39;</span><span class="p">}</span>
+
+<span class="n">rows</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+
+<span class="o">&gt;</span> <span class="p">{</span><span class="s1">&#39;metal or nonmetal?&#39;</span><span class="p">:</span> <span class="s1">&#39;noble gas&#39;</span><span class="p">,</span> <span class="s1">&#39;symbol&#39;</span><span class="p">:</span> <span class="s1">&#39;He&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Helium&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic mass&#39;</span><span class="p">:</span> <span class="s1">&#39;4.002602&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic number&#39;</span><span class="p">:</span> <span class="s1">&#39;2&#39;</span><span class="p">}</span>
+
+<span class="n">rows</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+
+<span class="o">&gt;</span> <span class="p">{</span><span class="s1">&#39;metal or nonmetal?&#39;</span><span class="p">:</span> <span class="s1">&#39;alkali metal&#39;</span><span class="p">,</span> <span class="s1">&#39;symbol&#39;</span><span class="p">:</span> <span class="s1">&#39;Li&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Lithium&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic mass&#39;</span><span class="p">:</span> <span class="s1">&#39;6.941&#39;</span><span class="p">,</span> <span class="s1">&#39;atomic number&#39;</span><span class="p">:</span> <span class="s1">&#39;3&#39;</span><span class="p">}</span>
+</pre></div>
+<h2 id="loading-into-an-sql-database">Loading into an SQL database</h2><p><a href="../../guides/tabular-data-package/">Tabular Data Packages</a> contains schema information about its
+data using <a href="../../guides/json-table-schema/">JSON Table Schema</a>. This means you can easily import
+your Data Package into the SQL backend of your choice. In this case,
+we are creating an <a href="http://sqlite.org/">SQLite</a> database in a new file
+named <code>datapackage.db</code>.</p>
+<p>To load the data into SQL we will need the JSON Table Schema SQL Storage library:</p>
+<p><a href="https://github.com/frictionlessdata/jsontableschema-sql-py">https://github.com/frictionlessdata/jsontableschema-sql-py</a></p>
+<p>You can install it by doing:</p>
+<div class="highlight"><pre><span></span>pip install jsontableschema-sql
+</pre></div>
+<p>Now you can load your data as follows:</p>
+<div class="highlight"><pre><span></span><span class="c1"># create the database connection (using SQLAlchemy)</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">create_engine</span>
+<span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="s1">&#39;sqlite:///periodic-table-datapackage.db&#39;</span><span class="p">)</span>
+
+<span class="c1"># now push the data to the database</span>
+<span class="kn">from</span> <span class="nn">datapackage</span> <span class="kn">import</span> <span class="n">push_datapackage</span>
+<span class="n">push_datapackage</span><span class="p">(</span><span class="n">descriptor</span><span class="o">=</span><span class="n">url</span><span class="p">,</span><span class="n">backend</span><span class="o">=</span><span class="s1">&#39;sql&#39;</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+</pre></div>
+<p>If you have <code>sqlite3</code> installed, you can inspect and play with your
+newly created database.  Note that column type information has been
+translated from the JSON Table Schema format to native SQLite types:</p>
+<div class="highlight"><pre><span></span><span class="err">$</span> <span class="n">sqlite3</span> <span class="n">periodic</span><span class="o">-</span><span class="k">table</span><span class="o">-</span><span class="n">datapackage</span><span class="p">.</span><span class="n">db</span>
+<span class="n">SQLite</span> <span class="k">version</span> <span class="mi">3</span><span class="p">.</span><span class="mi">8</span><span class="p">.</span><span class="mi">10</span><span class="p">.</span><span class="mi">2</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">20</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span><span class="p">:</span><span class="mi">19</span>
+<span class="n">Enter</span> <span class="ss">&quot;.help&quot;</span> <span class="k">for</span> <span class="k">usage</span> <span class="n">hints</span><span class="p">.</span>
+<span class="n">sqlite</span><span class="o">&gt;</span> <span class="p">.</span><span class="k">schema</span>
+<span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">___data___data</span> <span class="p">(</span>
+    <span class="ss">&quot;atomic number&quot;</span> <span class="nb">INTEGER</span><span class="p">,</span>
+    <span class="n">symbol</span> <span class="nb">TEXT</span><span class="p">,</span>
+    <span class="n">name</span> <span class="nb">TEXT</span><span class="p">,</span>
+    <span class="ss">&quot;atomic mass&quot;</span> <span class="nb">FLOAT</span><span class="p">,</span>
+    <span class="ss">&quot;metal or nonmetal?&quot;</span> <span class="nb">TEXT</span>
+<span class="p">);</span>
+</pre></div>
+<h2 id="loading-into-bigquery">Loading into BigQuery</h2><p>Loading into BigQuery requires some setup on Google's infrastructure,
+but once that is completed, loading data can be just as frictionless.
+Here are the steps to follow:</p>
+<ol>
+<li>Create a new project - <a href="https://console.cloud.google.com/iam-admin/projects">link</a></li>
+<li>Create a new service account key - <a href="https://console.developers.google.com/apis/credentials">link</a></li>
+<li>Download credentials as JSON and save as <code>.credentials.json</code></li>
+<li>Create dataset for your project - <a href="https://bigquery.cloud.google.com/welcome/">link</a> (e.g. "dataset")</li>
+</ol>
+<p>To load the data into BigQuery using Python, we will need the JSON
+Table Schema BigQuery Storage library:</p>
+<p><a href="https://github.com/frictionlessdata/jsontableschema-bigquery-py">https://github.com/frictionlessdata/jsontableschema-bigquery-py</a></p>
+<p>You can install it as follows:</p>
+<div class="highlight"><pre><span></span>pip install jsontableschema-bigquery
+</pre></div>
+<p>The code snippet below should be enough to push your dataset into the cloud!</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">io</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">apiclient.discovery</span> <span class="kn">import</span> <span class="n">build</span>
+<span class="kn">from</span> <span class="nn">oauth2client.client</span> <span class="kn">import</span> <span class="n">GoogleCredentials</span>
+<span class="kn">from</span> <span class="nn">jsontableschema_bigquery</span> <span class="kn">import</span> <span class="n">Storage</span>
+
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;GOOGLE_APPLICATION_CREDENTIALS&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;.credentials.json&#39;</span>
+<span class="n">credentials</span> <span class="o">=</span> <span class="n">GoogleCredentials</span><span class="o">.</span><span class="n">get_application_default</span><span class="p">()</span>
+<span class="n">service</span> <span class="o">=</span> <span class="n">build</span><span class="p">(</span><span class="s1">&#39;bigquery&#39;</span><span class="p">,</span> <span class="s1">&#39;v2&#39;</span><span class="p">,</span> <span class="n">credentials</span><span class="o">=</span><span class="n">credentials</span><span class="p">)</span>
+<span class="n">project</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;.credentials.json&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))[</span><span class="s1">&#39;project_id&#39;</span><span class="p">]</span>
+<span class="n">push_datapackage</span><span class="p">(</span><span class="n">descriptor</span><span class="o">=</span><span class="n">url</span><span class="p">,</span><span class="n">backend</span><span class="o">=</span><span class="s1">&#39;bigquery&#39;</span><span class="p">,</span><span class="n">project</span><span class="o">=</span><span class="n">project</span><span class="p">,</span><span class="n">service</span><span class="o">=</span><span class="n">service</span><span class="p">,</span>
+    <span class="n">dataset</span><span class="o">=</span><span class="s1">&#39;dataset&#39;</span><span class="p">)</span>
+</pre></div>
+<p>If everything is in place, you should now be able to inspect your
+dataset on BigQuery.</p>
+<p><img src="../../guides/using-data-packages-in-python/bigquery-schema.png" alt="BigQuery Schema"></p>
+<p><img src="../../guides/using-data-packages-in-python/bigquery-preview.png" alt="BigQuery Preview"></p>
+<h2 id="loading-into-amazon-redshift">Loading into Amazon RedShift</h2><p>Similar to Google's BigQuery, Amazon RedShift requires
+<a href="http://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html">some setup</a>
+on AWS. Once you've created your cluster, however, all you need to do
+is use your cluster endpoint to create a connection string for
+SQLAlchemy.</p>
+<div class="admonition admonition-note"><p>Note: using the <a href="https://sqlalchemy-redshift.readthedocs.io/en/latest/index.html">sqlalchemy-redshift dialect</a>
+is optional as the <code>postgres://</code> dialect is sufficient to load your
+table into AWS RedShift.</p></div><p><img src="../../guides/using-data-packages-in-python/aws-redshift-cluster-endpoint.png" alt="AWS RedShift"></p>
+<div class="highlight"><pre><span></span><span class="c1"># create the database connection (using SQLAlchemy)</span>
+<span class="n">REDSHIFT_URL</span> <span class="o">=</span> <span class="s1">&#39;postgres://&lt;user&gt;:&lt;pass&gt;@&lt;host&gt;.redshift.amazonaws.com:5439/&lt;database&gt;&#39;</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">create_engine</span>
+<span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="n">REDSHIFT_URL</span><span class="p">)</span>
+
+<span class="c1"># now push the data to the database</span>
+<span class="kn">from</span> <span class="nn">datapackage</span> <span class="kn">import</span> <span class="n">push_datapackage</span>
+<span class="n">push_datapackage</span><span class="p">(</span><span class="n">descriptor</span><span class="o">=</span><span class="n">url</span><span class="p">,</span><span class="n">backend</span><span class="o">=</span><span class="s1">&#39;sql&#39;</span><span class="p">,</span><span class="n">engine</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+</pre></div>
 
     </article>
   </div>

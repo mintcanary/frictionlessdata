@@ -5,7 +5,7 @@
 <link rel="icon" href="../../favicon.ico">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="../../css/style.css">
-<title>Center for Data Science and Public Policy, Workforce Data Initiative</title>
+<title>Pacific Northwest National Laboratory - Active Data Biology</title>
 <body class="article-template">
   <div class="wrapper">
     <header class="site-header">
@@ -47,7 +47,7 @@
  
 
  
- <li class=" active-parent">
+ <li class="">
    <a href="../../articles/">
      Articles
    </a>
@@ -68,7 +68,7 @@
        <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
      </li>
      
-     <li class="">
+     <li class="active">
        <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
      </li>
      
@@ -85,7 +85,7 @@
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
      </li>
      
@@ -139,7 +139,7 @@
  
 
  
-<li class=" ">
+<li class="">
   <a href="../../guides/">
     Guides
   </a>
@@ -154,52 +154,10 @@
     
     <li class="">
       <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#reading-basic-metadata">Reading Basic Metadata</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#reading-data">Reading Data</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-an-sql-database">Loading into an SQL database</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-bigquery">Loading into BigQuery</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-amazon-redshift">Loading into Amazon RedShift</a>
-          
-        </li>
-        
-      </ul>
     </li>
     
     <li class="">
       <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -213,12 +171,6 @@
     
     <li class="">
       <a href="../../guides/validating-data/">Validating Data</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/validating-data/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -232,12 +184,6 @@
     
     <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -261,7 +207,7 @@
  
 
  
-<li class="">
+<li>
   <a href="../../specs/">
     Specifications
   </a>
@@ -300,7 +246,7 @@
     </li>
     
     
-    <li class="">
+    <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
         <li class="">
@@ -402,7 +348,7 @@
     
     
     
-    <li class="">
+    <li>
       <a href="../../specs/table-schema/">Table Schema</a>
       <ul>
         <li class="">
@@ -640,11 +586,23 @@
 
 <div class="banner">
   <div class="container">
-    <h1>Center for Data Science and Public Policy, Workforce Data Initiative</h1>
+    <h1>Pacific Northwest National Laboratory - Active Data Biology</h1>
+    
+    
+    
+    <div class="article-type" data-toggle="tooltip" data-placement="top" title="Through our Pilots, we are working directly with organisations to solve real problems managing data.">
+      <svg><use xlink:href="#icon-rocket" /></svg><span>Pilot</span>
+    </div>
+    
+    
+    
+    
+    
+    
     
     
     <span class="author">
-      An interview with Matt Bauman
+      Written by Sam Payne (PNNL), Joon-Yong Lee (PNNL), Dan Fowler (OKI)
     </span>
     
   </div>
@@ -665,7 +623,7 @@
  
 
  
- <li class=" active-parent">
+ <li class="">
    <a href="../../articles/">
      Articles
    </a>
@@ -686,7 +644,7 @@
        <a href="../../articles/university-of-cambridge/">University of Cambridge - Retinal Mosaics</a>
      </li>
      
-     <li class="">
+     <li class="active">
        <a href="../../articles/pacific-northwest-national-laboratory-active-data-biology/">Pacific Northwest National Laboratory - Active Data Biology</a>
      </li>
      
@@ -703,7 +661,7 @@
        <a href="../../articles/zegami/">Zegami</a>
      </li>
      
-     <li class="active">
+     <li class="">
        <a href="../../articles/center-for-data-science-and-public-policy-workforce-data-initiative/">Center for Data Science and Public Policy, Workforce Data Initiative</a>
      </li>
      
@@ -757,7 +715,7 @@
  
 
  
-<li class=" ">
+<li class="">
   <a href="../../guides/">
     Guides
   </a>
@@ -772,52 +730,10 @@
     
     <li class="">
       <a href="../../guides/using-data-packages-in-python/">Using Data Packages in Python</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/using-data-packages-in-python/">Introduction</a>
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#setup">Setup</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#reading-basic-metadata">Reading Basic Metadata</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#reading-data">Reading Data</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-an-sql-database">Loading into an SQL database</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-bigquery">Loading into BigQuery</a>
-          
-        </li>
-        
-        <li>
-          <a href="../../guides/using-data-packages-in-python/#loading-into-amazon-redshift">Loading into Amazon RedShift</a>
-          
-        </li>
-        
-      </ul>
     </li>
     
     <li class="">
       <a href="../../guides/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/creating-tabular-data-packages-in-python/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -831,12 +747,6 @@
     
     <li class="">
       <a href="../../guides/validating-data/">Validating Data</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/validating-data/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -850,12 +760,6 @@
     
     <li class="">
       <a href="../../guides/publish-data-as-data-packages/">Publish Data as Data Packages</a>
-      <ul>
-        <li class="">
-          <a href="../../guides/publish-data-as-data-packages/">Introduction</a>
-        </li>
-        
-      </ul>
     </li>
     
     
@@ -879,7 +783,7 @@
  
 
  
-<li class="">
+<li>
   <a href="../../specs/">
     Specifications
   </a>
@@ -918,7 +822,7 @@
     </li>
     
     
-    <li class="">
+    <li>
       <a href="../../specs/data-resource/">Data Resource</a>
       <ul>
         <li class="">
@@ -1020,7 +924,7 @@
     
     
     
-    <li class="">
+    <li>
       <a href="../../specs/table-schema/">Table Schema</a>
       <ul>
         <li class="">
@@ -1255,28 +1159,185 @@
     <article class="content">
       
       
-      
-      
-      
-      <p class="lead">
-        We’re curious to learn about some of the common issues users face when working with data. In our Case Study series, we are highlighting projects and organisations who are working with the Frictionless Data specifications and tooling in interesting and innovative ways.
-      </p>
-      
-      
-      
-      
-      
-      
-      <h2 id="what-is-the-project?">What is the project?</h2><p>The Workforce Data Initiative aims to modernize the US workforce through the use of data. One aspect of this initiative is to help state and local workforce boards collect, aggregate, and distribute statistics on the effectiveness of training providers and the programs they offer. The US Department of Labor mandates that every eligible training provider (ETP) work with state workforce 
-boards to track the outcomes of their students in order to receive federal funding.  We are building a suite of open-source tools using open data specifications in order to help make this a reality; this collection of tools is called the Training Provider Outcomes Toolkit (TPOT). This specific tool, the etp-uploader, is a website that state workforce boards can deploy for training providers to upload their individual-level data.</p>
-<h2 id="what-are-the-challenges-you-face-working-with-data?">What are the challenges you face working with data?</h2><p>There are many hundreds or thousands of training providers within the purview of each workforce development board. Each one must securely upload their participant data to their workforce board. This means that the workforce development boards must be equipped to receive and validate the data.</p>
-<p>Training providers range from small trade apprenticeships to community colleges to multi-state organizations, with a wide range of data sophistication. The ways in which the workforce data board collects participant outcomes must be easy and accessible to all organizations. At the same time, it must be easy for the board itself to automatically process and validate the datasets.</p>
-<h2 id="how-do-you-use-the-specs?">How do you use the specs?</h2><p>We use the frictionless data standard for table schemas to define the required columns and data value constraints.  This is decoupled from the code, allowing each state to precisely define their requirements and easily create custom instances of the site.  We expose this flexibility through a <a href="https://id.heroku.com/login">Heroku build script</a>.</p>
-<p>We have modified the <a href="https://github.com/frictionlessdata/goodtables-web">goodtables-web project</a> to add support for uploading to an S3 repository.  We’ve further extended it to allow for uploading metadata about the uploaded file after it is validated.  This metadata is uploaded as a separate file.  In the future, we may use the data package standard to describe these two files as a single data package.</p>
-<h2 id="what-else-would-you-like-to-see-developed?">What else would you like to see developed?</h2><p>I’m excited to see the new developments around goodtables-py 1.0 and beyond.  It will be nice to eventually move our upload website to the new APIs. One  possible area for improvement in the goodtables-web validator is better error messages when specific data values do not match constraints.  I’ve imagined adding a custom “data_constraint_error” field to the JSON table schema that would allow for friendlier errors, or perhaps dynamically generating such error messages using the constraints themselves.</p>
-<h2 id="what-do-you-think-are-some-other-potential-use-cases.">What do you think are some other potential use cases.</h2><p>I think that this general structure — a validated table upload tool — is very useful and could be used for a wide variety of applications.  It may make sense to allow for even more easy customizations to the site.</p>
-<h2 id="who-else-do-you-think-we-should-speak-to.">Who else do you think we should speak to.</h2><p>Abe Gong, author of Great Expectations</p>
-<p>The  extension to goodtables-web is open source and available <a href="https://github.com/workforce-data-initiative/etp-uploader">here</a> with a demo also running at <a href="http://send.dataatwork.org">http://send.dataatwork.org</a></p>
+      <h2 id="context">Context</h2><h3 id="problem-we-were-trying-to-solve">Problem We Were Trying To Solve</h3><p>Sam Payne and his team at the Pacific Northwest National Laboratory
+(PNNL) have designed an application called
+<a href="https://adbio.pnnl.gov/">Active Data Biology</a> (ADBio) which is an
+interactive web-based suite of tools for analyzing high-throughput
+omics (a set of related fields of study in biology).  The goal is to
+visualize and analyze datasets while still enabling seamless
+collaboration between computational and non-computational domain
+experts.  The tool provides several views on the same data
+facilitating different avenues of investigation.</p>
+<p>One of the high level goals of ADBio was to make collaborative data
+analysis work in a similar manner to collaborative software
+development (versioned, asynchronous, flexible, sharable, global). You
+can read more of the motivation in the Open Knowledge International
+blog post
+<a href="https://blog.okfn.org/2016/11/29/git-for-data-analysis-why-version-control-is-essential-collaboration-public-trust/">Git for Data Analysis – why version control is essential for collaboration and for gaining public trust</a>
+written by Sam Payne as part of the pilot.  To facilitate this goal,
+Sam and his team used version-controlled repositories as the storage
+mechanism for all required resources. Data, software (for conducting
+analyses), and insights (gained from these analyses) for the project
+all get checked into the same repository.  ADBio pulls data and
+software directly from the repository and serves up an interactive
+visualization for data exploration. Any insight you choose to record
+gets checked back into the repository.</p>
+<p><img src="../../img/pilots/adbio.png" alt="ADBio"></p>
+<p>When we were first approached by Sam and his team, they outlined
+several use cases for which it might be valuable to have formal Data
+Package support (with the benefit of the associated tooling) within
+their framework.  In the end, we decided to work on the first:
+<em>validating metadata associated with ADBio repositories</em>.</p>
+<h3 id="use-case:-validating-metadata">Use Case: Validating Metadata</h3><p>To initiate a project in Active Data Biology, users start with a
+dataset of quantitative molecular measurements across multiple samples
+combined with metadata for each sample.  Each repository on ADBio
+contains these two types of files. For clinical experiments, the
+metadata may include information about a participant’s age, gender,
+disease stage, etc. For an environmental experiment, this may be
+geographical location, temperature, time of day, etc. One
+<a href="https://github.com/ActiveDataBio/ADB-User-Study/blob/master/metadata.tsv">example</a>
+of a metadata file can be found at on the ADB-User-Study project
+repository under the
+<a href="https://github.com/ActiveDataBio/">ActiveDataBio organization on GitHub</a>.</p>
+<p>The metadata file can be updated or expanded during the course of
+analysis. This is currently not easily done within ADBio. Moreover,
+the researchers lacked any formal schema describing the metadata file
+and its contents. It was suggested that having a Data Package
+formalizing the metadata file would be a benefit.  This would also
+enable validation of the contents, according to the schema stored as
+part of the Data Package. Finally, the researchers also requested the
+development of a web UI to edit the metadata file that would be an
+application within the ADBio suite. Users could then update the schema
+online, and it would be versioned through GitHub like everything else.
+Scenario</p>
+<p>A user gets updated survival information for patients in a clinical
+study and wants to update the metadata associated with this
+experiment. Within ADBio, the user opens the "Metadata" app and enters
+new information into the user interface. When finished, user clicks a
+‘save’ button and the data is validated against the schema. If it
+fails, the specific cells are highlighted and annotated with failure
+codes. If it passes, the new metadata file is checked into the
+repository with a user-specified comment for the commit message.</p>
+<h2 id="the-work">The Work</h2><h3 id="what-did-we-do">What Did We Do</h3><p>This was a valuable pilot for several reasons.  For one, the
+researchers interests in openness and the value of public, versioned
+infrastructure like GitHub for tabular, flat file datasets aligned
+well with the overall interests of the project.  OKI’s first step was
+to start a new repository to track progress
+<a href="https://github.com/frictionlessdata/pilot-pnnl">in the open</a>.  In
+addition, OKI also created their own
+<a href="https://github.com/frictionlessdata/ADB-User-Study">"fork" (i.e. versioned copy) of the repository</a>
+in which PNNL stored their exemplar metadata file.</p>
+<h3 id="data">Data</h3><p>The <code>metadata.tsv</code> file is specially formatted compared to other TSV
+(tab-separated values) files in that it contains two extra rows below
+the header for describing a column’s <em>methods</em> and <em>descriptions</em>.
+While this is a neat way of storing metadata for each column, it is
+not particularly standard as ordinarily, we would expect all rows
+below the header contain actual data.  Nevertheless, the provided a
+great start to the development of a custom schema.  We used the
+information stored in these rows to generate a
+<a href="http://specs.frictionlessdata.io/table-schema/">Table Schema</a> for the
+data compatible with our tooling
+(<a href="https://github.com/frictionlessdata/ADB-User-Study/blob/master/metadata-schema.json">the schema</a>)</p>
+<p>For instance, if a column in the original metadata.tsv file had the
+text <code>categorical</code> in its <code>#methods</code> row, we knew that this translated
+very well to our
+<a href="http://specs.frictionlessdata.io/table-schema/#constraints">enum (short for enumerated list) constraint</a>.
+However, this was not enough.  We had to infer from the values below
+in the dataset which values were actually valid categorical values for
+that column.  So, for example, the <code>PlatinumStatus</code> column could only
+be one of <code>Resistant</code>, <code>Sensitive</code>, or <code>Tooearly</code> leading to the
+following constraint definition in Table Schema:</p>
+<pre><code>"constraints": {
+    "enum": [
+        "Resistant",
+        "Sensitive",
+        "Tooearly"
+    ]
+}
+</code></pre>
+<p>More straightforward was the translation of the <code>#descriptions</code> row;
+each description was translated directly into a
+<a href="http://specs.frictionlessdata.io/table-schema/#description">description attribute</a>
+on the column:</p>
+<pre><code>"description": "It describes whether the patient was resistant to platinum (chemotherapy) treatment",
+</code></pre>
+<p>What the <code>metadata.tsv</code> file did not record at all was any information
+about the "type" of value expected for each column.  For instance, the
+<code>days_to_death</code> column would never contain a value that was of a
+"geopoint" type, but rather always a number (and a whole number at
+that).  Likewise, the <code>additional_immuno_therapy</code> column would always
+be a True/False (i.e. boolean) value.  With PNNL’s domain expertise,
+OKI added these expectations to the schema so that <code>days_to_death</code>
+could be relied upon to always be an integer and
+<code>additional_immuno_therapy</code> a boolean (True/False) value.</p>
+<pre><code>{
+    "name": "additional_immuno_therapy",
+    "type": "boolean"
+}
+</code></pre>
+<p>Up to this point, the dataset provided by PNNL was adequately
+described by our specifications.  One challenge was how to deal,
+though, with the many missing values in the dataset.  While we had
+discussion on the
+<a href="https://github.com/frictionlessdata/specs/issues/97">topic</a>, we had
+not yet established a formal way of specifying.  In part due to
+observed usage and the needs of the pilot, we formalized an approach
+to recording infomation about which values signal missing data in
+<a href="https://twitter.com/OKFNLabs/status/765568650699018241">mid-August 2016</a>.
+We added this information to the Table Schema:</p>
+<pre><code>"missingValues": [
+    "[Not Applicable]",
+    "[Not Available]",
+    "[Pending]"
+]
+</code></pre>
+<h3 id="tools">Tools</h3><p>GoodTables had
+<a href="http://okfnlabs.org/blog/2015/02/20/introducing-goodtables.html">existed</a>
+as a Python library and web application developed by Open Knowledge
+International to support the validation of tabular datasets both in
+terms of structure and also with respect to a published schema as
+described above.  This tool was put to good use in a local government
+context.</p>
+<p>For this pilot, and in coordination with other work in the project, we
+took the opportunity to drastically improve the tool to support the
+online, automated validation referenced in the above use case.  We
+took as inspiration the workflow in use in software development
+environments around the world---continuous automated testing---and
+applied to data.  This involved not only updating the Python library
+to reflect the specification development to date, but the design of a
+new data publishing workflow that is applicable beyond PNNL’s needs.
+It is designed to be extensible, so that custom checks and custom
+backends (e.g. other places where one might publish a dataset) can
+take advantage of this workflow.  For example, in addition to datasets
+stored on GitHub, the new Good Tables supports the automated
+validation of datasets stored on S3 and we are currently working on
+validation of datasets stored on CKAN.</p>
+<p>Good Tables supports validation of tabular data in GitHub repositories
+to solve the use case for Active Data Biology.  On every update to the
+dataset, a validation task is run on the stored data.</p>
+<h2 id="review">Review</h2><h3 id="how-effective-was-it">How Effective Was It</h3><p>The omics team at PNNL are still investigating the use of
+goodtables.io for their use case, but early reports are positive:</p>
+<blockquote><p>We created a schema and started testing it. So far so good! I think this is going to work for a lot of projects which want to store data in a repo.</p>
+</blockquote>
+<p>As a real test of the generality of Good Tables, we also tried to apply
+it to another project. This second project is a public repository
+describing measurements of metabolites in ion mobility mass
+spectrometry. Here, we are again using flat files for structured
+data. The data is actually a library of information describing
+metabolites, and we know that the library will be growing. So it was
+very similar to the ADBio project, in that the curated data would be
+continually updated. (see
+<a href="https://github.com/PNNL-Comp-Mass-Spec/MetabolomicsCCS">https://github.com/PNNL-Comp-Mass-Spec/MetabolomicsCCS</a> for the
+project itself, and
+<a href="https://github.com/PNNL-Comp-Mass-Spec/metaboliteValidation">https://github.com/PNNL-Comp-Mass-Spec/metaboliteValidation</a> for a
+validation script that leverages Good Tables)</p>
+<p>Of course, technical issues that they have encountered have been
+translated in GitHub issues and are being addressed:</p>
+<ul>
+<li><a href="https://github.com/frictionlessdata/goodtables.io/issues/233">https://github.com/frictionlessdata/goodtables.io/issues/233</a></li>
+<li><a href="https://github.com/frictionlessdata/goodtables.io/pull/235">https://github.com/frictionlessdata/goodtables.io/pull/235</a></li>
+<li><a href="https://github.com/frictionlessdata/goodtables.io/issues/232">https://github.com/frictionlessdata/goodtables.io/issues/232</a></li>
+</ul>
 
     </article>
   </div>
