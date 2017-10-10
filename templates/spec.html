@@ -62,7 +62,7 @@
           {% endif %}
         </table>
       </div>
-      <h3>{{ bag('spec-language').heading }}</h3>
+      <h3 id="{{ bag('spec-language').heading | lower | replace(" ", "-") }}">{{ bag('spec-language').heading }}</h3>
       {{ bag('spec-language').body | markdown }}
 
       {{ this.body }}
