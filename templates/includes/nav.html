@@ -50,8 +50,21 @@
     </li>
 
     {% for child in children %}
-    <li class="{% if this._path == child.path %}active{% endif %}">
+    <li class="{% if this._path == child.path %}active-parent{% endif %}">
       <a href="{{ child.path|url }}">{{ child.title }}</a>
+      <ul>
+        <li class="{% if this._path == child.path %}active{% endif %}">
+          <a href="{{ child.path|url }}">{{ bag('global_content').introduction }}</a>
+        </li>
+        {% for item in child.body.toc recursive %}
+        <li>
+          <a href="{{ child.path|url }}#{{ item.anchor }}">{{ item.title }}</a>
+          {% if item.children %}
+          <ul>{{ loop(item.children) }}</ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </li>
     {% endfor %}
     {% endif %}
@@ -85,7 +98,7 @@
     </li>
     {% for child in children %}
     {% if child._model == 'spec' %}
-    <li>
+    <li class="{% if this._path == child.path %}active-parent{% endif %}">
       <a href="{{ child.path|url }}">{{ child.title }}</a>
       <ul>
         <li class="{% if this._path == child.path %}active{% endif %}">
