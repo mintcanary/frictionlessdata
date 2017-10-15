@@ -39,13 +39,14 @@ $mm_textColor: rgba($body-color, 0.9);
   .active,
   .active-parent {
     a:not(.mm-next) {
-      border-left: solid 5px theme-color("primary");
+      border-left: solid 5px $mm_borderColor;
       padding-left: ($mm_listitemIndent - 5px);
     }
   }
-  .active-parent {
+  .mm-selected,
+  .active {
     a:not(.mm-next) {
-      border-left-color: $mm_borderColor;
+      border-left-color: theme-color("primary");
     }
   }
 
