@@ -64,3 +64,5 @@ pub_date: 2017-09-28
 subject_context: 
 ---
 summary: As a visual data exploration and analytics platform, Zegami makes the exploration of large collections of image rich information quick and simple.
+---
+subject_img: zegami-logo.png
