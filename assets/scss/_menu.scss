@@ -61,6 +61,15 @@ $mm_textColor: rgba($body-color, 0.9);
       background-color: $mm_textColor;
     }
   }
+
+  .no-cssmask & {
+    a[rel=external] {
+      &:after {
+        background-color: transparent;
+        background-image: url(../icons/external.svg);
+      }
+    }
+  }
 }
 
 .mm-listview > li:not(.mm-divider):after {

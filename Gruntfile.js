@@ -43,6 +43,21 @@ module.exports = function(grunt) {
       }
     },
 
+    modernizr: {
+      dist: {
+        "crawl": false,
+        "customTests": [],
+        "dest": "assets/js/modernizr.js",
+        "tests": [
+          "cssmask"
+        ],
+        "options": [
+          "setClasses"
+        ],
+        "uglify": true
+      }
+    },
+
 		watch: {
 			css: {
 				files: '**/*.scss',
@@ -60,6 +75,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks("grunt-modernizr");
 
   grunt.registerTask('icons', ['svgstore']);
   grunt.registerTask('default',['watch']);
