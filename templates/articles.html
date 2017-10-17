@@ -11,7 +11,7 @@
       <button class="btn selected" data-filter="*">{{ bag('global_content').all }}</button>
       {% for category in site.query('/article-types') %}
       {% if category.children %}
-      <button class="btn" data-filter=".cat-{{ category._id }}"{% if category.description %} data-toggle="tooltip" data-placement="bottom" title="{{ category.description }}"{% endif %}>{{ category.name }}</button>
+      <button class="btn" data-filter=".cat-{{ category._id }}">{{ category.name }}</button>
       {% endif %}
       {% endfor %}
     </div>
