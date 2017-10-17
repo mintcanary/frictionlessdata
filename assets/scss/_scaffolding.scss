@@ -24,6 +24,14 @@ body {
       flex-direction: column;
     }
   }
+
+  .flexboxtweener & {
+    height: 100vh; // targeting IE, which does not respect min-height
+
+    .page {
+      flex: 1 0 auto; // breaks out of fixed height body
+    }
+  }
 }
 
 .main {

@@ -49,7 +49,8 @@ module.exports = function(grunt) {
         "customTests": [],
         "dest": "assets/js/modernizr.js",
         "tests": [
-          "cssmask"
+          "cssmask",
+          "flexboxtweener"
         ],
         "options": [
           "setClasses"
