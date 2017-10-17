@@ -31,13 +31,6 @@ $(document).ready(function() {
      }
   });
 
-  // Tooltips
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip({
-      trigger: 'hover'
-    })
-  })
-
   //external links
   $(function() {
     $('a[rel*=external]').click( function() {
