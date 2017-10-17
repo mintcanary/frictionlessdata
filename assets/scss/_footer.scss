@@ -40,7 +40,7 @@
   }
 
   .supporters {
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: flex;
       text-align: right;
       flex-grow: 1;
@@ -53,12 +53,8 @@
       font-weight: normal;
       font-size: 0.8em;
 
-      @include media-breakpoint-up(md) {
-        margin: 0;
-        color: $gray-800;
-      }
       @include media-breakpoint-up(lg) {
-        color: inherit;
+        margin: 0;
       }
     }
 
@@ -67,7 +63,7 @@
       display: block;
       padding-top: 0.5em;
 
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         padding: 0 0 0 1em;
       }
 
@@ -86,7 +82,7 @@
     padding-top: $spacer;
     padding-bottom: $spacer;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: flex;
       align-items: center;
     }
