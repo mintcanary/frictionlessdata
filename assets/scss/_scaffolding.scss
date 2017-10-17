@@ -4,7 +4,7 @@
 
 body {
   display: flex;
-  height: 100vh; // not using min-height due to IE bug
+  min-height: 100vh;
   flex-direction: column;
 
   & > .wrapper {
@@ -14,7 +14,7 @@ body {
   }
 
   .page {
-    flex: 1 0 auto; // breaks out of fixed height body
+    flex: 1;
     display: flex;
     flex-direction: column;
 
