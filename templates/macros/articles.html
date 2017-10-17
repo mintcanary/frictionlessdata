@@ -17,7 +17,7 @@
       {% endif %}
       {% endfor %}
     </div>
-    <h3 class="article-heading"><a href="{{ post|url }}">{% if post.interviewee %}{{ post.interviewee }}<span class="sr-only">: {{ post.title }}</span>{% else %}{{ post.title }}{% endif %}</a></h3>
+    <h3 class="article-heading"><a href="{{ post|url }}">{{ post.title }}</a></h3>
 
   {% if post.summary %}
   <p class="summary">
