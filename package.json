@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "4.0.0-beta",
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-modernizr": "^1.0.2",
