@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% from "macros/guides.html" import render_guide_list %}
+{% from "macros/docs.html" import render_doc_list %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 
@@ -15,7 +15,7 @@
 <div class="container">
 
   <div class="main card-columns">
-    {% for category in site.query('/guide-categories') %}
+    {% for category in site.query('/doc-categories') %}
     {% if category.children %}
     <div class="card">
       <div class="card-header">
@@ -33,7 +33,7 @@
       <div class="card-body">
         <ul>
           {% for child in category.children %}
-          {{ render_guide_list(child, from_index=true) }}
+          {{ render_doc_list(child, from_index=true) }}
           {% endfor %}
         </ul>
       </div>
