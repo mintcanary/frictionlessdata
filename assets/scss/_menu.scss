@@ -100,9 +100,3 @@ $mm_textColor: rgba($body-color, 0.9);
     display: none; // prevent FOUC
   }
 }
-
-
-// temp fix https://github.com/FrDH/jQuery.mmenu/issues/801
-html.mm-dropdown.mm-opened:not(.mm-opening) .mm-menu:not(.mm-dropdown) {
-	display: block;
-}
