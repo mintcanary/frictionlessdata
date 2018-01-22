@@ -24,7 +24,7 @@ feature3_body: Tools and integrations to make it easy to integrate Data Packages
 ---
 feature1_link_text:
 
-Go to specifications 
+Go to specifications
 ---
 feature2_link_text: Go to articles
 ---
@@ -82,13 +82,13 @@ section2_heading: Get involved.
 ---
 feature4_body: Learn how to get started using and developing with Data Packages through our guides, tutorials and documentation.
 ---
-feature4_heading: Guides
+feature4_heading: Documentation
 ---
 feature4_icon: book
 ---
-feature4_link_text: Go to guides
+feature4_link_text: Go to docs
 ---
-feature4_link_url: guides
+feature4_link_url: docs
 ---
 feature5_body: We also have a chat room dedicated to technical discussion about Frictionless Data. Feel free to stop by and introduce yourself.
 ---
